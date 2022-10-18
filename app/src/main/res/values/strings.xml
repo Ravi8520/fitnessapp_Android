@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Fitness App</string>
+
+    // Login page strings
+    <string name="welcomeback">Welcome back</string>
+    <string name="startnewlife">Login to start a new life</string>
+    <string name="Phone_number">Phone number</string>
+    <string name="Password">Password</string>
+    <string name="Forget_password">Forgot password</string>
+    <string name="login">Login</string>
+    <string name="orloginwith">or login with</string>
+    <string name="Dont_have_an_account">Don`t have an account?</string>
+    <string name="signup">Sign Up</string>
+    <string name="signupas">Signup As</string>
+    <string name="Google">Google</string>
+    <string name="Facebook">Facebook</string>
+    <string name="trainer">Trainer</string>
+    <string name="client">Client</string>
+
+    //forgetpassword strings
+    <string name="Please_enter_your_phoneno"><u>Please enter your phone number to</u></string>
+    <string name="receive_verification_code"><u>receive verification code</u></string>
+    <string name="send">Send</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_password">New Password</string>
+
+    <string name="Your_new_password_should_be_different"><u>Your new password should be different</u></string>
+    <string name="from_previously_used"><u>from previously used password</u></string>
+
 </resources>
