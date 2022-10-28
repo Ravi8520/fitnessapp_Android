@@ -6,20 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.tfb.fitnessapp.R;
 import com.tfb.fitnessapp.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-
     ActivityMainBinding binding;
-    MainActivity mContext;
+    private MainActivity mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
         mContext = this;
 
         binding.txtSignup.setOnClickListener(new View.OnClickListener() {
