@@ -6,26 +6,23 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.tfb.fitnessapp.databinding.ActivityConfirmPasswordBinding;
-import com.tfb.fitnessapp.databinding.ActivityForgetPasswordBinding;
-import com.tfb.fitnessapp.databinding.ActivityMainBinding;
+import com.tfb.fitnessapp.databinding.ActivityTrainerDetailsBinding;
 
-public class ForgetPasswordActivity extends AppCompatActivity {
+public class TrainerDetailsActivity extends AppCompatActivity {
 
-    ActivityForgetPasswordBinding binding;
-    ForgetPasswordActivity mContext;
-
+    ActivityTrainerDetailsBinding binding;
+    private TrainerDetailsActivity mContext;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityForgetPasswordBinding.inflate(getLayoutInflater());
+        binding = ActivityTrainerDetailsBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         mContext = this;
 
-        binding.btnSend.setOnClickListener(new View.OnClickListener() {
+        binding.btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mContext, ConfirmPasswordActivity.class));
+                startActivity(new Intent(mContext , WelcomeProfileActivity.class));
             }
         });
 
@@ -37,5 +34,3 @@ public class ForgetPasswordActivity extends AppCompatActivity {
         });
     }
 }
-
-

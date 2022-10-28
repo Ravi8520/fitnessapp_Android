@@ -5,18 +5,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.databinding.ActivityConfirmPasswordBinding;
+import com.tfb.fitnessapp.databinding.ActivityWelcomeProfileBinding;
 
-public class ConfirmPasswordActivity extends AppCompatActivity {
+public class WelcomeProfileActivity extends AppCompatActivity {
 
-    ActivityConfirmPasswordBinding binding;
-    private ConfirmPasswordActivity mContext;
+    ActivityWelcomeProfileBinding binding;
+    private WelcomeProfileActivity mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityConfirmPasswordBinding.inflate(getLayoutInflater());
+        binding = ActivityWelcomeProfileBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         mContext = this;
 

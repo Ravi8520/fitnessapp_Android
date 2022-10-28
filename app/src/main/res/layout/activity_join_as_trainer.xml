@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trainerwall"
+    tools:context=".activities.JoinAsTrainerActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relative_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/backarrow"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_back_arrow_foreground"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:fontFamily="@font/rubik_regular"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/Join_as_trainer"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik_regular"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/Join_the_no_error_team"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik_regular"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/delicious_rewards_and_incentives"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_signup"
+                android:layout_width="280dp"
+                android:layout_height="@dimen/_34sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:background="@drawable/coustom_button_border"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:letterSpacing="0.05"
+                android:text="@string/signup"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_28sdp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="@string/click_here_to_see_the"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_trainerbenefits"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="center"
+                    android:letterSpacing="0.03"
+                    android:padding="1dp"
+                    android:text="@string/trainer_benefits"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

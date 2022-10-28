@@ -6,32 +6,34 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.tfb.fitnessapp.databinding.ActivitySplashBinding;
+import com.tfb.fitnessapp.R;
+import com.tfb.fitnessapp.databinding.ActivityContinueAsBinding;
 
+public class ContinueAsActivity extends AppCompatActivity {
 
-public class SplashActivity extends AppCompatActivity {
-
-    ActivitySplashBinding binding;
-    private SplashActivity mContext;
+   private ContinueAsActivity mContext;
+   ActivityContinueAsBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivitySplashBinding.inflate(getLayoutInflater());
+        binding = ActivityContinueAsBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         mContext = this;
 
-        binding.imgTrainer.setOnClickListener(new View.OnClickListener() {
+
+
+        binding.txtSignupAsTrainer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(mContext,JoinAsTrainerActivity.class));
             }
         });
 
-        binding.imgClient.setOnClickListener(new View.OnClickListener() {
+        binding.txtSignin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mContext, JoinAsClientActivity.class));
+                startActivity(new Intent(mContext , OTPVerificationNumberActivity.class));
             }
         });
 

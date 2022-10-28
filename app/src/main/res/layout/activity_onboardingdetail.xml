@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_dark_blue"
+    tools:context=".activities.OnboardingdetailActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/backarrow"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/ic_back_arrow_foreground"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative_back"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgTrainer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/trainercouple" />
+
+        <LinearLayout
+            android:id="@+id/linear_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgTrainer"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik_regular"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/join_the"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik_regular"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/no_error"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik_regular"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/fitness_app"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik_regular"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/special_benefits"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_heading"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/circle_bg"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@drawable/vector1" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="@string/trainer_health_benefits"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/circle_bg"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@drawable/document" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="@string/professional_insurance"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/circle_bg"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@drawable/percentage" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="@string/equipment_discount"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relative_header">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_detailsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/ll_onbordingbtn"
+            android:layout_marginTop="@dimen/_5sdp" />
+
+        <LinearLayout
+            android:id="@+id/ll_onbordingbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_30sdp"
+           android:gravity="center_horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_onboard"
+                android:layout_width="280dp"
+                android:layout_height="@dimen/_34sdp"
+                android:background="@drawable/coustom_button_border"
+                android:clickable="true"
+                android:focusable="true"
+                android:letterSpacing="0.05"
+                android:text="@string/got_to_trainer_onboarding"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

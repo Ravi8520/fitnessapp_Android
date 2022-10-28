@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_dark_blue"
+    tools:context=".activities.TrainerContinuewithActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/backarrow"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_back_arrow_foreground"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relative_back"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continueGoogle"
+        android:layout_width="340dp"
+        android:layout_height="@dimen/_34sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:background="@drawable/coustom_button_border"
+        android:clickable="true"
+        android:drawableLeft="@drawable/google1"
+        android:focusable="true"
+        android:gravity="center"
+        android:letterSpacing="0.05"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/continue_as_gogle"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continueFb"
+        android:layout_width="340dp"
+        android:layout_height="@dimen/_34sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:background="@drawable/coustom_button_border"
+        android:clickable="true"
+        android:drawableLeft="@drawable/fb"
+        android:focusable="true"
+        android:gravity="center"
+        android:letterSpacing="0.05"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/continue_as_fb"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_continueEmail"
+            android:layout_width="340dp"
+            android:layout_height="@dimen/_34sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:background="@drawable/custome_btn"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:focusable="true"
+            android:gravity="center"
+            android:letterSpacing="0.05"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/continue_as_email"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
