@@ -5,17 +5,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.tfb.fitnessapp.R;
 import com.tfb.fitnessapp.databinding.ActivityConfirmPasswordBinding;
 
 public class ConfirmPasswordActivity extends AppCompatActivity {
 
-
     ActivityConfirmPasswordBinding binding;
+    private ConfirmPasswordActivity mContext;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityConfirmPasswordBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        mContext = this;
 
         binding.backarrow.setOnClickListener(new View.OnClickListener() {
             @Override

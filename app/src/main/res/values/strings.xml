@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">Fitness App</string>
 
-    // Login page strings
+    // Login/Sign up page strings
     <string name="welcomeback">Welcome back</string>
     <string name="startnewlife">Login to start a new life</string>
     <string name="Phone_number">Phone number</string>
     <string name="Password">Password</string>
+    <string name="name">Name</string>
+    <string name="referral">Referral</string>
     <string name="Forget_password">Forgot password</string>
     <string name="login">Login</string>
     <string name="orloginwith">or login with</string>
@@ -13,9 +15,11 @@
     <string name="signup">Sign Up</string>
     <string name="signupas">Signup As</string>
     <string name="Google">Google</string>
-    <string name="Facebook">Facebook</string>
+    <string name="Facebook"> Facebook</string>
     <string name="trainer">Trainer</string>
     <string name="client">Client</string>
+    <string name="termsof_services">By continuing I acknowledge that I have read </string>
+    <string name="policy">the<b> Terms of Services </b>and <b>Privacy Policy</b></string>
 
     //forgetpassword strings
     <string name="Please_enter_your_phoneno"><u>Please enter your phone number to</u></string>
@@ -23,8 +27,84 @@
     <string name="send">Send</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="new_password">New Password</string>
-
     <string name="Your_new_password_should_be_different"><u>Your new password should be different</u></string>
     <string name="from_previously_used"><u>from previously used password</u></string>
+
+    //Join As strings
+    <string name="Join_as_trainer">Join as a trainer</string>
+    <string name="Join_the_no_error_team">Join the No Error Team for free to earn</string>
+    <string name="delicious_rewards_and_incentives">delicious rewards and incentives</string>
+    <string name="click_here_to_see_the">Click here to see the</string>
+    <string name="trainer_benefits">Trainer Benefits</string>
+    <string name="Join_as_client">Join as a Client</string>
+    <string name="join">Join</string>
+    <string name="client_benefits">Client Benefits</string>
+    <string name="continue_as_gogle">Continue with Google</string>
+    <string name="continue_as_fb">Continue with Facebook</string>
+    <string name="continue_as_email">Continue with Email</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="signin"><u>Signin</u></string>
+    <string name="terms_string">By tapping Continue, you agree to our <u> Terms </u>and</string>
+    <string name="privacypolicy">acknowledge that you have read our <u> Privacy Policy</u>,</string>
+    <string name="signup_as_a_Trainer"><u>Sign up as a Trainer</u></string>
+    <string name="join_the">Join the</string>
+    <string name="no_error">No Error</string>
+    <string name="fitness_app">Fitness Team</string>
+    <string name="special_benefits">and Read Special Benefits!</string>
+    <string name="trainer_health_benefits">Trainer Healthcare Benefits</string>
+    <string name="professional_insurance">Professional Insurance</string>
+    <string name="equipment_discount">Equipment Discounts</string>
+    <string name="got_to_trainer_onboarding">Go to trainer onboarding</string>
+
+    // OTP verification
+    <string name="otp_verification">OTP Verifivation</string>
+    <string name="one_time_password">We will send you a <b>one-Time Password</b></string>
+    <string name="on_to_this_number">onto this mobile number</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="continu">Continue</string>
+    <string name="enterotp_sent_to">Enter Otp sent to</string>
+    <string name="submit">Submit</string>
+
+    //Profile screen
+    <string name="welcometo">Welcome to</string>
+    <string name="no_Error_fitness">No Error Fitness</string>
+    <string name="welcomepage_string">Help us set up a personalized experience for you</string>
+    <string name="welcomepage_string2">to get the best experience.</string>
+    <string name="male">  Male</string>
+    <string name="female">  Female</string>
+    <string name="others">  Others</string>
+    <string name="fullname">Full Name</string>
+    <string name="fullnamestring">Help us set up a personalized experience for you</string>
+    <string name="fullnamestring2">to get the best experience.</string>
+    <string name="Height">Height</string>
+    <string name="Weight">Weight</string>
+    <string name="pound">Pound</string>
+    <string name="kilograms">Kilograms</string>
+
+    //workout goal
+    <string name="workout_goals">Define your workout goals</string>
+    <string name="lbl_workout_goals">Help us set up a personalized experience for you</string>
+    <string name="lbl_workout_goals2">to get the best experience.</string>
+
+    //Calories intake
+    <string name="lbl_calories_intake1">Help us understand</string>
+    <string name="lbl_calories_intake2">your Calories intake</string>
+    <string name="lbl_calories_count">How many calories do you eat on average everyday?</string>
+    <string name="lbl_meal_count">How many meals do you have in a day?</string>
+    <string name="lbl_dietary_needs">List specific dietary needs, if any?</string>
+    <string name="lbl_dietary_restriction">List dietary restrictions, if any?</string>
+
+    //Injuries screen strings
+    <string name="lbl_injuries_heading1">Are there any injuries</string>
+    <string name="lbl_injuries_heading2">we should know about?</string>
+    <string name="lbl_Muscle_pulls">Muscles Pulls</string>
+    <string name="lbl_sprains">Sprains</string>
+    <string name="lbl_Fractures">Fractures</string>
+    <string name="lbl_tendonitis">Tendonitis</string>
+    <string name="lbl_joint_dislocation">Joint Dislocation</string>
+    <string name="lbl_asthma">Asthma</string>
+    <string name="lbl_summary">Provide a summary</string>
+    <string name="lbl_experience_que">What workout experiences are looking for?</string>
+
 
 </resources>

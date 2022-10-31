@@ -7,32 +7,37 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.databinding.ActivityMainBinding;
+import com.tfb.fitnessapp.databinding.ActivityCaloryIntakeBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class CaloryIntakeActivity extends AppCompatActivity {
 
-    ActivityMainBinding binding;
-    private MainActivity mContext;
+    private CaloryIntakeActivity mContext;
+    ActivityCaloryIntakeBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivityCaloryIntakeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         mContext = this;
 
-        binding.txtSignup.setOnClickListener(new View.OnClickListener() {
+
+
+
+        binding.backarrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mContext, SplashActivity.class));
+                onBackPressed();
             }
         });
 
-        binding.txtForgotpass.setOnClickListener(new View.OnClickListener() {
+        binding.btnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mContext, ForgetPasswordActivity.class));
+                startActivity(new Intent(mContext,InjuriesActivity.class));
             }
         });
+
+
     }
 }
