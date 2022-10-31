@@ -81,5 +81,30 @@
     <string name="pound">Pound</string>
     <string name="kilograms">Kilograms</string>
 
+    //workout goal
+    <string name="workout_goals">Define your workout goals</string>
+    <string name="lbl_workout_goals">Help us set up a personalized experience for you</string>
+    <string name="lbl_workout_goals2">to get the best experience.</string>
+
+    //Calories intake
+    <string name="lbl_calories_intake1">Help us understand</string>
+    <string name="lbl_calories_intake2">your Calories intake</string>
+    <string name="lbl_calories_count">How many calories do you eat on average everyday?</string>
+    <string name="lbl_meal_count">How many meals do you have in a day?</string>
+    <string name="lbl_dietary_needs">List specific dietary needs, if any?</string>
+    <string name="lbl_dietary_restriction">List dietary restrictions, if any?</string>
+
+    //Injuries screen strings
+    <string name="lbl_injuries_heading1">Are there any injuries</string>
+    <string name="lbl_injuries_heading2">we should know about?</string>
+    <string name="lbl_Muscle_pulls">Muscles Pulls</string>
+    <string name="lbl_sprains">Sprains</string>
+    <string name="lbl_Fractures">Fractures</string>
+    <string name="lbl_tendonitis">Tendonitis</string>
+    <string name="lbl_joint_dislocation">Joint Dislocation</string>
+    <string name="lbl_asthma">Asthma</string>
+    <string name="lbl_summary">Provide a summary</string>
+    <string name="lbl_experience_que">What workout experiences are looking for?</string>
+
 
 </resources>
