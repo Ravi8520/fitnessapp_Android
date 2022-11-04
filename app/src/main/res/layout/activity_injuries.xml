@@ -10,7 +10,7 @@
     <RelativeLayout
         android:id="@+id/relative_back"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="?actionBarSize"
         android:layout_gravity="bottom"
         android:layout_marginBottom="@dimen/_10sdp">
 
@@ -64,18 +64,19 @@
 
 
             <LinearLayout
-                android:id="@+id/ll_injuryList"
+            android:id="@+id/ll_injuryList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_below="@id/ll_heading"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/injuriesRV"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/ll_heading"
-                android:orientation="vertical">
+                android:layout_height="wrap_content" />
 
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/injuriesRV"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-
-            </LinearLayout>
+        </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/ll_summary"
@@ -94,7 +95,7 @@
                     android:fontFamily="@font/rubik_regular"
                     android:text="@string/lbl_summary"
                     android:textColor="@color/white"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/edt_eatMealCount"
@@ -108,12 +109,13 @@
                     android:minHeight="@dimen/_80sdp"
                     android:padding="10dp"
                     android:textColor="@color/black"
-                    android:textSize="24sp" />
+                    android:textSize="18sp" />
 
 
             </LinearLayout>
 
             <LinearLayout
+
                 android:id="@+id/ll_other"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -130,7 +132,7 @@
                     android:buttonTint="@color/white"
                     android:text="@string/others"
                     android:textColor="@color/white"
-                    android:textSize="16sp" />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -154,7 +156,7 @@
                     android:fontFamily="@font/rubik_regular"
                     android:text="@string/lbl_experience_que"
                     android:textColor="@color/white"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/edt_experienceque"
@@ -163,12 +165,12 @@
                     android:background="@drawable/coustom_button_border"
                     android:backgroundTint="@color/white"
                     android:gravity="top|left"
-                    android:imeOptions="actionNext"
+                    android:imeOptions="actionDone"
                     android:inputType="textMultiLine"
                     android:minHeight="@dimen/_100sdp"
                     android:padding="10dp"
                     android:textColor="@color/black"
-                    android:textSize="24sp" />
+                    android:textSize="18sp" />
 
 
             </LinearLayout>
@@ -192,7 +194,7 @@
         android:text="@string/continu"
         android:textAllCaps="false"
         android:textColor="@color/black"
-        android:textSize="@dimen/_14ssp" />
+        android:textSize="18sp" />
 
 
 </RelativeLayout>

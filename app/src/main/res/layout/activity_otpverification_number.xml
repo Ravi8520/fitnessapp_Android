@@ -10,7 +10,7 @@
     <RelativeLayout
         android:id="@+id/relative_back"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="?actionBarSize"
         android:layout_gravity="bottom"
         android:layout_marginBottom="@dimen/_10sdp">
 
@@ -100,10 +100,10 @@
                     android:layout_height="48dp"
                     android:background="@color/bg_color_dark_blue"
                     android:drawableLeft="@drawable/phoneicon"
-                    android:imeOptions="actionNext"
+                   android:drawablePadding="5dp"
+                    android:imeOptions="actionDone"
                     android:inputType="number"
-                    android:maxLength="10"
-                    android:padding="@dimen/_3sdp"
+                    android:maxLength="12"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_10ssp" />
 

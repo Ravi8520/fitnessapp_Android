@@ -19,10 +19,10 @@ public class TrainerDetailsActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         mContext = this;
 
-        binding.btnLogin.setOnClickListener(new View.OnClickListener() {
+        binding.btnSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mContext , WelcomeProfileActivity.class));
+                startActivity(new Intent(mContext , WelcomeProfileTrainerActivity.class));
             }
         });
 

@@ -44,8 +44,8 @@
     <string name="continue_as_email">Continue with Email</string>
     <string name="have_an_account">Have an account?</string>
     <string name="signin"><u>Signin</u></string>
-    <string name="terms_string">By tapping Continue, you agree to our <u> Terms </u>and</string>
-    <string name="privacypolicy">acknowledge that you have read our <u> Privacy Policy</u>,</string>
+    <string name="terms_string">By tapping Continue, you agree to our <u>Terms</u> and</string>
+    <string name="privacypolicy">acknowledge that you have read our <u>Privacy Policy</u>,</string>
     <string name="signup_as_a_Trainer"><u>Sign up as a Trainer</u></string>
     <string name="join_the">Join the</string>
     <string name="no_error">No Error</string>
@@ -80,6 +80,11 @@
     <string name="Weight">Weight</string>
     <string name="pound">Pound</string>
     <string name="kilograms">Kilograms</string>
+    <string name="lbl_your_location">Your Location</string>
+    <string name="lbl_your_bio">Your Bio</string>
+    <string name="lbl_current_location">Use my current location</string>
+    <string name="lbl_describe_you">What describes you best?</string>
+    <string name="lbl_searchbar_location_hint">Search for area, street, landmark...</string>
 
     //workout goal
     <string name="workout_goals">Define your workout goals</string>
@@ -106,5 +111,21 @@
     <string name="lbl_summary">Provide a summary</string>
     <string name="lbl_experience_que">What workout experiences are looking for?</string>
 
+    //prefer workout screen
+    <string name="virtual_session">Virtual Session</string>
+    <string name="home">Home</string>
+    <string name="gym">Gym</string>
+    <string name="outdoors">Outdoors</string>
+    <string name="preferwrkout1">Where do you prefer</string>
+    <string name="preferwrkout2">your workouts?</string>
+    <string name="lbl_accessgym">Do you have access to gym?</string>
+    <string name="yes"> Yes</string>
+    <string name="no"> No</string>
+    <string name="add_gym">Add Gym</string>
+    <string name="lbl_equipmentaccess">What equipments do you</string>
+    <string name="lbl_equipmentaccess2">have access to?</string>
 
+    // Invitelinks labels
+    <string name="lbl_invite_today">Earn higher pay rates on \n existing clients you \n invite today</string>
+    <string name="lbl_for_usage">Use the referral link given below to list your existing\n clients with us and earn commissions for every client\n that signs up using your link.</string>
 </resources>
