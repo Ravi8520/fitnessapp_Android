@@ -21,7 +21,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerInParent="true"
-                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -31,8 +34,8 @@
 
                     <ImageView
                         android:id="@+id/imgLogin"
-                        android:layout_width="@dimen/_100sdp"
-                        android:layout_height="@dimen/_100sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/fitness" />
 
@@ -206,8 +209,9 @@
                 <LinearLayout
                     android:id="@+id/linear_signup"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
                     android:layout_marginTop="@dimen/_20sdp"
                     android:layout_marginBottom="@dimen/_10sdp"
                     android:gravity="bottom|center_horizontal">
