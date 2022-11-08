@@ -63,9 +63,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginTop="@dimen/_40sdp"
         android:gravity="center_horizontal"
-        android:layout_below="@id/ll_head"
-        >
+        android:layout_below="@id/ll_head">
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_virtualSession"
@@ -79,6 +79,7 @@
             android:letterSpacing="0.05"
             android:text="@string/virtual_session"
             android:textAllCaps="false"
+            android:visibility="gone"
             android:textColor="@color/white"
             android:textSize="@dimen/_14ssp" />
 

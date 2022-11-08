@@ -72,6 +72,24 @@
             android:textColor="@color/black"
             android:textSize="@dimen/_14ssp" />
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_continueiphone"
+            android:layout_width="340dp"
+            android:layout_height="@dimen/_34sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:background="@drawable/coustom_button_border"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_iphone"
+            android:focusable="true"
+            android:gravity="center"
+            android:letterSpacing="0.05"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/continue_as_iphone"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -121,7 +139,7 @@
             android:fontFamily="@font/rubik_regular"
             android:gravity="center"
             android:letterSpacing="0.03"
-            android:text="@string/terms_string"
+            android:text="@string/terms_privacypolicy"
             android:textColor="@color/white"
             android:textSize="13sp" />
 

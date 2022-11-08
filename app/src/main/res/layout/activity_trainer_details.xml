@@ -34,223 +34,208 @@
         android:layout_below="@id/relative_back"
         android:scrollbars="none">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/relative_back"
-        android:orientation="vertical"
-        android:layout_margin="@dimen/_10sdp"
-        android:weightSum="5">
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/mTilName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textColorHint="@color/white"
-            app:boxStrokeColor="@color/white"
-            app:hintTextColor="@color/white">
-
-            <EditText
-                android:id="@+id/mEdtMobile"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:background="@color/bg_color_dark_blue"
-                android:drawableLeft="@drawable/name"
-                android:imeOptions="actionNext"
-                android:drawablePadding="@dimen/_10sdp"
-                android:inputType="textPersonName"
-                android:maxLength="10"
-                android:hint="@string/name"
-                android:textColorHint="@color/white"
-                android:padding="@dimen/_10sdp"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_10ssp" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/mTilMobile"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_weight="1"
-            android:gravity="center_vertical"
-            app:boxStrokeColor="@color/white"
-            android:textColorHint="@color/white"
-            app:boxStrokeWidth="1dp"
-            app:boxStrokeWidthFocused="1dp"
-            app:errorEnabled="true">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edt_mobile_number"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:background="@color/bg_color_dark_blue"
-                android:drawableLeft="@drawable/phone"
-                android:imeOptions="actionNext"
-                android:drawablePadding="@dimen/_10sdp"
-                android:inputType="textPersonName"
-                android:maxLength="10"
-                android:hint="@string/Phone_number"
-                android:padding="@dimen/_3sdp"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_10ssp" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/mTilPassword"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_weight="1"
-            android:textColorHint="@color/white"
-            android:gravity="center_vertical"
-            app:boxStrokeColor="@color/white"
-            app:boxStrokeWidth="1dp"
-            app:boxStrokeWidthFocused="1dp"
-            app:errorEnabled="true">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edt_password"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:background="@color/bg_color_dark_blue"
-                android:drawableLeft="@drawable/password"
-                android:imeOptions="actionNext"
-                android:drawablePadding="@dimen/_10sdp"
-                android:inputType="textPassword"
-                android:hint="@string/Password"
-                android:padding="@dimen/_3sdp"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_10ssp" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/mTilConfirmPassword"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_weight="1"
-            android:gravity="center_vertical"
-            app:boxStrokeColor="@color/white"
-            app:boxStrokeWidth="1dp"
-            android:textColorHint="@color/white"
-            app:boxStrokeWidthFocused="1dp"
-            app:errorEnabled="true">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edt_confirmPassword"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:background="@color/bg_color_dark_blue"
-                android:drawableLeft="@drawable/password"
-                android:imeOptions="actionNext"
-                android:inputType="textPassword"
-                android:drawablePadding="@dimen/_10sdp"
-                android:hint="@string/confirm_password"
-                android:padding="@dimen/_3sdp"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_10ssp" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/mTilreferral"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_weight="1"
-            android:gravity="center_vertical"
-            app:boxStrokeColor="@color/white"
-            app:boxStrokeWidth="1dp"
-            android:textColorHint="@color/white"
-            app:boxStrokeWidthFocused="1dp"
-            app:errorEnabled="true">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edt_referral"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:background="@color/bg_color_dark_blue"
-                android:drawableLeft="@drawable/referal"
-                android:imeOptions="actionNext"
-                android:inputType="text"
-                android:drawablePadding="@dimen/_10sdp"
-                android:hint="@string/referral"
-                android:maxLength="15"
-                android:padding="@dimen/_3sdp"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_10ssp" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:layout_below="@id/relative_back"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:weightSum="5">
 
-            <ImageView
-                android:layout_width="@dimen/_35sdp"
-                android:layout_height="@dimen/_35sdp"
-                android:background="?selectableItemBackgroundBorderless"
-                android:clickable="true"
-                android:focusable="true"
-                android:padding="@dimen/_6sdp"
-                android:src="@drawable/pointer" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/mTilName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColorHint="@color/white"
+                app:hintTextColor="@color/white"
+                app:boxStrokeColor="@color/white"
+                app:boxStrokeWidth="1dp"
+                app:boxStrokeWidthFocused="1dp"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_mobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color_dark_blue"
+                    android:drawableLeft="@drawable/name"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/name"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:maxLength="20"
+                    android:textColor="@color/white" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/mTilMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColorHint="@color/white"
+                app:hintTextColor="@color/white"
+                app:boxStrokeColor="@color/white"
+                app:boxStrokeWidth="1dp"
+                app:boxStrokeWidthFocused="1dp"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_mobileno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color_dark_blue"
+                    android:drawableLeft="@drawable/phone"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/Phone_number"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="12"
+                    android:textColor="@color/white" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/mTilPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:hintTextColor="@color/white"
+                android:gravity="center_vertical"
+                android:textColorHint="@color/white"
+                app:boxStrokeColor="@color/white"
+                app:boxStrokeWidth="1dp"
+                app:boxStrokeWidthFocused="1dp"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color_dark_blue"
+                    android:drawableLeft="@drawable/password"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/Password"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:maxLength="10"
+                    android:textColor="@color/white" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/mTilConfirmpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:hintTextColor="@color/white"
+                android:gravity="center_vertical"
+                android:textColorHint="@color/white"
+                app:boxStrokeColor="@color/white"
+                app:boxStrokeWidth="1dp"
+                app:boxStrokeWidthFocused="1dp"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_confirmpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color_dark_blue"
+                    android:drawableLeft="@drawable/password"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/confirm_password"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:maxLength="10"
+                    android:textColor="@color/white" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/mTilReferral"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                app:hintTextColor="@color/white"
+                android:textColorHint="@color/white"
+                app:boxStrokeColor="@color/white"
+                app:boxStrokeWidth="1dp"
+                app:boxStrokeWidthFocused="1dp"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_referral"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color_dark_blue"
+                    android:drawableLeft="@drawable/referal"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/referral"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLength="12"
+                    android:textColor="@color/white" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal">
 
-                <androidx.appcompat.widget.AppCompatTextView
+                <Switch
+                    android:id="@+id/switch_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:thumb="@drawable/custom_switch"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/rubik_regular"
-                    android:gravity="center"
-                    android:padding="@dimen/_1sdp"
-                    android:text="@string/termsof_services"
-                    android:textColor="@color/white"
-                    android:textSize="16sp" />
+                    android:orientation="vertical">
 
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/rubik_regular"
-                    android:gravity="center"
-                    android:padding="1dp"
-                    android:text="@string/policy"
-                    android:textColor="@color/white"
-                    android:textSize="16sp" />
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/rubik_regular"
+                        android:gravity="center"
+                        android:padding="@dimen/_1sdp"
+                        android:text="@string/termsof_services_policy"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
 
             </LinearLayout>
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:background="@drawable/coustom_button_border"
+                android:clickable="true"
+                android:focusable="true"
+                android:letterSpacing="0.05"
+                android:text="@string/signup"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp" />
         </LinearLayout>
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_signup"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="@dimen/_15sdp"
-            android:layout_marginTop="@dimen/_25sdp"
-            android:background="@drawable/coustom_button_border"
-            android:clickable="true"
-            android:layout_gravity="center"
-            android:focusable="true"
-            android:letterSpacing="0.05"
-            android:text="@string/signup"
-            android:textAllCaps="false"
-            android:textColor="@color/black"
-            android:textSize="@dimen/_14ssp" />
-
-
-    </LinearLayout>
     </ScrollView>
 </RelativeLayout>

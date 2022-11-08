@@ -23,6 +23,7 @@ public class PreferWorkoutActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         mContext = this;
 
+        binding.btnVirtualSession.setVisibility(View.GONE);
         binding.btnVirtualSession.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

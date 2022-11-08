@@ -18,8 +18,8 @@
     <string name="Facebook"> Facebook</string>
     <string name="trainer">Trainer</string>
     <string name="client">Client</string>
-    <string name="termsof_services">By continuing I acknowledge that I have read </string>
-    <string name="policy">the<b> Terms of Services </b>and <b>Privacy Policy</b></string>
+    <string name="termsof_services_policy">By continuing I acknowledge that I have \n read the<b>Terms of Services </b>and <b>Privacy Policy</b></string>
+
 
     //forgetpassword strings
     <string name="Please_enter_your_phoneno"><u>Please enter your phone number to</u></string>
@@ -40,11 +40,12 @@
     <string name="join">Join</string>
     <string name="client_benefits">Client Benefits</string>
     <string name="continue_as_gogle">Continue with Google</string>
-    <string name="continue_as_fb">Continue with Facebook</string>
+    <string name="continue_as_fb">Continue with meta</string>
     <string name="continue_as_email">Continue with Email</string>
+    <string name="continue_as_iphone">Continue with Apple</string>
     <string name="have_an_account">Have an account?</string>
     <string name="signin"><u>Signin</u></string>
-    <string name="terms_string">By tapping Continue, you agree to our <u>Terms</u> and</string>
+    <string name="terms_privacypolicy">By tapping Continue, you agree to our <u>Terms</u> and</string>
     <string name="privacypolicy">acknowledge that you have read our <u>Privacy Policy</u>,</string>
     <string name="signup_as_a_Trainer"><u>Sign up as a Trainer</u></string>
     <string name="join_the">Join the</string>
@@ -124,6 +125,8 @@
     <string name="add_gym">Add Gym</string>
     <string name="lbl_equipmentaccess">What equipments do you</string>
     <string name="lbl_equipmentaccess2">have access to?</string>
+    <string name="lbl_select_city">Select your city</string>
+    <string name="lbl_popular_city">POPULAR CITY</string>
 
     // Invitelinks labels
     <string name="lbl_invite_today">Earn higher pay rates on \n existing clients you \n invite today</string>
