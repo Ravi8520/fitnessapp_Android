@@ -43,6 +43,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_timeduration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/backButton"
@@ -73,7 +74,7 @@
                 android:weightSum="3">
 
                 <RadioButton
-                    android:id="@+id/male_rdb"
+                    android:id="@+id/min_30_rdb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -84,7 +85,7 @@
                     android:textSize="16sp" />
 
                 <RadioButton
-                    android:id="@+id/female_rdb"
+                    android:id="@+id/min_45_rdb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -94,7 +95,7 @@
                     android:textSize="16sp" />
 
                 <RadioButton
-                    android:id="@+id/others_rdb"
+                    android:id="@+id/min_60_rdb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -109,9 +110,116 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/_1sdp"
-            android:background="@color/white"/>
-
+            android:background="@color/white" />
 
     </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_timeduration"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <TextView
+            android:id="@+id/txt_monday"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/custome_edittext"
+            android:fontFamily="@font/rubic_medium"
+            android:gravity="center"
+            android:text="@string/monday"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/custome_edittext"
+            android:fontFamily="@font/rubic_medium"
+            android:gravity="center"
+            android:text="@string/tuesday"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/custome_edittext"
+            android:fontFamily="@font/rubic_medium"
+            android:gravity="center"
+            android:text="@string/wednesday"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/custome_edittext"
+            android:fontFamily="@font/rubic_medium"
+            android:gravity="center"
+            android:text="@string/thursday"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_friday"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/custome_edittext"
+            android:fontFamily="@font/rubic_medium"
+            android:gravity="center"
+            android:text="@string/friday"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/custome_edittext"
+            android:fontFamily="@font/rubic_medium"
+            android:gravity="center"
+            android:text="@string/saturday"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/custome_edittext"
+            android:fontFamily="@font/rubic_medium"
+            android:gravity="center"
+            android:text="@string/sunday"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </GridLayout>
 
 </RelativeLayout>
