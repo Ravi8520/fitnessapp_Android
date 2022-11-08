@@ -140,4 +140,11 @@
     <string name="lbl_30min">30 min</string>
     <string name="lbl_45min">45 min</string>
     <string name="lbl_60min">60 min</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
 </resources>
