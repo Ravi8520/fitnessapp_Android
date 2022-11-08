@@ -23,6 +23,7 @@
             android:name=".activities.SplashActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.MainActivity"
             android:exported="true"
@@ -33,49 +34,63 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".activities.ForgetPasswordActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.ConfirmPasswordActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.JoinAsTrainerActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.JoinAsClientActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.ContinueAsActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.OnboardingdetailActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.TrainerContinuewithActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.TrainerDetailsActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.OTPVerificationNumberActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.VerifyOtpActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.WelcomeProfileActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.WorkoutGoalsActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".activities.CaloryIntakeActivity"
             android:screenOrientation="portrait" />
 
+
         <activity
             android:name=".activities.InjuriesActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
