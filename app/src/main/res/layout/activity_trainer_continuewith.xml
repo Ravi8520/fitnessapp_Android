@@ -27,6 +27,7 @@
             app:tint="@color/white" />
 
     </RelativeLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -34,59 +35,124 @@
         android:gravity="center"
         android:orientation="vertical">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_continueGoogle"
-        android:layout_width="340dp"
-        android:layout_height="@dimen/_34sdp"
-        android:layout_gravity="center"
-        android:layout_marginTop="@dimen/_24sdp"
-        android:background="@drawable/coustom_button_border"
-        android:clickable="true"
-        android:drawableLeft="@drawable/google1"
-        android:focusable="true"
-        android:gravity="center"
-        android:letterSpacing="0.05"
-        android:padding="@dimen/_5sdp"
-        android:text="@string/continue_as_gogle"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="@dimen/_14ssp" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_continueFb"
-        android:layout_width="340dp"
-        android:layout_height="@dimen/_34sdp"
-        android:layout_gravity="center"
-        android:layout_marginTop="@dimen/_24sdp"
-        android:background="@drawable/coustom_button_border"
-        android:clickable="true"
-        android:drawableLeft="@drawable/fb"
-        android:focusable="true"
-        android:gravity="center"
-        android:letterSpacing="0.05"
-        android:padding="@dimen/_8sdp"
-        android:text="@string/continue_as_fb"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="@dimen/_14ssp" />
-
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_continueEmail"
+            android:id="@+id/btn_continueGoogle"
             android:layout_width="340dp"
             android:layout_height="@dimen/_34sdp"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/_24sdp"
-            android:background="@drawable/custome_btn"
+            android:background="@drawable/coustom_button_border"
             android:clickable="true"
-            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawableLeft="@drawable/google1"
+            android:focusable="true"
+            android:gravity="center"
+            android:letterSpacing="0.05"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/continue_as_gogle"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_continueFb"
+            android:layout_width="340dp"
+            android:layout_height="@dimen/_34sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:background="@drawable/coustom_button_border"
+            android:clickable="true"
+            android:drawableLeft="@drawable/fb"
             android:focusable="true"
             android:gravity="center"
             android:letterSpacing="0.05"
             android:padding="@dimen/_8sdp"
-            android:text="@string/continue_as_email"
+            android:text="@string/continue_as_fb"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="@dimen/_14ssp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_continueiphone"
+            android:layout_width="340dp"
+            android:layout_height="@dimen/_34sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:background="@drawable/coustom_button_border"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_iphone"
+            android:focusable="true"
+            android:gravity="center"
+            android:letterSpacing="0.05"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/continue_as_iphone"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp" />
+
+
+        <LinearLayout
+            android:id="@+id/layout_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:fontFamily="@font/rubik_regular"
+                android:gravity="center"
+                android:letterSpacing="0.03"
+                android:text="@string/terms_privacypolicy"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/rubik_regular"
+                android:gravity="center"
+                android:letterSpacing="0.03"
+                android:text="@string/privacypolicy"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik_regular"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/dont_have_an_account"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik_regular"
+                android:gravity="center"
+                android:letterSpacing="0.03"
+                android:padding="1dp"
+                android:text="@string/signin"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
 
