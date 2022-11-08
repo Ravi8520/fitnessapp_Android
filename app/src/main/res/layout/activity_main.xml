@@ -176,6 +176,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txt_loginwith"
                     android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_20sdp"
                     android:weightSum="2">
 
                     <androidx.appcompat.widget.AppCompatButton
