@@ -41,7 +41,7 @@ public class WorkoutGoalsAdapter extends RecyclerView.Adapter<WorkoutGoalsAdapte
         CheckBox checkBox;
         public WorkoutgoalsViewHolder(@NonNull View itemView) {
             super(itemView);
-            checkBox = itemView.findViewById(R.id.checkBox);
+            checkBox = itemView.findViewById(R.id.checkb);
         }
     }
 }

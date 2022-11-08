@@ -31,7 +31,7 @@ public class VerifyOtpActivity extends AppCompatActivity {
         binding.btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mContext , TrainerDetailsActivity.class));
+                startActivity(new Intent(mContext , WelcomeProfileActivity.class));
             }
         });
     }

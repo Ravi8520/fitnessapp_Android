@@ -51,10 +51,10 @@ public class WorkoutGoalsActivity extends AppCompatActivity {
 
         WorkoutGoalsAdapter adapter = new WorkoutGoalsAdapter(mContext);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
-        binding.recyclerWorkoutgoals.addItemDecoration(divider);
-        binding.recyclerWorkoutgoals.addItemDecoration(new DividerItemDecoration(mContext, DividerItemDecoration.VERTICAL));
-        binding.recyclerWorkoutgoals.setLayoutManager(layoutManager);
-        binding.recyclerWorkoutgoals.setAdapter(adapter);
+        binding.workoutgoalsRV.addItemDecoration(divider);
+        binding.workoutgoalsRV.addItemDecoration(new DividerItemDecoration(mContext, DividerItemDecoration.VERTICAL));
+        binding.workoutgoalsRV.setLayoutManager(layoutManager);
+        binding.workoutgoalsRV.setAdapter(adapter);
 
     }
 }

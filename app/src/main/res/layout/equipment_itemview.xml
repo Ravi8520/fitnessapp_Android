@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    >
+
+
+    <ImageView
+        android:id="@+id/equipmentsIV"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_bg"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/freeweights"
+        app:civ_border_color="@color/light_sky"
+        app:civ_border_width="2dp"
+        app:tint="@color/light_sky" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/equipmentsTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/equipmentsIV"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/rubik_regular"
+        android:gravity="center"
+        android:letterSpacing="0.05"
+        android:padding="1dp"
+        android:text="@string/add_gym"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

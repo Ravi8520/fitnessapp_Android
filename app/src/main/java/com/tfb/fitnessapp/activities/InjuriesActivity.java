@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
 
 import com.tfb.fitnessapp.R;
 import com.tfb.fitnessapp.activities.adapter.InjuriesAdapter;
@@ -18,7 +19,6 @@ public class InjuriesActivity extends AppCompatActivity {
     private InjuriesActivity mContext;
     ActivityInjuriesBinding binding;
 
-    private RecyclerView injuries_recyclerView;
     private ArrayList<Injuriesmodel> injuriesDataArrayList;
 
     @Override
@@ -27,6 +27,15 @@ public class InjuriesActivity extends AppCompatActivity {
         binding = ActivityInjuriesBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         mContext = this;
+
+
+
+        binding.backarrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
 
 
         injuriesDataArrayList = new ArrayList<>();
@@ -38,8 +47,7 @@ public class InjuriesActivity extends AppCompatActivity {
         injuriesDataArrayList.add(new Injuriesmodel(getResources().getString(R.string.lbl_tendonitis),R.drawable.tendonitis));
         injuriesDataArrayList.add(new Injuriesmodel(getResources().getString(R.string.lbl_Muscle_pulls),R.drawable.muscles_pulls));
 
-        InjuriesAdapter adapter=new InjuriesAdapter(injuriesDataArrayList,this);
-
+        InjuriesAdapter adapter = new InjuriesAdapter(injuriesDataArrayList,this);
         GridLayoutManager layoutManager=new GridLayoutManager(this,2);
         binding.injuriesRV.setLayoutManager(layoutManager);
         binding.injuriesRV.setAdapter(adapter);

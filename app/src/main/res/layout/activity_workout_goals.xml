@@ -10,7 +10,7 @@
     <RelativeLayout
         android:id="@+id/relative_back"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="?actionBarSize"
         android:layout_gravity="bottom"
         android:layout_marginBottom="@dimen/_10sdp">
 
@@ -77,7 +77,7 @@
         android:layout_below="@id/relative_heading">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_workoutgoals"
+            android:id="@+id/workoutgoals_RV"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/ll_workoutgoal"
@@ -103,7 +103,7 @@
                 android:text="@string/submit"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_14ssp" />
+                android:textSize="18sp" />
 
         </LinearLayout>
     </RelativeLayout>

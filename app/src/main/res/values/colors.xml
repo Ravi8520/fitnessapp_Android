@@ -11,5 +11,10 @@
     <color name="grey">#808080</color>
     <color name="lightgrey">#F1F1F1</color>
     <color name="lightskyblue">#99FFF9</color>
+    <color name="searchbar_bg">#9B9B9B</color>
+    <color name="card_bg_color">#9B9B9B</color>
+    <color name="male_btn_color">#35798E</color>
+    <color name="female_btn_color">#803C7D</color>
+    <color name="light_sky">#72C5C0</color>
 
 </resources>

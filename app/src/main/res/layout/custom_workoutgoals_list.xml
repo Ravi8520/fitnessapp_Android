@@ -4,15 +4,28 @@
     android:layout_height="wrap_content"
     android:background="@color/bg_color_dark_blue">
 
-    <CheckBox
-        android:id="@+id/checkBox"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:fontFamily="@font/rubik_regular"
-        android:text="Weight Loss"
-        android:padding="@dimen/_5sdp"
-        android:textColor="@color/white"
-        android:textSize="18sp" />
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:button="@drawable/custom_checkbox"
+            android:buttonTint="@color/white"
+            android:scaleX="1.5"
+            android:scaleY="1.5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_5sdp"
+            android:text="weight loss"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
 
 </RelativeLayout>
