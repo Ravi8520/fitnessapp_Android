@@ -85,6 +85,9 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.InviteLinkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ChooseAvailabilityActivity"
             android:screenOrientation="portrait"/>
     </application>
 

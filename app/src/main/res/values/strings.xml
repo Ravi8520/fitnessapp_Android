@@ -44,6 +44,7 @@
     <string name="continue_as_email">Continue with Email</string>
     <string name="continue_as_iphone">Continue with Apple</string>
     <string name="have_an_account">Have an account?</string>
+    <string name="dont_have_an_account">Don’t have a account?</string>
     <string name="signin"><u>Signin</u></string>
     <string name="terms_privacypolicy">By tapping Continue, you agree to our <u>Terms</u> and</string>
     <string name="privacypolicy">acknowledge that you have read our <u>Privacy Policy</u>,</string>
@@ -131,4 +132,11 @@
     // Invitelinks labels
     <string name="lbl_invite_today">Earn higher pay rates on \n existing clients you \n invite today</string>
     <string name="lbl_for_usage">Use the referral link given below to list your existing\n clients with us and earn commissions for every client\n that signs up using your link.</string>
+
+    // choose availability
+    <string name="lbl_choose_availability">Choose Availability</string>
+    <string name="lbl_time_duration">Choose your training duration?</string>
+    <string name="lbl_30min">30 min</string>
+    <string name="lbl_45min">45 min</string>
+    <string name="lbl_60min">60 min</string>
 </resources>

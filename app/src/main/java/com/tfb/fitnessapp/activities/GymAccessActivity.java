@@ -48,7 +48,7 @@ public class GymAccessActivity extends AppCompatActivity {
         binding.btnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mContext,InviteLinkActivity.class));
+                startActivity(new Intent(mContext,ChooseAvailabilityActivity.class));
             }
         });
 

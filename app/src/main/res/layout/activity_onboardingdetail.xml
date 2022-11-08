@@ -203,10 +203,10 @@
             android:id="@+id/ll_onbordingbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_10sdp"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="@dimen/_30sdp"
-           android:gravity="center_horizontal">
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:gravity="center_horizontal">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_onboard"
