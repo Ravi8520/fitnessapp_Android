@@ -29,42 +29,42 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
         android:layout_below="@id/rl_backarrow">
 
         <TextView
             android:id="@+id/txt_signupas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:fontFamily="@font/rubik_regular"
-            android:text="@string/signupas"
-            android:layout_marginBottom="@dimen/_24sdp"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/txt_signupas"
-           android:gravity="center"
-            android:weightSum="2"
-            android:orientation="horizontal">
+            android:layout_above="@+id/layout_image"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:letterSpacing="0.03"
+            android:text="@string/signupas"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/layout_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
 
             <LinearLayout
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:orientation="vertical">
 
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/imgTrainer"
-                    android:layout_width="@dimen/_140sdp"
-                    android:layout_height="@dimen/_140sdp"
-                   android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
                     android:scaleType="centerCrop"
                     android:src="@drawable/trainer" />
 
@@ -74,12 +74,12 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:fontFamily="@font/rubic_medium"
                     android:gravity="center"
-              android:fontFamily="@font/rubik_regular"
                     android:text="@string/trainer"
                     android:textColor="@color/white"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -87,15 +87,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/txt_signupas"
-                android:orientation="vertical"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:orientation="vertical">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/imgClient"
-                    android:layout_width="@dimen/_140sdp"
-                    android:layout_height="@dimen/_140sdp"
-                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/client" />
 
 
@@ -105,12 +105,12 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/rubik_regular"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:fontFamily="@font/rubic_medium"
                     android:gravity="center"
                     android:text="@string/client"
                     android:textColor="@color/white"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="18sp" />
 
 
             </LinearLayout>
