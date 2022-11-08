@@ -20,6 +20,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_centerInParent="true"
                 android:layout_margin="@dimen/_5sdp"
                 android:orientation="vertical">
 
@@ -224,9 +225,9 @@
                         android:id="@+id/txt_signup"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_3sdp"
                         android:fontFamily="@font/rubic_medium"
                         android:text="@string/signup"
-                        android:layout_marginLeft="@dimen/_3sdp"
                         android:textColor="@color/white"
                         android:textSize="15sp"
                         android:textStyle="bold" />
