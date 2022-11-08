@@ -38,12 +38,12 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/rubik_bold"
+            android:fontFamily="@font/rubic_medium"
             android:gravity="center"
             android:padding="1dp"
             android:text="@string/lbl_accessgym"
             android:textColor="@color/white"
-            android:textSize="22sp" />
+            android:textSize="20sp" />
 
         <LinearLayout
             android:id="@+id/linear_radio"
@@ -90,9 +90,9 @@
             android:id="@+id/setGymcityTV"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/custome_cardview"
             android:fontFamily="@font/rubik_bold"
             android:gravity="center"
-            android:background="@drawable/custome_cardview"
             android:padding="1dp"
             android:text="1234567890"
             android:textColor="@color/white"
@@ -102,37 +102,38 @@
             android:id="@+id/addGymTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/rubik_bold"
             android:gravity="center"
-            android:layout_marginVertical="@dimen/_20sdp"
+            android:letterSpacing="0.05"
             android:padding="1dp"
             android:text="@string/add_gym"
-            android:letterSpacing="0.05"
             android:textColor="@color/white"
-            android:textStyle="bold"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/rubik_bold"
+            android:fontFamily="@font/rubic_medium"
+            android:layout_marginTop="@dimen/_10sdp"
             android:gravity="center"
-            android:padding="1dp"
             android:letterSpacing="0.05"
+            android:padding="1dp"
             android:text="@string/lbl_equipmentaccess"
             android:textColor="@color/white"
-            android:textSize="22sp" />
+            android:textSize="20sp" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/rubik_bold"
+            android:fontFamily="@font/rubic_medium"
             android:gravity="center"
-            android:padding="1dp"
             android:letterSpacing="0.05"
+            android:padding="1dp"
             android:text="@string/lbl_equipmentaccess2"
             android:textColor="@color/white"
-            android:textSize="22sp" />
+            android:textSize="20sp" />
 
     </LinearLayout>
 
@@ -140,9 +141,9 @@
         android:id="@+id/ll_injuryList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_below="@id/ll_addGym"
         android:layout_above="@id/linear_btn"
+        android:layout_below="@id/ll_addGym"
+        android:layout_marginTop="@dimen/_10sdp"
         android:orientation="vertical">
 
         <androidx.recyclerview.widget.RecyclerView
@@ -162,10 +163,9 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_continue"
-            android:layout_width="340dp"
+            android:layout_width="match_parent"
             android:layout_height="@dimen/_34sdp"
-            android:layout_marginTop="@dimen/_15sdp"
-            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_margin="@dimen/_10sdp"
             android:background="@drawable/coustom_button_border"
             android:clickable="true"
             android:focusable="true"

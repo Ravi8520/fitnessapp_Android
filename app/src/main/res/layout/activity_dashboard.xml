@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/custome_bg_gradient"
-    tools:context=".activities.SplashActivity">
+    tools:context=".activities.DashBoardActivity">
 
     <RelativeLayout
         android:id="@+id/rl_backarrow"

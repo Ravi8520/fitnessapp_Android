@@ -10,24 +10,24 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.databinding.ActivityMainBinding;
+import com.tfb.fitnessapp.databinding.ActivityLoginBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
-    ActivityMainBinding binding;
-    private MainActivity mContext;
+    ActivityLoginBinding binding;
+    private LoginActivity mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         mContext = this;
 
         binding.txtSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mContext, SplashActivity.class));
+                startActivity(new Intent(mContext, DashBoardActivity.class));
             }
         });
 

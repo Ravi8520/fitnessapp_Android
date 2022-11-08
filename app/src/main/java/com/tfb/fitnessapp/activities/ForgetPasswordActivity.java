@@ -1,14 +1,12 @@
 package com.tfb.fitnessapp.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.tfb.fitnessapp.databinding.ActivityConfirmPasswordBinding;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.tfb.fitnessapp.databinding.ActivityForgetPasswordBinding;
-import com.tfb.fitnessapp.databinding.ActivityMainBinding;
 
 public class ForgetPasswordActivity extends AppCompatActivity {
 

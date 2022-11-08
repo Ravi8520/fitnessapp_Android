@@ -1,30 +1,30 @@
 package com.tfb.fitnessapp.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.tfb.fitnessapp.databinding.ActivitySplashBinding;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.tfb.fitnessapp.databinding.ActivityDashboardBinding;
 
 
-public class SplashActivity extends AppCompatActivity {
+public class DashBoardActivity extends AppCompatActivity {
 
-    ActivitySplashBinding binding;
-    private SplashActivity mContext;
+    ActivityDashboardBinding binding;
+    private DashBoardActivity mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivitySplashBinding.inflate(getLayoutInflater());
+        binding = ActivityDashboardBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         mContext = this;
 
         binding.imgTrainer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mContext,JoinAsTrainerActivity.class));
+                startActivity(new Intent(mContext, JoinAsTrainerActivity.class));
             }
         });
 
