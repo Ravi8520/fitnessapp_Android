@@ -150,12 +150,12 @@
                     android:gravity="center">
 
                     <ImageView
-
                         android:id="@+id/profile_image"
                         android:layout_width="@dimen/_80sdp"
                         android:layout_height="@dimen/_80sdp"
                         android:padding="@dimen/_10sdp"
                         android:src="@drawable/name" />
+
                 </LinearLayout>
 
                 <TextView
@@ -347,26 +347,23 @@
 
                         </LinearLayout>
 
-
                     </LinearLayout>
 
                 </LinearLayout>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btn_continue"
-                    android:layout_width="340dp"
-                    android:layout_height="@dimen/_34sdp"
-                    android:layout_marginTop="@dimen/_15sdp"
-                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="@dimen/_15sdp"
                     android:background="@drawable/coustom_button_border"
                     android:clickable="true"
                     android:focusable="true"
-                    android:letterSpacing="0.05"
+                    android:fontFamily="@font/rubic_medium"
                     android:text="@string/continu"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/_14ssp" />
-
+                    android:textSize="14sp" />
 
             </LinearLayout>
 

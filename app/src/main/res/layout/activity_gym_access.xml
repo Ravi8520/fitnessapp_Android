@@ -158,14 +158,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_10sdp"
         android:gravity="center">
 
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_continue"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_34sdp"
-            android:layout_margin="@dimen/_10sdp"
+            android:layout_height="45dp"
             android:background="@drawable/coustom_button_border"
             android:clickable="true"
             android:focusable="true"

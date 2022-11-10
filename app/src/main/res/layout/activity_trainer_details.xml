@@ -11,8 +11,7 @@
         android:id="@+id/relative_back"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:layout_gravity="bottom"
-        android:layout_marginBottom="@dimen/_10sdp">
+        android:layout_gravity="bottom">
 
         <ImageView
             android:id="@+id/backarrow"
@@ -32,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/relative_back"
+        android:fillViewport="true"
         android:scrollbars="none">
 
         <LinearLayout
@@ -49,11 +49,11 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:textColorHint="@color/white"
-                app:hintTextColor="@color/white"
                 app:boxStrokeColor="@color/white"
                 app:boxStrokeWidth="1dp"
                 app:boxStrokeWidthFocused="1dp"
-                app:errorEnabled="true">
+                app:errorEnabled="true"
+                app:hintTextColor="@color/white">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edt_mobileNo"
@@ -78,11 +78,11 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:textColorHint="@color/white"
-                app:hintTextColor="@color/white"
                 app:boxStrokeColor="@color/white"
                 app:boxStrokeWidth="1dp"
                 app:boxStrokeWidthFocused="1dp"
-                app:errorEnabled="true">
+                app:errorEnabled="true"
+                app:hintTextColor="@color/white">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edt_mobileno"
@@ -105,13 +105,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:hintTextColor="@color/white"
                 android:gravity="center_vertical"
                 android:textColorHint="@color/white"
                 app:boxStrokeColor="@color/white"
                 app:boxStrokeWidth="1dp"
                 app:boxStrokeWidthFocused="1dp"
-                app:errorEnabled="true">
+                app:errorEnabled="true"
+                app:hintTextColor="@color/white">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edt_password"
@@ -134,13 +134,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:hintTextColor="@color/white"
                 android:gravity="center_vertical"
                 android:textColorHint="@color/white"
                 app:boxStrokeColor="@color/white"
                 app:boxStrokeWidth="1dp"
                 app:boxStrokeWidthFocused="1dp"
-                app:errorEnabled="true">
+                app:errorEnabled="true"
+                app:hintTextColor="@color/white">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edt_confirmpass"
@@ -164,12 +164,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                app:hintTextColor="@color/white"
                 android:textColorHint="@color/white"
                 app:boxStrokeColor="@color/white"
                 app:boxStrokeWidth="1dp"
                 app:boxStrokeWidthFocused="1dp"
-                app:errorEnabled="true">
+                app:errorEnabled="true"
+                app:hintTextColor="@color/white">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edt_referral"
@@ -224,19 +224,18 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_signup"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="45dp"
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_25sdp"
-                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_margin="@dimen/_15sdp"
                 android:background="@drawable/coustom_button_border"
                 android:clickable="true"
                 android:focusable="true"
-                android:letterSpacing="0.05"
+                android:fontFamily="@font/rubic_medium"
                 android:text="@string/signup"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_14ssp" />
+                android:textSize="14sp" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
