@@ -11,8 +11,7 @@
         android:id="@+id/relative_back"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:layout_gravity="bottom"
-        android:layout_marginBottom="@dimen/_10sdp">
+        android:layout_gravity="bottom">
 
         <ImageView
             android:id="@+id/backarrow"
@@ -37,8 +36,9 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/imgTrainer"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_120sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_centerHorizontal="true"
             android:layout_gravity="center"
             android:src="@drawable/trainercouple" />
 
@@ -187,41 +187,29 @@
 
     </RelativeLayout>
 
-    <RelativeLayout
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_detailsList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/relative_header">
+        android:layout_above="@id/btn_onboard"
+        android:layout_below="@id/relative_header"
+        android:layout_marginTop="@dimen/_5sdp" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_detailsList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_above="@id/ll_onbordingbtn"
-            android:layout_marginTop="@dimen/_5sdp" />
 
-        <LinearLayout
-            android:id="@+id/ll_onbordingbtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginBottom="@dimen/_5sdp"
-            android:gravity="center_horizontal">
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_onboard"
-                android:layout_width="280dp"
-                android:layout_height="@dimen/_34sdp"
-                android:background="@drawable/coustom_button_border"
-                android:clickable="true"
-                android:focusable="true"
-                android:letterSpacing="0.05"
-                android:text="@string/got_to_trainer_onboarding"
-                android:textAllCaps="false"
-                android:textColor="@color/black"
-                android:textSize="@dimen/_14ssp" />
-
-        </LinearLayout>
-    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_onboard"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/coustom_button_border"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/rubic_medium"
+        android:text="@string/got_to_trainer_onboarding"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
 
 </RelativeLayout>

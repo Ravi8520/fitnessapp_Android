@@ -13,7 +13,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_margin="@dimen/_5sdp"
             android:orientation="vertical">
 
@@ -21,32 +21,34 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/lbl_select_city"
                 android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/rubic_medium"
+                android:text="@string/lbl_select_city"
                 android:textColor="@color/black"
-                android:textSize="24sp" />
+                android:textSize="22sp" />
 
             <androidx.appcompat.widget.SearchView
                 android:id="@+id/searchCity"
                 android:layout_width="match_parent"
+                android:layout_height="50dp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:layout_height="wrap_content"
                 app:iconifiedByDefault="false"
                 app:queryHint="@string/lbl_searchbar_location_hint" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/lbl_popular_city"
                 android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/lbl_popular_city"
+                android:fontFamily="@font/rubic_medium"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/select_cityRV"
                 android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp" />
 
 
         </LinearLayout>
