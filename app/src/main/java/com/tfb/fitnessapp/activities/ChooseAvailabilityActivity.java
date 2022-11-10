@@ -1,5 +1,6 @@
 package com.tfb.fitnessapp.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -21,12 +22,20 @@ public class ChooseAvailabilityActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityChooseAvailabilityBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        mContext = this;
 
 
         binding.backarrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 onBackPressed();
+            }
+        });
+
+        binding.btnSubmit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mContext , ChooseTimeSlotsActivity.class));
             }
         });
 

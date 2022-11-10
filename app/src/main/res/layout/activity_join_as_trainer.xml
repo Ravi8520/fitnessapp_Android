@@ -58,19 +58,10 @@
                 android:fontFamily="@font/rubik_regular"
                 android:gravity="center"
                 android:padding="1dp"
-                android:text="@string/Join_the_no_error_team"
+                android:text="@string/lbl_join_Team"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/rubik_regular"
-                android:gravity="center"
-                android:padding="1dp"
-                android:text="@string/delicious_rewards_and_incentives"
-                android:textColor="@color/white"
-                android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_signup"
