@@ -49,17 +49,7 @@
                 android:padding="1dp"
                 android:text="@string/lbl_calories_intake1"
                 android:textColor="@color/white"
-                android:textSize="22sp" />
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/rubik_bold"
-                android:gravity="center"
-                android:padding="1dp"
-                android:text="@string/lbl_calories_intake2"
-                android:textColor="@color/white"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
 
 
             <LinearLayout
@@ -73,11 +63,8 @@
                     android:id="@+id/ll_calories"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/_10sdp"
-                    android:layout_marginStart="@dimen/_10sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:layout_marginEnd="@dimen/_10sdp"
-                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
                     android:background="@drawable/custome_cardview"
                     android:orientation="vertical"
                     android:padding="@dimen/_10sdp">
@@ -89,19 +76,20 @@
                         android:fontFamily="@font/rubik_regular"
                         android:text="@string/lbl_calories_count"
                         android:textColor="@color/white"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
 
                     <EditText
                         android:id="@+id/edt_eatCaloriesCount"
                         android:layout_width="match_parent"
-                        android:layout_height="@dimen/_36sdp"
+                        android:layout_height="45dp"
+                        android:textSize="16sp"
                         android:background="@drawable/coustom_button_border"
                         android:backgroundTint="@color/white"
                         android:imeOptions="actionNext"
                         android:inputType="numberDecimal"
                         android:paddingStart="@dimen/_10sdp"
                         android:textColor="@color/black"
-                        android:textSize="24sp" />
+                        />
 
 
                 </LinearLayout>
@@ -111,7 +99,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/ll_calories"
-                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
                     android:background="@drawable/custome_cardview"
                     android:orientation="vertical"
                     android:padding="@dimen/_10sdp">
@@ -123,19 +112,20 @@
                         android:fontFamily="@font/rubik_regular"
                         android:text="@string/lbl_meal_count"
                         android:textColor="@color/white"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
 
                     <EditText
                         android:id="@+id/edt_eatMealCount"
                         android:layout_width="match_parent"
-                        android:layout_height="@dimen/_36sdp"
+                        android:layout_height="45dp"
+                        android:textSize="16sp"
                         android:background="@drawable/coustom_button_border"
                         android:backgroundTint="@color/white"
                         android:imeOptions="actionNext"
                         android:inputType="numberDecimal"
                         android:paddingStart="@dimen/_10sdp"
                         android:textColor="@color/black"
-                        android:textSize="24sp" />
+                        />
 
 
                 </LinearLayout>
@@ -145,7 +135,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/ll_meal"
-                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
                     android:background="@drawable/custome_cardview"
                     android:orientation="vertical"
                     android:padding="@dimen/_10sdp">
@@ -157,19 +148,20 @@
                         android:fontFamily="@font/rubik_regular"
                         android:text="@string/lbl_dietary_needs"
                         android:textColor="@color/white"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
 
                     <EditText
                         android:id="@+id/edt_dieteryNeeds"
                         android:layout_width="match_parent"
-                        android:layout_height="@dimen/_36sdp"
+                        android:layout_height="45dp"
+                        android:textSize="16sp"
                         android:background="@drawable/coustom_button_border"
                         android:backgroundTint="@color/white"
                         android:imeOptions="actionNext"
                         android:inputType="text"
                         android:paddingStart="@dimen/_10sdp"
                         android:textColor="@color/black"
-                        android:textSize="24sp" />
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -178,39 +170,39 @@
                         android:fontFamily="@font/rubik_regular"
                         android:text="@string/lbl_dietary_restriction"
                         android:textColor="@color/white"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
 
                     <EditText
                         android:id="@+id/edt_dieteryRestriction"
                         android:layout_width="match_parent"
-                        android:layout_height="@dimen/_36sdp"
+                        android:layout_height="45dp"
+                        android:textSize="16sp"
                         android:background="@drawable/coustom_button_border"
                         android:backgroundTint="@color/white"
                         android:imeOptions="actionDone"
                         android:inputType="text"
                         android:paddingStart="@dimen/_10sdp"
                         android:textColor="@color/black"
-                        android:textSize="24sp" />
+                         />
 
 
                 </LinearLayout>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btn_continue"
-                    android:layout_width="280dp"
-                    android:layout_height="@dimen/_34sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="@dimen/_24sdp"
-                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_margin="@dimen/_20sdp"
                     android:background="@drawable/coustom_button_border"
                     android:clickable="true"
+                    android:fontFamily="@font/rubik_regular"
                     android:focusable="true"
                     android:gravity="center"
-                    android:letterSpacing="0.05"
                     android:text="@string/continu"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="16sp" />
 
             </LinearLayout>
 

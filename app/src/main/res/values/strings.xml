@@ -22,18 +22,15 @@
 
 
     //forgetpassword strings
-    <string name="Please_enter_your_phoneno"><u>Please enter your phone number to</u></string>
-    <string name="receive_verification_code"><u>receive verification code</u></string>
+    <string name="lbl_enter_mobileno"><u>Please enter your phone number to \nreceive verification code</u></string>
     <string name="send">Send</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="new_password">New Password</string>
-    <string name="Your_new_password_should_be_different"><u>Your new password should be different</u></string>
-    <string name="from_previously_used"><u>from previously used password</u></string>
+    <string name="lbl_new_password"><u>Your new password should be different \nfrom previously used password</u></string>
 
     //Join As strings
     <string name="Join_as_trainer">Join as a trainer</string>
-    <string name="Join_the_no_error_team">Join the No Error Team for free to earn</string>
-    <string name="delicious_rewards_and_incentives">delicious rewards and incentives</string>
+    <string name="lbl_join_Team">Join the No Error Team for free to earn \ndelicious rewards and incentives</string>
     <string name="click_here_to_see_the">Click here to see the</string>
     <string name="trainer_benefits">Trainer Benefits</string>
     <string name="Join_as_client">Join as a Client</string>
@@ -94,8 +91,7 @@
     <string name="lbl_workout_goals2">to get the best experience.</string>
 
     //Calories intake
-    <string name="lbl_calories_intake1">Help us understand</string>
-    <string name="lbl_calories_intake2">your Calories intake</string>
+    <string name="lbl_calories_intake1">Help us understand \n your Calories intake</string>
     <string name="lbl_calories_count">How many calories do you eat on average everyday?</string>
     <string name="lbl_meal_count">How many meals do you have in a day?</string>
     <string name="lbl_dietary_needs">List specific dietary needs, if any?</string>
@@ -124,8 +120,7 @@
     <string name="yes"> Yes</string>
     <string name="no"> No</string>
     <string name="add_gym">Add Gym</string>
-    <string name="lbl_equipmentaccess">What equipments do you</string>
-    <string name="lbl_equipmentaccess2">have access to?</string>
+    <string name="lbl_equipmentaccess">What equipments do you\nhave access to?</string>
     <string name="lbl_select_city">Select your city</string>
     <string name="lbl_popular_city">POPULAR CITY</string>
 
@@ -136,6 +131,7 @@
     // choose availability
     <string name="lbl_choose_availability">Choose Availability</string>
     <string name="lbl_time_duration">Choose your training duration?</string>
+    <string name="lbl_time_slots">Choose time slots for:</string>
     <string name="lbl_available_to_train">Which days are you available to train?</string>
     <string name="lbl_30min">30 min</string>
     <string name="lbl_45min">45 min</string>
