@@ -31,7 +31,7 @@
                     android:background="?selectableItemBackgroundBorderless"
                     android:clickable="true"
                     android:focusable="true"
-                    android:padding="@dimen/_2sdp"
+                    android:padding="@dimen/_3sdp"
                     android:src="@drawable/ic_back_arrow_foreground"
                     app:tint="@color/white" />
 
