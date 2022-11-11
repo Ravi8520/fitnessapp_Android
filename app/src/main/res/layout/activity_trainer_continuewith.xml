@@ -37,58 +37,59 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_continueGoogle"
-            android:layout_width="340dp"
-            android:layout_height="@dimen/_34sdp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
             android:layout_gravity="center"
-            android:layout_marginTop="@dimen/_24sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
             android:background="@drawable/coustom_button_border"
             android:clickable="true"
             android:drawableLeft="@drawable/google1"
             android:focusable="true"
+            android:fontFamily="@font/rubic_medium"
             android:gravity="center"
-            android:letterSpacing="0.05"
-            android:padding="@dimen/_5sdp"
+            android:paddingLeft="@dimen/_11sdp"
             android:text="@string/continue_as_gogle"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="@dimen/_14ssp" />
+            android:textSize="16sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_continueFb"
-            android:layout_width="340dp"
-            android:layout_height="@dimen/_34sdp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
             android:layout_gravity="center"
-            android:layout_marginTop="@dimen/_24sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:background="@drawable/coustom_button_border"
             android:clickable="true"
             android:drawableLeft="@drawable/fb"
             android:focusable="true"
+            android:fontFamily="@font/rubic_medium"
             android:gravity="center"
-            android:letterSpacing="0.05"
-            android:padding="@dimen/_8sdp"
+            android:paddingLeft="@dimen/_13sdp"
             android:text="@string/continue_as_fb"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="@dimen/_14ssp" />
+            android:textSize="16sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_continueiphone"
-            android:layout_width="340dp"
-            android:layout_height="@dimen/_34sdp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
             android:layout_gravity="center"
-            android:layout_marginTop="@dimen/_24sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:background="@drawable/coustom_button_border"
             android:clickable="true"
             android:drawableLeft="@drawable/ic_iphone"
             android:focusable="true"
+            android:fontFamily="@font/rubic_medium"
             android:gravity="center"
-            android:letterSpacing="0.05"
-            android:padding="@dimen/_8sdp"
+            android:paddingLeft="@dimen/_13sdp"
             android:text="@string/continue_as_iphone"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="@dimen/_14ssp" />
-
+            android:textSize="16sp" />
 
         <LinearLayout
             android:id="@+id/layout_bottom"
@@ -103,11 +104,9 @@
                 android:layout_marginTop="@dimen/_30sdp"
                 android:fontFamily="@font/rubik_regular"
                 android:gravity="center"
-                android:letterSpacing="0.03"
                 android:text="@string/terms_privacypolicy"
                 android:textColor="@color/white"
-                android:textSize="13sp" />
-
+                android:textSize="14sp" />
 
         </LinearLayout>
 
@@ -144,6 +143,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
 
 </RelativeLayout>
