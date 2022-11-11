@@ -31,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/relative_back"
+        android:layout_above="@id/btn_continue"
         android:scrollbars="none">
 
         <LinearLayout
@@ -47,14 +48,15 @@
                 android:text="@string/welcometo"
                 android:textColor="@color/white"
                 android:textSize="18sp"
-                android:fontFamily="@font/rubik_bold" />
+                android:fontFamily="@font/rubik_regular" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/no_Error_fitness"
                 android:textColor="@color/white"
-                android:textSize="17sp" />
+                android:fontFamily="@font/rubik_bold"
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -159,7 +161,7 @@
                     android:layout_marginVertical="10dp"
                     android:text="Add a photo"
                     android:textColor="@color/white"
-                    android:textSize="28sp" />
+                    android:textSize="24sp" />
 
 
                 <LinearLayout
@@ -174,17 +176,19 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_5sdp"
                         android:text="@string/fullname"
+                        android:fontFamily="@font/rubik_regular"
                         android:textColor="@color/white"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <EditText
                         android:id="@+id/edt_fullName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/rubik_regular"
                         android:backgroundTint="@color/white"
                         android:imeOptions="actionNext"
+                        android:textSize="16sp"
                         android:inputType="textPersonName"
                         android:textColor="@color/white" />
 
@@ -192,9 +196,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:fontFamily="@font/rubik_regular"
                         android:text="@string/lbl_help_experience"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:textSize="14sp" />
 
 
                 </LinearLayout>
@@ -211,10 +216,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_5sdp"
                         android:text="@string/lbl_your_location"
                         android:textColor="@color/white"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -235,6 +239,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+
                         android:id="@+id/ll_usecurrentLocation"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -279,10 +284,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/_5sdp"
                             android:text="@string/lbl_your_bio"
                             android:textColor="@color/white"
-                            android:textSize="20sp" />
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -302,10 +306,11 @@
                             android:gravity="top|left"
                             android:imeOptions="actionDone"
                             android:inputType="textMultiLine"
+                            android:fontFamily="@font/rubik_regular"
                             android:minHeight="@dimen/_100sdp"
                             android:padding="10dp"
                             android:textColor="@color/black"
-                            android:textSize="18sp" />
+                            android:textSize="14sp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -338,24 +343,28 @@
 
                 </LinearLayout>
 
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_continue"
-                    android:layout_width="match_parent"
-                    android:layout_height="45dp"
-                    android:layout_margin="@dimen/_15sdp"
-                    android:background="@drawable/coustom_button_border"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:fontFamily="@font/rubic_medium"
-                    android:text="@string/continu"
-                    android:textAllCaps="false"
-                    android:textColor="@color/black"
-                    android:textSize="14sp" />
-
             </LinearLayout>
 
         </LinearLayout>
 
     </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/coustom_button_border"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/rubic_medium"
+        android:text="@string/continu"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
 
 </RelativeLayout>

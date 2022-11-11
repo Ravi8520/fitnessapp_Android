@@ -152,12 +152,12 @@
                         android:gravity="center">
 
                         <ImageView
-
                             android:id="@+id/profile_image"
                             android:layout_width="@dimen/_80sdp"
                             android:layout_height="@dimen/_80sdp"
                             android:padding="@dimen/_10sdp"
                             android:src="@drawable/name" />
+
                     </LinearLayout>
 
                     <TextView
@@ -340,7 +340,10 @@
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_alignParentBottom="true"
-        android:layout_margin="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
         android:background="@drawable/coustom_button_border"
         android:clickable="true"
         android:focusable="true"
