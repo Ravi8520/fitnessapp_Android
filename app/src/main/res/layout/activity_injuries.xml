@@ -52,7 +52,6 @@
                 android:textColor="@color/white"
                 android:textSize="22sp" />
 
-
             <LinearLayout
             android:id="@+id/ll_injuryList"
             android:layout_width="match_parent"
