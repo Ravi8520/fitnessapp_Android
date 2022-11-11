@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="@dimen/_30sdp">
+        android:layout_marginBottom="@dimen/_10sdp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -97,14 +97,12 @@
                     android:id="@+id/txt_trainerbenefits"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/rubik_regular"
+                    android:fontFamily="@font/rubik_bold"
                     android:gravity="center"
-                    android:letterSpacing="0.03"
                     android:padding="1dp"
                     android:text="@string/client_benefits"
                     android:textColor="@color/white"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textSize="16sp" />
 
             </LinearLayout>
 

@@ -11,20 +11,20 @@
         android:layout_height="wrap_content">
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="@dimen/_20sdp"
-            android:layout_height="@dimen/_20sdp"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
             android:layout_gravity="center"
             android:background="@drawable/circle_bg"
             android:padding="@dimen/_10sdp" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/txt_detailsno"
-            android:layout_width="@dimen/_20sdp"
-            android:layout_height="@dimen/_20sdp"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
             android:gravity="center"
             android:text="1"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="15sp" />
     </RelativeLayout>
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -33,7 +33,6 @@
         android:layout_height="wrap_content"
         android:text="api data will appear here!!!!!!!"
         android:paddingLeft="@dimen/_5sdp"
-        android:letterSpacing="0.05"
         android:textColor="@color/white"
         android:textSize="16sp" />
 

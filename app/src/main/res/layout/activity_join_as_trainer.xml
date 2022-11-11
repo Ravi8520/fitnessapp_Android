@@ -43,19 +43,18 @@
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_40sdp"
-                android:fontFamily="@font/rubik_regular"
+                android:fontFamily="@font/rubik_bold"
                 android:gravity="center"
                 android:padding="1dp"
                 android:text="@string/Join_as_trainer"
                 android:textColor="@color/white"
                 android:textSize="26sp"
-                android:textStyle="bold" />
+                />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/rubik_regular"
+                android:fontFamily="@font/rubic_medium"
                 android:gravity="center"
                 android:padding="1dp"
                 android:text="@string/lbl_join_Team"
@@ -65,25 +64,26 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_signup"
-                android:layout_width="280dp"
-                android:layout_height="@dimen/_34sdp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
                 android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_20sdp"
                 android:layout_marginTop="@dimen/_24sdp"
                 android:background="@drawable/coustom_button_border"
                 android:clickable="true"
                 android:focusable="true"
+                android:fontFamily="@font/rubic_medium"
                 android:gravity="center"
-                android:letterSpacing="0.05"
-                android:text="@string/signup"
+                android:text="@string/sign_up"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_14ssp" />
+                android:textSize="16sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_28sdp"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatTextView
@@ -100,14 +100,12 @@
                     android:id="@+id/txt_trainerbenefits"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/rubik_regular"
+                    android:fontFamily="@font/rubik_bold"
                     android:gravity="center"
-                    android:letterSpacing="0.03"
                     android:padding="1dp"
                     android:text="@string/trainer_benefits"
                     android:textColor="@color/white"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textSize="16sp" />
 
             </LinearLayout>
 

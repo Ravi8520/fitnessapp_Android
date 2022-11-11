@@ -20,7 +20,7 @@ public class WelcomeProfileActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         mContext = this;
 
-        binding.btnLogin.setOnClickListener(new View.OnClickListener() {
+        binding.btnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(mContext, WorkoutGoalsActivity.class));
