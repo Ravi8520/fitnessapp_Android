@@ -12,7 +12,7 @@
     <string name="login">Login</string>
     <string name="orloginwith">Or login with</string>
     <string name="Dont_have_an_account">Don`t have an account? </string>
-    <string name="signup">Sign Up</string>
+    <string name="sign_up">Sign Up</string>
     <string name="signupas">Signup As</string>
     <string name="Google">Google</string>
     <string name="Facebook"> Facebook</string>
@@ -43,8 +43,8 @@
     <string name="have_an_account">Have an account?</string>
     <string name="dont_have_an_account">Don’t have a account?</string>
     <string name="signin"><u>Signin</u></string>
-    <string name="terms_privacypolicy">By tapping Continue, you agree to our <u>Terms</u> and</string>
-    <string name="privacypolicy">acknowledge that you have read our <u>Privacy Policy</u>,</string>
+    <string name="signup"><u>Signup</u></string>
+    <string name="terms_privacypolicy">By tapping Continue, you agree to our <u>Terms</u> and \nacknowledge that you have read our <u>Privacy Policy</u>,</string>
     <string name="signup_as_a_Trainer"><u>Sign up as a Trainer</u></string>
     <string name="join_the">Join the</string>
     <string name="no_error">No Error</string>
@@ -56,19 +56,18 @@
     <string name="got_to_trainer_onboarding">Go to trainer onboarding</string>
 
     // OTP verification
-    <string name="otp_verification">OTP Verifivation</string>
-    <string name="one_time_password">We will send you a <b>one-Time Password</b></string>
-    <string name="on_to_this_number">onto this mobile number</string>
+    <string name="otp_verification"><b>OTP</b> Verifivation</string>
+    <string name="one_time_password">We will send you a <b>one-Time Password\n onto this mobile number</b></string>
     <string name="enter_mobile_number">Enter mobile number</string>
     <string name="continu">Continue</string>
+    <string name="resend_otp">Resend Otp</string>
     <string name="enterotp_sent_to">Enter Otp sent to</string>
     <string name="submit">Submit</string>
 
     //Profile screen
     <string name="welcometo">Welcome to</string>
     <string name="no_Error_fitness">No Error Fitness</string>
-    <string name="welcomepage_string">Help us set up a personalized experience for you</string>
-    <string name="welcomepage_string2">to get the best experience.</string>
+    <string name="lbl_help_experience">Help us set up a personalized experience for you \nto get the best experience.</string>
     <string name="male">  Male</string>
     <string name="female">  Female</string>
     <string name="others">  Others</string>
@@ -87,8 +86,7 @@
 
     //workout goal
     <string name="workout_goals">Define your workout goals</string>
-    <string name="lbl_workout_goals">Help us set up a personalized experience for you</string>
-    <string name="lbl_workout_goals2">to get the best experience.</string>
+    <string name="lbl_workout_goals">Help us set up a personalized experience for you \nto get the best experience.</string>
 
     //Calories intake
     <string name="lbl_calories_intake1">Help us understand \n your Calories intake</string>
@@ -98,8 +96,7 @@
     <string name="lbl_dietary_restriction">List dietary restrictions, if any?</string>
 
     //Injuries screen strings
-    <string name="lbl_injuries_heading1">Are there any injuries</string>
-    <string name="lbl_injuries_heading2">we should know about?</string>
+    <string name="lbl_injuries_heading1">Are there any injuries \nwe should know about?</string>
     <string name="lbl_Muscle_pulls">Muscles Pulls</string>
     <string name="lbl_sprains">Sprains</string>
     <string name="lbl_Fractures">Fractures</string>

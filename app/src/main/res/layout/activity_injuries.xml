@@ -45,20 +45,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:fontFamily="@font/rubik_bold"
+                android:fontFamily="@font/rubik_semibold"
                 android:gravity="center"
                 android:padding="1dp"
                 android:text="@string/lbl_injuries_heading1"
-                android:textColor="@color/white"
-                android:textSize="22sp" />
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/rubik_bold"
-                android:gravity="center"
-                android:padding="1dp"
-                android:text="@string/lbl_injuries_heading2"
                 android:textColor="@color/white"
                 android:textSize="22sp" />
 
@@ -67,7 +57,7 @@
             android:id="@+id/ll_injuryList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_margin="@dimen/_10sdp"
             android:layout_below="@id/ll_heading"
             android:orientation="vertical">
 
@@ -95,7 +85,7 @@
                     android:fontFamily="@font/rubik_regular"
                     android:text="@string/lbl_summary"
                     android:textColor="@color/white"
-                    android:textSize="18sp" />
+                    android:textSize="16sp" />
 
                 <EditText
                     android:id="@+id/edt_eatMealCount"
@@ -109,7 +99,7 @@
                     android:minHeight="@dimen/_80sdp"
                     android:padding="10dp"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="16sp" />
 
 
             </LinearLayout>
@@ -132,7 +122,7 @@
                     android:buttonTint="@color/white"
                     android:text="@string/others"
                     android:textColor="@color/white"
-                    android:textSize="18sp" />
+                    android:textSize="16sp" />
 
             </LinearLayout>
 
@@ -156,7 +146,7 @@
                     android:fontFamily="@font/rubik_regular"
                     android:text="@string/lbl_experience_que"
                     android:textColor="@color/white"
-                    android:textSize="18sp" />
+                    android:textSize="16sp" />
 
                 <EditText
                     android:id="@+id/edt_experienceque"
@@ -170,7 +160,7 @@
                     android:minHeight="@dimen/_100sdp"
                     android:padding="10dp"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="16sp" />
 
 
             </LinearLayout>
@@ -181,20 +171,21 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_continue"
-        android:layout_width="340dp"
-        android:layout_height="@dimen/_34sdp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
         android:background="@drawable/coustom_button_border"
         android:clickable="true"
         android:focusable="true"
-        android:letterSpacing="0.05"
+        android:fontFamily="@font/rubic_medium"
         android:text="@string/continu"
         android:textAllCaps="false"
         android:textColor="@color/black"
-        android:textSize="18sp" />
+        android:textSize="16sp" />
 
 
 </RelativeLayout>

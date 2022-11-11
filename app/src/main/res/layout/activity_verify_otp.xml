@@ -43,7 +43,7 @@
             android:padding="1dp"
             android:text="@string/otp_verification"
             android:textColor="@color/white"
-            android:textSize="26sp" />
+            android:textSize="24sp" />
 
         <LinearLayout
             android:id="@+id/linear_signup"
@@ -54,44 +54,54 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:letterSpacing="0.05"
                 android:text="@string/enterotp_sent_to"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/txt_mobileNo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" phone number"
-                android:letterSpacing="0.05"
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
-    </LinearLayout>
+        <TextView
+            android:id="@+id/txt_resendOTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/rubik_bold"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:layout_gravity="center"
+            android:text="@string/resend_otp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
 
+
+
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="@dimen/_30sdp">
+        android:layout_alignParentBottom="true">
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_submit"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_height="45dp"
+            android:layout_margin="@dimen/_20sdp"
             android:background="@drawable/coustom_button_border"
             android:clickable="true"
+            android:fontFamily="@font/rubic_medium"
             android:focusable="true"
-            android:letterSpacing="0.05"
             android:text="@string/submit"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="@dimen/_14ssp" />
+            android:textSize="16sp" />
 
     </LinearLayout>
 

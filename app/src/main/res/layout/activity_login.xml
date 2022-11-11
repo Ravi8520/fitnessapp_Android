@@ -235,7 +235,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/_3sdp"
                         android:fontFamily="@font/rubic_medium"
-                        android:text="@string/signup"
+                        android:text="@string/sign_up"
                         android:textColor="@color/white"
                         android:textSize="15sp"
                         android:textStyle="bold" />

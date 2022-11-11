@@ -13,10 +13,11 @@
 
         <ImageView
             android:id="@+id/iv_injuries"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
             android:padding="10dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/asthma" />
 
         <TextView
