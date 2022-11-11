@@ -23,7 +23,6 @@ public class TrainerDetailsActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         mContext = this;
 
-
         binding.switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {

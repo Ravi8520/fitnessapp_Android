@@ -20,7 +20,6 @@ public class TrainerContinuewithActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         mContext = this;
 
-
         binding.txtSignin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
