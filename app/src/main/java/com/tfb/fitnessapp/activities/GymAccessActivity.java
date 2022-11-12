@@ -14,6 +14,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -124,6 +125,15 @@ public class GymAccessActivity extends AppCompatActivity {
         cityname.setAdapter(adapter);
         cityname.setLayoutManager(layoutManager);
 
+
+       ImageView img_close= dialog.findViewById(R.id.img_close);
+
+        img_close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
 
         SearchView searchCityname = dialog.findViewById(R.id.searchCity);
         searchCityname.setOnQueryTextListener(new SearchView.OnQueryTextListener() {

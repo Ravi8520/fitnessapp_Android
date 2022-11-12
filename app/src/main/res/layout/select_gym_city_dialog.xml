@@ -11,12 +11,20 @@
         app:cardCornerRadius="@dimen/_10sdp"
         app:cardElevation="@dimen/_3sdp">
 
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/_5sdp"
+            android:src="@drawable/ic_close" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="@dimen/_5sdp"
             android:orientation="vertical">
-
 
             <TextView
                 android:layout_width="match_parent"
@@ -39,8 +47,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="@string/lbl_popular_city"
                 android:fontFamily="@font/rubic_medium"
+                android:text="@string/lbl_popular_city"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -50,9 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp" />
 
-
         </LinearLayout>
-
 
     </androidx.cardview.widget.CardView>
 

@@ -38,12 +38,12 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/rubic_medium"
+            android:fontFamily="@font/rubik_bold"
             android:gravity="center"
             android:padding="1dp"
             android:text="@string/lbl_accessgym"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="24sp" />
 
         <LinearLayout
             android:id="@+id/linear_radio"
@@ -89,14 +89,15 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/setGymcityTV"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_40sdp"
+            android:layout_height="45dp"
             android:background="@drawable/custome_cardview"
-            android:fontFamily="@font/rubik_bold"
+            android:fontFamily="@font/rubik_regular"
             android:gravity="center"
+            android:layout_margin="@dimen/_5sdp"
             android:padding="1dp"
             android:text="1234567890"
             android:textColor="@color/white"
-            android:textSize="22sp" />
+            android:textSize="16sp" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/addGymTV"
@@ -105,12 +106,10 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/rubik_bold"
             android:gravity="center"
-            android:letterSpacing="0.05"
             android:padding="1dp"
             android:text="@string/add_gym"
             android:textColor="@color/white"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textSize="16sp" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="match_parent"
@@ -118,7 +117,6 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/rubic_medium"
             android:gravity="center"
-            android:letterSpacing="0.05"
             android:padding="1dp"
             android:text="@string/lbl_equipmentaccess"
             android:textColor="@color/white"
@@ -153,11 +151,11 @@
             android:background="@drawable/coustom_button_border"
             android:clickable="true"
             android:focusable="true"
-            android:letterSpacing="0.05"
+            android:fontFamily="@font/rubic_medium"
             android:text="@string/continu"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="@dimen/_14ssp" />
+            android:textSize="16sp" />
 
     </LinearLayout>
 
