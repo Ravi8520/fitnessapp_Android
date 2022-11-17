@@ -30,7 +30,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/ic_main_bg"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/bg_color_dark_blue"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -250,7 +251,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/ic_calender_bg"
                         android:gravity="center"
-                        android:padding="@dimen/_5sdp">
+                        android:padding="@dimen/_3sdp">
 
                         <CalendarView
                             android:layout_width="match_parent"
