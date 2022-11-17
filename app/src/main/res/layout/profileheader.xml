@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_gravity="center"
+            android:src="@drawable/trainerprofile"
+            android:layout_height="96dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:id="@+id/txt_trainerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="marchant\ntatcher"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/rubic_medium"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txt_viewProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_viewprofile"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/rubik_bold"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

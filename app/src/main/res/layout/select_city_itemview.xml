@@ -3,14 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/_5sdp">
-    
-    
+
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/citylistTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="tokyo,united status"
         android:textColor="@color/black"
-        android:textSize="14sp"
-        android:text="tokyo,united status"/>
+        android:textSize="14sp" />
 
 </RelativeLayout>

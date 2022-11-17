@@ -24,6 +24,7 @@
     //forgetpassword strings
     <string name="lbl_enter_mobileno"><u>Please enter your phone number to \nreceive verification code</u></string>
     <string name="send">Send</string>
+    <string name="save">Save</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="new_password">New Password</string>
     <string name="lbl_new_password"><u>Your new password should be different \nfrom previously used password</u></string>
@@ -61,8 +62,11 @@
     <string name="enter_mobile_number">Enter mobile number</string>
     <string name="continu">Continue</string>
     <string name="resend_otp">Resend Otp</string>
+    <string name="resend_code"><u>Resend Code</u></string>
     <string name="enterotp_sent_to">Enter Otp sent to</string>
     <string name="submit">Submit</string>
+    <string name="lbl_veriynumber">Verify your number</string>
+    <string name="lbl_entercode"><u>Please enter a 4 digit code sent to \nyour number</u></string>
 
     //Profile screen
     <string name="welcometo">Welcome to</string>
@@ -140,4 +144,33 @@
     <string name="friday">Friday</string>
     <string name="saturday">Saturday</string>
     <string name="sunday">Sunday</string>
+
+    //Home screen
+    <string name="lbl_viewprofile">View profile</string>
+    <string name="lbl_myschedule">My Schedule</string>
+    <string name="lbl_sessions">Sessions</string>
+    <string name="lbl_clients">Clients</string>
+    <string name="lbl_booktrainer">Book Trainer</string>
+    <string name="lbl_pricing">Pricing</string>
+    <string name="lbl_myprograms">My Programs</string>
+    <string name="lbl_meal_marcket_place">Meal Marketplace</string>
+    <string name="lbl_referrals">Referrals</string>
+    <string name="lbl_logout">Logout</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="lbl_you_have">You have</string>
+    <string name="lbl_bookings">6 new bookings!</string>
+    <string name="lbl_view_all">View all</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="lbl_schedule_event">Schedule \nan Event</string>
+    <string name="lbl_schedule_event_disc">Set up training sessions \nfor a live or outdoors event</string>
+    <string name="lbl_live_avilability">Live \navailability</string>
+    <string name="lbl_live_avilability_disc">You’re Live and instantly \navailable  for a Training session</string>
+    <string name="lbl_slider">Earn extra commissions for every new client acquired</string>
+    <string name="lbl_schedule_overview">Schedule Overview</string>
+    <string name="tab_all">All</string>
+    <string name="tab_upcoming">Upcoming</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
