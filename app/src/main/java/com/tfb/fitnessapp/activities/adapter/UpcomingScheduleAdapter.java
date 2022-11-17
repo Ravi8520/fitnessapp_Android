@@ -58,7 +58,6 @@ public class UpcomingScheduleAdapter extends RecyclerView.Adapter<UpcomingSchedu
 
         public MyscheduleItemviewBinding binding;
 
-
         public ScheduleViewholder(MyscheduleItemviewBinding itemView) {
             super(itemView.getRoot());
 
