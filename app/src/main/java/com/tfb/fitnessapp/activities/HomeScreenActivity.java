@@ -45,10 +45,8 @@ public class HomeScreenActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
                 binding.drawer.closeDrawer(GravityCompat.START);
-
                 switch (id) {
                     case R.id.id_myschedule:
-                        Toast.makeText(mContext, R.string.lbl_myschedule, Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(mContext,MyScheduleActivity.class));
                         break;
                     case R.id.id_sessions:

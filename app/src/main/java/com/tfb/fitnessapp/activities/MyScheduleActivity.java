@@ -1,5 +1,7 @@
 package com.tfb.fitnessapp.activities;
 
+import static com.google.android.material.tabs.TabLayout.GRAVITY_FILL;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
@@ -26,6 +28,7 @@ public class MyScheduleActivity extends AppCompatActivity {
 
         binding.tablayout.addTab(binding.tablayout.newTab().setText(getResources().getText(R.string.tab_upcoming)));
         binding.tablayout.addTab(binding.tablayout.newTab().setText(getResources().getText(R.string.tab_all)));
+        binding.tablayout.setTabGravity(GRAVITY_FILL);
 
         myScheduleAdapter = new MyScheduleAdapter(getSupportFragmentManager(), binding.tablayout.getTabCount());
         binding.tabViewPager.setAdapter(myScheduleAdapter);
