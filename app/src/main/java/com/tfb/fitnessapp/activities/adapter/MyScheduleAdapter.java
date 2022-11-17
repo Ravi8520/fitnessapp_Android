@@ -9,12 +9,9 @@ import com.tfb.fitnessapp.activities.fragments.MySchedulefragment_all;
 import com.tfb.fitnessapp.activities.fragments.MySchedulefragment_upcoming;
 
 public class MyScheduleAdapter extends FragmentPagerAdapter {
-
     int selected_Tab;
-
     public MyScheduleAdapter(@NonNull FragmentManager fm , int behavior) {
         super(fm , behavior);
-
         selected_Tab = behavior;
     }
 
@@ -24,13 +21,9 @@ public class MyScheduleAdapter extends FragmentPagerAdapter {
         switch (position){
             case 0 : return new MySchedulefragment_upcoming();
             case 1 : return new MySchedulefragment_all();
-
-
             default: return null;
-
         }
     }
-
     @Override
     public int getCount() {
         return selected_Tab;
