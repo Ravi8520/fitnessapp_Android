@@ -29,16 +29,13 @@ public class UpcomingScheduleAdapter extends RecyclerView.Adapter<UpcomingSchedu
     @NonNull
     @Override
     public UpcomingScheduleAdapter.ScheduleViewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         MyscheduleItemviewBinding itemCardBinding = MyscheduleItemviewBinding.inflate(layoutInflater, parent, false);
-
         return new ScheduleViewholder(itemCardBinding);
     }
 
     @Override
     public void onBindViewHolder(@NonNull UpcomingScheduleAdapter.ScheduleViewholder holder, int position) {
-
         MySchedulemodel mySchedulemodel = scheduleList.get(position);
         holder.binding.txtDate.setText(mySchedulemodel.getDate());
         holder.binding.txtExperience.setText(mySchedulemodel.getExperience());
@@ -46,7 +43,6 @@ public class UpcomingScheduleAdapter extends RecyclerView.Adapter<UpcomingSchedu
         holder.binding.txtExerciseType.setText(mySchedulemodel.getExerciseType());
         holder.binding.txtSlotTime.setText(mySchedulemodel.getSlotTime());
         holder.binding.txtName.setText(mySchedulemodel.getUsername());
-
     }
 
     @Override
@@ -60,7 +56,6 @@ public class UpcomingScheduleAdapter extends RecyclerView.Adapter<UpcomingSchedu
 
         public ScheduleViewholder(MyscheduleItemviewBinding itemView) {
             super(itemView.getRoot());
-
             this.binding = itemView;
 
         }

@@ -168,6 +168,7 @@
     <string name="lbl_live_avilability_disc">You’re Live and instantly \navailable  for a Training session</string>
     <string name="lbl_slider">Earn extra commissions for every new client acquired</string>
     <string name="lbl_schedule_overview">Schedule Overview</string>
+    <string name="lbl_upcoming_session">Upcoming Session</string>
     <string name="tab_all">All</string>
     <string name="tab_upcoming">Upcoming</string>
     <string name="tab_sessions">Sessions</string>
