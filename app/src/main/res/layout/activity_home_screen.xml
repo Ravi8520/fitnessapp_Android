@@ -241,20 +241,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_margin="@dimen/_2sdp"
-                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_5sdp"
                     app:cardCornerRadius="@dimen/_10sdp"
                     app:cardElevation="@dimen/_10sdp">
 
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/ic_calender_bg"
                         android:gravity="center"
-                        android:background="@drawable/ic_calender_bg">
+                        android:padding="@dimen/_5sdp">
 
                         <CalendarView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
                             android:dateTextAppearance="@style/CalenderViewDateCustomText"
                             android:theme="@style/CalenderViewCustom"
                             android:weekDayTextAppearance="@style/CalenderViewWeekCustomText" />
