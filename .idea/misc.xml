@@ -13,6 +13,7 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_booktrainer.xml" value="0.134" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_chat.xml" value="0.134" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_close.xml" value="0.118" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_grey_bg.xml" value="0.139" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_logout.xml" value="0.134" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_main_bg.xml" value="0.134" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_message_bg.xml" value="0.134" />
@@ -48,7 +49,7 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/custome_injuries_itemview.xml" value="0.12604263206672844" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/fragment_my_scheduleall.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/fragment_my_scheduleupcoming.xml" value="0.16631038905515177" />
-        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/myschedule_itemview.xml" value="0.16631038905515177" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/myschedule_itemview.xml" value="0.17" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/profileheader.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/select_city_itemview.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/select_gym_city_dialog.xml" value="0.21" />

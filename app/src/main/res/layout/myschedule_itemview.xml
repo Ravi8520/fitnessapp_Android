@@ -25,7 +25,7 @@
         <RelativeLayout
             android:id="@+id/layout_userdetail"
             android:layout_width="match_parent"
-            android:layout_weight="0.9"
+            android:layout_weight="0.85"
             android:padding="@dimen/_5sdp"
             android:layout_height="wrap_content">
 
@@ -116,11 +116,11 @@
 
         <ImageView
             android:id="@+id/btn_goTo"
-            android:layout_weight="1.1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/card_bg_color"
-            android:src="@drawable/ic_arrow_right_24"/>
+            android:layout_height="62dp"
+            android:layout_weight="1.15"
+            android:background="@drawable/ic_grey_bg"
+            android:src="@drawable/ic_arrow_right_24" />
 
 
 
