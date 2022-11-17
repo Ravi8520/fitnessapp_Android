@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/menu"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/id_myschedule"
+            android:icon="@drawable/ic_myschedule"
+            android:title="@string/lbl_myschedule" />
+
+        <item
+            android:id="@+id/id_sessions"
+            android:icon="@drawable/ic_sessions"
+            android:title="@string/lbl_sessions" />
+
+
+        <item
+            android:id="@+id/id_clients"
+            android:icon="@drawable/ic_clients"
+            android:title="@string/lbl_clients" />
+
+        <item
+            android:id="@+id/id_booktrainer"
+            android:icon="@drawable/ic_booktrainer"
+            android:title="@string/lbl_booktrainer" />
+
+
+        <item
+            android:id="@+id/id_pricing"
+            android:icon="@drawable/ic_pricing"
+            android:iconTint="@color/black"
+            android:title="@string/lbl_pricing" />
+
+        <item
+            android:id="@+id/id_myprograms"
+            android:icon="@drawable/ic_myprograms"
+            android:title="@string/lbl_myprograms" />
+
+        <item
+            android:id="@+id/id_mealmarcket"
+            android:icon="@drawable/ic_mealmarcket"
+            android:iconTint="@color/black"
+            android:title="@string/lbl_meal_marcket_place" />
+
+        <item
+            android:id="@+id/id_referrals"
+            android:icon="@drawable/ic_referral"
+            android:title="@string/lbl_referrals" />
+
+        <item
+            android:id="@+id/id_referrals1"
+            android:title="" />
+
+
+    </group>
+  <!--  <group android:checkableBehavior="single"
+        android:layout_gravity="right"
+        android:gravity="right">
+
+        <item
+            android:id="@+id/id_logout"
+            android:icon="@drawable/ic_logout"
+            android:gravity="right"
+            android:title="@string/lbl_logout" />
+
+    </group>-->
+
+</menu>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_color_dark_blue"
+    android:background="@drawable/custome_bg_gradient"
     tools:context=".activities.ChooseAvailabilityActivity">
 
 
@@ -235,7 +235,7 @@
             android:layout_height="45dp"
             android:background="@drawable/coustom_button_border"
             android:clickable="true"
-            android:fontFamily="@font/rubik_regular"
+            android:fontFamily="@font/rubic_medium"
             android:focusable="true"
             android:text="@string/submit"
             android:textAllCaps="false"

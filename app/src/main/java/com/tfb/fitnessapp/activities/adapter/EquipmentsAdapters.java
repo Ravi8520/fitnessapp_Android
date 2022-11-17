@@ -21,7 +21,7 @@ public class EquipmentsAdapters extends RecyclerView.Adapter<EquipmentsAdapters.
     private Context mcontext;
     int pos = -1;
     boolean isSelected=false;
-    private ArrayList<Equipmentmodel>selectedarrayList=new ArrayList<>();
+    private ArrayList<Equipmentmodel> selectedarrayList =new ArrayList<>();
 
     public EquipmentsAdapters(ArrayList<Equipmentmodel> equipmentArraylist, Context mcontext) {
         this.equipmentArraylist = equipmentArraylist;

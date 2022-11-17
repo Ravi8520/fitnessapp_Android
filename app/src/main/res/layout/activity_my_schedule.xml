@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/custome_bg_gradient"
-    tools:context=".activities.ChooseTimeSlotsActivity">
+    tools:context=".activities.MyScheduleActivity">
 
     <ImageView
         android:id="@+id/backarrow"
@@ -19,13 +19,12 @@
         android:src="@drawable/ic_back_arrow_foreground"
         app:tint="@color/white" />
 
-
     <LinearLayout
-        android:id="@+id/backButton"
+        android:id="@+id/layout_header"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:layout_gravity="bottom"
-        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
         android:orientation="horizontal">
 
         <TextView
@@ -34,44 +33,43 @@
             android:layout_gravity="center"
             android:fontFamily="@font/rubik_bold"
             android:gravity="center"
-            android:text="@string/lbl_choose_availability"
+            android:text="@string/lbl_myschedule"
             android:textColor="@color/white"
             android:textSize="18sp" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/ll_timeduration"
+    <ImageView
+        android:id="@+id/img_calendar"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:focusable="true"
+        android:padding="@dimen/_8sdp"
+        android:src="@drawable/ic_calendar"
+        app:tint="@color/white" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/backButton"
-        android:layout_margin="@dimen/_10sdp"
-        android:orientation="vertical">
+        android:background="@drawable/custome_bg_gradient"
+        app:tabTextColor="@color/white"
+        app:tabSelectedTextColor="@color/white"
+        app:tabIndicatorColor="@color/white"
+        android:layout_below="@id/layout_header"
+        app:tabIndicatorHeight="@dimen/_2sdp">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/rubic_medium"
-            android:text="@string/lbl_time_slots"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
+    </com.google.android.material.tabs.TabLayout>
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/timeslotsRV"
-            android:layout_width="match_parent"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:orientation="horizontal"
-            android:padding="@dimen/_3sdp"
-            android:scrollbars="none"
-            android:layout_height="wrap_content" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0.5dp"
-            android:layout_marginTop="@dimen/_3sdp"
-            android:background="@color/white" />
-
-    </LinearLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/tab_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tablayout" />
 
 </RelativeLayout>

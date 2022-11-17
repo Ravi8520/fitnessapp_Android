@@ -31,6 +31,13 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        binding.btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mContext,HomeScreenActivity.class));
+            }
+        });
+
         binding.txtForgotpass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
