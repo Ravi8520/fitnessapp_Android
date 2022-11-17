@@ -23,7 +23,7 @@ public class MySchedulefragment_upcoming extends Fragment {
 
     private FragmentMyScheduleupcomingBinding binding;
     private MySchedulefragment_upcoming mContext;
-    ArrayList<MySchedulemodel> scheduleData;
+    ArrayList<MySchedulemodel> scheduleData = new ArrayList<>();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -31,7 +31,7 @@ public class MySchedulefragment_upcoming extends Fragment {
         binding = FragmentMyScheduleupcomingBinding.inflate(inflater, container, false);
         mContext = this;
 
-        scheduleData = new ArrayList<>();
+
 
         setScheduleInfo();
         setScheduleAdapter();
