@@ -23,14 +23,15 @@ public class MySchedulefragment_upcoming extends Fragment {
 
     private FragmentMyScheduleupcomingBinding binding;
     private MySchedulefragment_upcoming mContext;
-    ArrayList<MySchedulemodel> scheduleData;
+    ArrayList<MySchedulemodel> scheduleData = new ArrayList<>();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         binding = FragmentMyScheduleupcomingBinding.inflate(inflater, container, false);
         mContext = this;
-        scheduleData = new ArrayList<>();
+
+
 
         setScheduleInfo();
         setScheduleAdapter();
@@ -40,6 +41,8 @@ public class MySchedulefragment_upcoming extends Fragment {
 
 
     private void setScheduleInfo() {
+
+
         scheduleData.add(new MySchedulemodel("abc","beginner","rajkot","alpha",
                 "12:34","december 22,2022", 2));
         scheduleData.add(new MySchedulemodel("abc","beginner","rajkot","alpha",
@@ -52,6 +55,7 @@ public class MySchedulefragment_upcoming extends Fragment {
                 "12:34","december 22,2022", 2));
     }
     private void setScheduleAdapter() {
+
         UpcomingScheduleAdapter adapter = new UpcomingScheduleAdapter(getActivity(),scheduleData);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
         binding.myupcomingscheduleRV.setLayoutManager(layoutManager);

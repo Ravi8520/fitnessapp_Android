@@ -171,6 +171,14 @@
     <string name="lbl_upcoming_session">Upcoming Session</string>
     <string name="tab_all">All</string>
     <string name="tab_upcoming">Upcoming</string>
+    <string name="tab_sessions">Sessions</string>
+    <string name="summary">Summary</string>
+    <string name="lbl_completed">Completed</string>
+    <string name="lbl_cancelled">Cancelled</string>
+    <string name="lbl_history">History</string>
+    <string name="lbl_attended">Attended</string>
+    <string name="lbl_arriveat">Arrived at:</string>
+    <string name="lbl_rate">You got rated:</string>
 
 
 </resources>

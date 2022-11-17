@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_dark_blue">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_attendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/rubik_bold"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/lbl_attended"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_sessionTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/txt_attendance"
+            android:fontFamily="@font/rubik_regular"
+            android:padding="@dimen/_5sdp"
+            android:text="08 : 30 AM - 09 : 15 AM"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_sessionUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_sessionTime"
+            android:layout_gravity="center"
+            android:fontFamily="@font/rubik_bold"
+            android:padding="@dimen/_5sdp"
+            android:text="Group session"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/img_map"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="-5dp"
+            android:src="@drawable/ic_location"
+            android:layout_below="@id/txt_sessionUser"/>
+
+        <TextView
+            android:id="@+id/txt_setLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/txt_sessionUser"
+            android:layout_toRightOf="@id/img_map"
+            android:fontFamily="@font/rubik_regular"
+            android:text="Home"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/img_map"
+            android:padding="@dimen/_5sdp"
+            android:fontFamily="@font/rubik_regular"
+            android:text="901 S Miami Ave, Miami"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_attendanceDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/rubik_bold"
+            android:padding="@dimen/_5sdp"
+            android:text="26th Nov"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lbl_arrivedat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/txt_attendanceDate"
+            android:fontFamily="@font/rubik_regular"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/lbl_arriveat"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_arrivalTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lbl_arrivedat"
+            android:layout_gravity="center"
+            android:fontFamily="@font/rubik_bold"
+            android:padding="@dimen/_5sdp"
+            android:text="08:25 Am"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lal_rateus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/txt_arrivalTime"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/lbl_rate"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <RatingBar
+            android:id="@+id/ratebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/lal_rateus"
+            android:fontFamily="@font/rubik_regular"
+            android:textColor="@color/white"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
+</RelativeLayout>
