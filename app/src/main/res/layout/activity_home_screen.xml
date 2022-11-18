@@ -251,11 +251,12 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/ic_calender_bg"
                         android:gravity="center"
-                        android:padding="@dimen/_3sdp">
+                        >
 
                         <CalendarView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:padding="@dimen/_3sdp"
                             android:dateTextAppearance="@style/CalenderViewDateCustomText"
                             android:theme="@style/CalenderViewCustom"
                             android:weekDayTextAppearance="@style/CalenderViewWeekCustomText" />
