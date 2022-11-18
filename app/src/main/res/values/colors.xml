@@ -17,6 +17,7 @@
     <color name="female_btn_color">#803C7D</color>
     <color name="light_sky">#72C5C0</color>
     <color name="gradient_start">#2A383B</color>
+    <color name="red">#F44336</color>
     <color name="gradient_end">@color/bg_color_dark_blue</color>
 
 </resources>

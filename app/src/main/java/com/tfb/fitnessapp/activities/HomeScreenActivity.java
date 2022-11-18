@@ -37,6 +37,7 @@ public class HomeScreenActivity extends AppCompatActivity {
         toggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.white));
+        toggle.setHomeAsUpIndicator(R.drawable.ic_navbar);
 
 
         binding.navbar.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
