@@ -55,5 +55,15 @@
         <item name="android:textColor">@color/white</item>
     </style>
 
+    <style name="RatingBarSmall" parent="Widget.AppCompat.RatingBar.Indicator">
+        <item name="colorControlNormal">#FFCC00</item>
+        <item name="colorControlActivated">#FFCC00</item>
+    </style>
+
+    <style name="RatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="colorControlNormal">#FFCC00</item>
+        <item name="colorControlActivated">#FFCC00</item>
+    </style>
+
 
 </resources>

@@ -250,7 +250,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/ic_calender_bg"
                         android:gravity="center"
-                        android:padding="@dimen/_5sdp">
+                        android:padding="@dimen/_2sdp">
 
                         <CalendarView
                             android:layout_width="match_parent"
