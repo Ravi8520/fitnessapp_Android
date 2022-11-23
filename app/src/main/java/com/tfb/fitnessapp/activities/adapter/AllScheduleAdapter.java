@@ -29,7 +29,6 @@ public class AllScheduleAdapter extends RecyclerView.Adapter<AllScheduleAdapter.
 
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         MyscheduleItemviewBinding itemCardBinding = MyscheduleItemviewBinding.inflate(layoutInflater, parent, false);
-
         return new AllScheduleAdapter.AllScheduleViewholder(itemCardBinding);
     }
 

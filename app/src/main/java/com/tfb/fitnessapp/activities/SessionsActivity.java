@@ -5,7 +5,9 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.tfb.fitnessapp.R;
 import com.tfb.fitnessapp.activities.adapter.sessionhistoryAdapter;
@@ -29,6 +31,21 @@ public class SessionsActivity extends AppCompatActivity {
 
         setSessionInfo();
         setSessionAdapter();
+
+
+        binding.layoutSessionTime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mContext,ChooseDateActivity.class));
+            }
+        });
+
+        binding.backarrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
 
     }
 

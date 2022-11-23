@@ -179,6 +179,39 @@
     <string name="lbl_attended">Attended</string>
     <string name="lbl_arriveat">Arrived at:</string>
     <string name="lbl_rate">You got rated:</string>
+    <string name="hint_select">Select</string>
+    <string name="next">Next</string>
+
+    // pricing screen
+
+    <string name="lbl_per_session">Per Session</string>
+    <string name="lbl_group_session">Group Sessions</string>
+    <string name="lbl_discount">Discounts</string>
+    <string name="discription_for_pricing">Set a price for your Sessions or \nSubscription Plans.</string>
+    <string name="lbl_30min_session">30 minute Session</string>
+    <string name="lbl_45min_session">45 minute Session</string>
+    <string name="lbl_60min_session">60 minute Session</string>
+    <string name="lbl_location_type">Location Types</string>
+    <string name="lbl_indoors">Indoors</string>
+    <string name="lbl_outdoors">Outdoors</string>
+    <string name="lbl_gym">Gym</string>
+    <string name="lbl_new_client">New Clients</string>
+    <string name="lbl_for_first_session">For the first session</string>
+    <string name="lbl_workout_programs">Main Workout Programs</string>
+    <string name="lbl_add_new_workout_programs">Add New Workout Program</string>
+    <string name="btn_save_continue">Save &amp; Continue</string>
+    <string name="lbl_min_max_people">Minimum number of people</string>
+    <string name="lbl_min_max_people2">( max upto 6 )</string>
+    <string name="lbl_max_pergroup">Maximum Per Group</string>
+    <string name="lbl_min_capacity">Minimum Capacity</string>
+    <string name="lbl_add_custom_plan">Add a custom plan</string>
+    <string name="lbl_title_of_plan">Title of the plan</string>
+    <string name="lbl_no_of_session">Number of Sessions</string>
+    <string name="lbl_over_all_price">Overall Price</string>
+    <string name="lbl_session_type">Session Type</string>
+    <string name="lbl_note">Note</string>
+    <string name="lbl_per_session_price">Per Session Pricing will be $10</string>
+    <string name="lbl_main_workout_included">Main Workout Included</string>
 
 
 </resources>

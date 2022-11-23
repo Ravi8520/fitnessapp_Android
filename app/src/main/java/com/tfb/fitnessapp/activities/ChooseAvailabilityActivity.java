@@ -49,8 +49,9 @@ public class ChooseAvailabilityActivity extends AppCompatActivity {
                 } else {
                     binding.txtMonday.setBackground(getResources().getDrawable(R.drawable.custome_edittext));
                     binding.txtMonday.setTextColor(getResources().getColor(R.color.white));
-                    flag = true;
+
                 }
+                flag =true;
             }
         });
         binding.txtTuesday.setOnClickListener(new View.OnClickListener() {

@@ -6,10 +6,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/_7sdp"
         android:layout_margin="@dimen/_5sdp"
         android:background="@drawable/custome_cardview"
         android:orientation="horizontal"
+        android:padding="@dimen/_7sdp"
         android:weightSum="4">
 
         <de.hdodenhof.circleimageview.CircleImageView
@@ -17,8 +17,8 @@
             android:id="@+id/profile_image"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_weight="1.1"
             android:layout_gravity="center"
+            android:layout_weight="1.1"
             android:src="@drawable/trainerprofile"
             app:civ_border_color="#FF000000"
             app:civ_border_width="2dp" />
@@ -26,11 +26,11 @@
         <RelativeLayout
             android:id="@+id/layout_userdetail"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_weight="0.85"
             android:gravity="center"
-            android:layout_gravity="center"
-            android:padding="@dimen/_5sdp"
-            android:layout_height="wrap_content">
+            android:padding="@dimen/_5sdp">
 
             <TextView
                 android:id="@+id/txt_name"
@@ -41,13 +41,12 @@
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
-
             <TextView
                 android:id="@+id/txt_experience"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/rubik_regular"
                 android:layout_below="@id/txt_name"
+                android:fontFamily="@font/rubik_regular"
                 android:text="beginner"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
@@ -56,32 +55,30 @@
                 android:id="@+id/img_map"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
+                android:layout_below="@id/txt_experience"
                 android:layout_margin="-5dp"
-                android:src="@drawable/ic_location"
-                android:layout_below="@id/txt_experience"/>
+                android:src="@drawable/ic_location" />
 
             <TextView
                 android:id="@+id/txt_mapAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/rubik_regular"
                 android:layout_below="@id/txt_experience"
                 android:layout_toRightOf="@id/img_map"
+                android:fontFamily="@font/rubik_regular"
                 android:text="addresss"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
-
-
 
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/layout_exercizedetail"
             android:layout_width="match_parent"
-            android:layout_weight="0.9"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:padding="@dimen/_5sdp"
-            android:layout_height="wrap_content">
+            android:layout_weight="0.9"
+            android:padding="@dimen/_5sdp">
 
             <TextView
                 android:id="@+id/txt_exerciseType"
@@ -91,7 +88,6 @@
                 android:text="Jane Doe"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
-
 
             <TextView
                 android:id="@+id/txt_slotTime"
@@ -113,22 +109,17 @@
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
-
-
         </RelativeLayout>
-
 
         <ImageView
             android:id="@+id/btn_goTo"
             android:layout_width="match_parent"
             android:layout_height="62dp"
-            android:layout_weight="1.15"
             android:layout_gravity="center"
+            android:layout_weight="1.15"
             android:background="@drawable/ic_grey_bg"
             android:src="@drawable/ic_arrow_right_24" />
 
-
     </LinearLayout>
-
 
 </RelativeLayout>

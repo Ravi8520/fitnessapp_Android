@@ -17,13 +17,14 @@ import java.util.ArrayList;
 
 public class TimeslotsAdapter extends RecyclerView.Adapter<TimeslotsAdapter.TimeslotsViewholder> {
 
-    private ArrayList<TimeslotsModel> Timeslotslist;
-
+    private ArrayList<TimeslotsModel> timeslotslist;
+    private ArrayList<TimeslotsModel> selectedTimeslotslist = new ArrayList<>();
+    boolean isSelected;
     private Context mcontext;
     int pos;
 
     public TimeslotsAdapter(ArrayList<TimeslotsModel> timeslotslist, Context mcontext) {
-        Timeslotslist = timeslotslist;
+        this.timeslotslist = timeslotslist;
         this.mcontext = mcontext;
     }
 
@@ -37,29 +38,37 @@ public class TimeslotsAdapter extends RecyclerView.Adapter<TimeslotsAdapter.Time
     @Override
     public void onBindViewHolder(@NonNull TimeslotsAdapter.TimeslotsViewholder holder, int position) {
 
-        TimeslotsModel timeslotsModel = Timeslotslist.get(position);
+        TimeslotsModel timeslotsModel = timeslotslist.get(position);
         holder.txt_weekdays.setText(timeslotsModel.getDays());
 
 
-        if (pos == position) {
+       /* if (pos == position) {
             holder.layout_main.setBackground(mcontext.getResources().getDrawable(R.drawable.coustom_button_border));
             holder.txt_weekdays.setTextColor(mcontext.getResources().getColor(R.color.black));
         } else {
             holder.layout_main.setBackground(mcontext.getResources().getDrawable(R.drawable.custome_edittext));
             holder.txt_weekdays.setTextColor(mcontext.getResources().getColor(R.color.white));
-        }
+        }*/
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                pos = position;
-                notifyDataSetChanged();
+               if(selectedTimeslotslist.contains(timeslotslist.get(holder.getAdapterPosition()))){
+                   holder.layout_main.setBackground(mcontext.getResources().getDrawable(R.drawable.custome_edittext));
+                   holder.txt_weekdays.setTextColor(mcontext.getResources().getColor(R.color.white));
+                   selectedTimeslotslist.remove(timeslotslist.get(holder.getAdapterPosition()));
+
+               } else {
+                   holder.layout_main.setBackground(mcontext.getResources().getDrawable(R.drawable.coustom_button_border));
+                   holder.txt_weekdays.setTextColor(mcontext.getResources().getColor(R.color.black));
+                   selectedTimeslotslist.add(timeslotslist.get(holder.getAdapterPosition()));
+               }
             }
         });
     }
 
     @Override
     public int getItemCount() {
-        return Timeslotslist.size();
+        return timeslotslist.size();
     }
 
     public class TimeslotsViewholder extends RecyclerView.ViewHolder {
