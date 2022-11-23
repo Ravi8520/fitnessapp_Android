@@ -24,6 +24,8 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/custome_injuries_itemview.xml" value="0.12604263206672844" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/select_gym_city_dialog.xml" value="0.21" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/sessionhistory_itemview.xml" value="0.16631038905515177" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/circle_bg.xml" value="0.1335" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/coustom_button_border.xml" value="0.1335" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/custome_bg_gradient.xml" value="0.1795" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/ic_calender_bg.xml" value="0.14" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/ic_main_bg.xml" value="0.1375" />
@@ -31,7 +33,7 @@
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/ic_tabview_bg.xml" value="0.1795" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_forget_password.xml" value="0.19907407407407407" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_gym_access.xml" value="0.2" />
-        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_home_screen.xml" value="0.2" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_home_screen.xml" value="0.22" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_my_schedule.xml" value="0.18" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_onboardingdetail.xml" value="0.1685185185185185" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_sessions.xml" value="0.17058572039333048" />
