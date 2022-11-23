@@ -19,9 +19,8 @@ public class EquipmentsAdapters extends RecyclerView.Adapter<EquipmentsAdapters.
 
     private ArrayList<Equipmentmodel> equipmentArraylist;
     private Context mcontext;
-    int pos = -1;
-    boolean isSelected=false;
-    private ArrayList<Equipmentmodel> selectedarrayList =new ArrayList<>();
+    boolean isSelected;
+    private ArrayList<Equipmentmodel> selectedarrayList = new ArrayList<>();
 
     public EquipmentsAdapters(ArrayList<Equipmentmodel> equipmentArraylist, Context mcontext) {
         this.equipmentArraylist = equipmentArraylist;
@@ -42,18 +41,30 @@ public class EquipmentsAdapters extends RecyclerView.Adapter<EquipmentsAdapters.
         holder.equipmentsTV.setText(equipmentData.getTitle());
         holder.equipmentsIV.setImageResource(equipmentData.getImgid());
 
-        if (pos == position) {
+       /* if (pos == position) {
             holder.equipmentsIV.setBackground(mcontext.getDrawable(R.drawable.ic_circle_blue));
             holder.equipmentsIV.setColorFilter(mcontext.getResources().getColor(R.color.black));
         } else {
             holder.equipmentsIV.setBackground(mcontext.getDrawable(R.drawable.circle_bg));
             holder.equipmentsIV.setColorFilter(mcontext.getResources().getColor(R.color.light_sky));
-        }
+        } */
+
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                pos = position;
-                notifyDataSetChanged();
+                //isSelected = true;
+                if (selectedarrayList.contains(equipmentArraylist.get(holder.getAdapterPosition()))) {
+                    holder.equipmentsIV.setBackground(mcontext.getDrawable(R.drawable.circle_bg));
+                    holder.equipmentsIV.setColorFilter(mcontext.getResources().getColor(R.color.light_sky));
+                    selectedarrayList.remove(equipmentArraylist.get(holder.getAdapterPosition()));
+                } else {
+                    holder.equipmentsIV.setBackground(mcontext.getDrawable(R.drawable.ic_circle_blue));
+                    holder.equipmentsIV.setColorFilter(mcontext.getResources().getColor(R.color.black));
+                    selectedarrayList.add(equipmentArraylist.get(holder.getAdapterPosition()));
+                }
+                /*if (selectedarrayList.size() == 0) {
+                    isSelected = true;
+                }*/
             }
         });
     }

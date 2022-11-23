@@ -102,9 +102,26 @@
         <activity
             android:name=".activities.MyScheduleActivity"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".activities.SessionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ChooseDateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PricingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PerSessionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.GroupSessionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.GroupsessionDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AddNewWorkoutprogrammsActivity"
             android:screenOrientation="portrait" />
     </application>
 

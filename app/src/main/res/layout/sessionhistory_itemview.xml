@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/bg_color_dark_blue">
+    android:layout_height="wrap_content">
 
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:weightSum="2"
+    android:layout_marginTop="@dimen/_5sdp"
     android:orientation="horizontal">
 
     <RelativeLayout
@@ -20,23 +20,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:padding="2dp"
             android:fontFamily="@font/rubik_bold"
-            android:padding="@dimen/_5sdp"
             android:text="@string/lbl_attended"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/txt_sessionTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_below="@id/txt_attendance"
+            android:layout_gravity="center"
+            android:padding="2dp"
             android:fontFamily="@font/rubik_regular"
-            android:padding="@dimen/_5sdp"
             android:text="08 : 30 AM - 09 : 15 AM"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/txt_sessionUser"
@@ -44,11 +44,11 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/txt_sessionTime"
             android:layout_gravity="center"
+            android:padding="2dp"
             android:fontFamily="@font/rubik_bold"
-            android:padding="@dimen/_5sdp"
             android:text="Group session"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <ImageView
             android:id="@+id/img_map"
@@ -64,12 +64,11 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/txt_sessionUser"
             android:layout_gravity="center"
-            android:padding="@dimen/_5sdp"
             android:layout_toRightOf="@id/img_map"
             android:fontFamily="@font/rubik_regular"
             android:text="Home"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/txt_address"
@@ -77,11 +76,11 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/img_map"
             android:layout_gravity="center"
+            android:padding="2dp"
             android:fontFamily="@font/rubik_regular"
-            android:padding="@dimen/_5sdp"
             android:text="901 S Miami Ave, Miami"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="14sp" />
 
     </RelativeLayout>
 
@@ -97,22 +96,22 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/rubik_bold"
-            android:padding="@dimen/_5sdp"
             android:text="26th Nov"
+            android:padding="2dp"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/lbl_arrivedat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_below="@id/txt_attendanceDate"
+            android:layout_gravity="center"
+            android:padding="2dp"
             android:fontFamily="@font/rubik_regular"
-            android:padding="@dimen/_5sdp"
             android:text="@string/lbl_arriveat"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/txt_arrivalTime"
@@ -121,21 +120,22 @@
             android:layout_below="@id/lbl_arrivedat"
             android:layout_gravity="center"
             android:fontFamily="@font/rubik_bold"
-            android:padding="@dimen/_5sdp"
             android:text="08:25 Am"
+            android:padding="2dp"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/lbl_rateus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_below="@id/txt_arrivalTime"
+            android:layout_gravity="center"
             android:fontFamily="@font/rubik_regular"
             android:text="@string/lbl_rate"
+            android:padding="2dp"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <RatingBar
             android:id="@+id/mRatingBar"

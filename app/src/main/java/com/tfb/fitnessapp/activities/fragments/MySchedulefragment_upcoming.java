@@ -31,8 +31,6 @@ public class MySchedulefragment_upcoming extends Fragment {
         binding = FragmentMyScheduleupcomingBinding.inflate(inflater, container, false);
         mContext = this;
 
-
-
         setScheduleInfo();
         setScheduleAdapter();
 
@@ -54,6 +52,7 @@ public class MySchedulefragment_upcoming extends Fragment {
         scheduleData.add(new MySchedulemodel("abc","beginner","rajkot","alpha",
                 "12:34","december 22,2022", 2));
     }
+
     private void setScheduleAdapter() {
 
         UpcomingScheduleAdapter adapter = new UpcomingScheduleAdapter(getActivity(),scheduleData);

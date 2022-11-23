@@ -51,7 +51,7 @@ public class HomeScreenActivity extends AppCompatActivity {
                         startActivity(new Intent(mContext,MyScheduleActivity.class));
                         break;
                     case R.id.id_sessions:
-                        Toast.makeText(mContext, R.string.lbl_sessions, Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(mContext,SessionsActivity.class));
                         break;
                     case R.id.id_clients:
                         Toast.makeText(mContext, R.string.lbl_clients, Toast.LENGTH_SHORT).show();
@@ -64,9 +64,11 @@ public class HomeScreenActivity extends AppCompatActivity {
                         break;
                     case R.id.id_pricing:
                         Toast.makeText(mContext, R.string.lbl_clients, Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(mContext,PricingActivity.class));
                         break;
                     case R.id.id_referrals:
                         Toast.makeText(mContext, R.string.lbl_clients, Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(mContext,InviteLinkActivity.class));
                         break;
                     case R.id.id_booktrainer:
                         Toast.makeText(mContext, R.string.lbl_clients, Toast.LENGTH_SHORT).show();
@@ -74,15 +76,12 @@ public class HomeScreenActivity extends AppCompatActivity {
                     /*case R.id.id_logout:
                         Toast.makeText(mContext, R.string.lbl_logout, Toast.LENGTH_SHORT).show();
                         break;*/
-
                     default:
                         return true;
                 }
-
                 return false;
             }
         });
-
     }
 
     @Override

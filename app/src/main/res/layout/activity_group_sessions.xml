@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_dark_blue"
+    tools:context=".activities.GroupSessionsActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/backarrow"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_back_arrow_foreground"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="@string/lbl_group_session"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_toolbar"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/rubic_medium"
+            android:text="@string/lbl_30min_session"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_30min_Session"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/rubik_regular"
+            android:hint="$ 35"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:paddingVertical="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:fontFamily="@font/rubic_medium"
+            android:text="@string/lbl_45min_session"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_45min_Session"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/rubik_regular"
+            android:hint="$ 45"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:paddingVertical="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:fontFamily="@font/rubic_medium"
+            android:text="@string/lbl_60min_session"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_60min_Session"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/rubik_regular"
+            android:hint="$ 55"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:paddingVertical="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:fontFamily="@font/rubic_medium"
+            android:text="@string/lbl_min_max_people"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/lbl_min_max_people2"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edt_min_max_people"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/rubik_regular"
+            android:hint="3"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:paddingVertical="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_save_continue"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/coustom_button_border"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/rubic_medium"
+            android:text="@string/btn_save_continue"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>
