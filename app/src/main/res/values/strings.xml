@@ -189,6 +189,9 @@
     <string name="lbl_client">Client</string>
     <string name="lbl_message">Message</string>
     <string name="lbl_enterotp">Enter Otp</string>
+    <string name="lbl_next_step">Next Steps</string>
+    <string name="lbl_next_step_1">Reach 20 minutes early and carry your \nequipments, phone, mask and water.</string>
+    <string name="lbl_next_step_2">You will receive an OTP from the client, which will allow you to start your session.</string>
     <string name="lbl_receive_otp_string">Receive the OTP from the client \nto start your session</string>
 
     // pricing screen

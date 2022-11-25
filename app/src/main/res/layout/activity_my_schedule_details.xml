@@ -63,269 +63,375 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/rubik_regular"
-                android:text="@string/lbl_aerobics"
-                android:textColor="@color/white"
-                android:textSize="18sp" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-
-                <ImageView
-                    android:id="@+id/img_calendar"
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:layout_alignParentLeft="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginTop="@dimen/_5sdp"
-                    android:layout_marginRight="@dimen/_5sdp"
-                    android:background="?selectableItemBackgroundBorderless"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:src="@drawable/ic_calendar"
-                    app:tint="@color/white" />
+                android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/txt_sessionDate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_gravity="center"
-                    android:layout_toRightOf="@id/img_calendar"
                     android:fontFamily="@font/rubik_regular"
-                    android:text="22-12-2022"
+                    android:text="@string/lbl_aerobics"
                     android:textColor="@color/white"
                     android:textSize="18sp" />
 
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
 
-                <ImageView
-                    android:id="@+id/img_watch"
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:layout_alignParentLeft="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginTop="@dimen/_5sdp"
-                    android:layout_marginRight="@dimen/_5sdp"
-                    android:background="?selectableItemBackgroundBorderless"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:src="@drawable/ic_watch"
-                    app:tint="@color/white" />
+                    <ImageView
+                        android:id="@+id/img_calendar"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/ic_calendar"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:id="@+id/txt_sessionDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@id/img_calendar"
+                        android:fontFamily="@font/rubik_regular"
+                        android:text="22-12-2022"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/img_watch"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/ic_watch"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:id="@+id/txt_sessionTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@id/img_watch"
+                        android:fontFamily="@font/rubik_regular"
+                        android:text="10:00 AM - 11:00 AM"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txt_reschedule"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/rubik_regular"
+                        android:text="@string/lbl_reschedule"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/img_block"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/ic_block"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:id="@+id/txt_sessionCancelTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@id/img_block"
+                        android:fontFamily="@font/rubik_regular"
+                        android:text="cancel by 5:00 AM"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txt_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/rubik_regular"
+                        android:text="@string/lbl_cancel"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/lbl_readour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/rubik_regular"
+                        android:text="@string/lbl_readour"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txt_cancellation_policy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/lbl_readour"
+                        android:fontFamily="@font/rubik_bold"
+                        android:text="@string/lbl_cancellationPolic"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
 
                 <TextView
-                    android:id="@+id/txt_sessionTime"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_gravity="center"
-                    android:layout_toRightOf="@id/img_watch"
-                    android:fontFamily="@font/rubik_regular"
-                    android:text="10:00 AM - 11:00 AM"
-                    android:textColor="@color/white"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:id="@+id/txt_reschedule"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:fontFamily="@font/rubik_regular"
-                    android:text="@string/lbl_reschedule"
-                    android:textColor="@color/white"
-                    android:textSize="18sp" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-
-                <ImageView
-                    android:id="@+id/img_block"
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:layout_alignParentLeft="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginTop="@dimen/_5sdp"
-                    android:layout_marginRight="@dimen/_5sdp"
-                    android:background="?selectableItemBackgroundBorderless"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:src="@drawable/ic_block"
-                    app:tint="@color/white" />
-
-                <TextView
-                    android:id="@+id/txt_sessionCancelTime"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_gravity="center"
-                    android:layout_toRightOf="@id/img_block"
-                    android:fontFamily="@font/rubik_regular"
-                    android:text="cancel by 5:00 AM"
-                    android:textColor="@color/white"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:id="@+id/txt_cancel"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:fontFamily="@font/rubik_regular"
-                    android:text="@string/lbl_cancel"
-                    android:textColor="@color/white"
-                    android:textSize="18sp" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/lbl_readour"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_gravity="center"
-                    android:fontFamily="@font/rubik_regular"
-                    android:text="@string/lbl_readour"
-                    android:textColor="@color/white"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:id="@+id/txt_cancellation_policy"
+                    android:id="@+id/lbl_client"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_toRightOf="@id/lbl_readour"
                     android:fontFamily="@font/rubik_bold"
-                    android:text="@string/lbl_cancellationPolic"
+                    android:text="@string/client"
                     android:textColor="@color/white"
-                    android:textSize="18sp" />
+                    android:textSize="20sp" />
 
-            </RelativeLayout>
-
-            <TextView
-                android:id="@+id/lbl_client"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_toRightOf="@id/lbl_readour"
-                android:fontFamily="@font/rubik_bold"
-                android:text="@string/client"
-                android:textColor="@color/white"
-                android:textSize="20sp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="@dimen/_7sdp"
-                android:weightSum="3">
-
-                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/profile_image"
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1.2"
-                    android:src="@drawable/trainerprofile"
-                    app:civ_border_color="#FF000000"
-                    app:civ_border_width="2dp" />
-
-                <RelativeLayout
-                    android:id="@+id/layout_userdetail"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="0.6"
-                    android:gravity="center"
-                    android:padding="@dimen/_5sdp">
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_7sdp"
+                    android:weightSum="3">
 
-                    <TextView
-                        android:id="@+id/txt_name"
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.2"
+                        android:src="@drawable/trainerprofile"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/layout_userdetail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/rubik_bold"
-                        android:text="Jane Doe"
-                        android:textColor="@color/white"
-                        android:textSize="14sp" />
+                        android:layout_gravity="center"
+                        android:layout_weight="0.6"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp">
+
+                        <TextView
+                            android:id="@+id/txt_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/rubik_bold"
+                            android:text="Jane Doe"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt_experience"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt_name"
+                            android:fontFamily="@font/rubik_regular"
+                            android:text="beginner"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+
+                    </RelativeLayout>
+
 
                     <TextView
-                        android:id="@+id/txt_experience"
+                        android:id="@+id/txt_message"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/txt_name"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.2"
                         android:fontFamily="@font/rubik_regular"
-                        android:text="beginner"
+                        android:gravity="right"
+                        android:text="@string/lbl_message"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
+                </LinearLayout>
 
-                </RelativeLayout>
-
-
-                <TextView
-                    android:id="@+id/txt_message"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1.2"
-                    android:fontFamily="@font/rubik_regular"
-                    android:gravity="right"
-                    android:text="@string/lbl_message"
-                    android:textColor="@color/white"
-                    android:textSize="14sp" />
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_7sdp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:fontFamily="@font/rubik_bold"
+                        android:text="@string/lbl_receive_otp_string"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/txt_enterOtp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:fontFamily="@font/rubik_regular"
+                        android:gravity="right"
+                        android:text="@string/lbl_enterotp"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/grey" />
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="@dimen/_7sdp"
-                android:weightSum="2">
+                android:layout_marginTop="@dimen/_20sdp"
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/rubik_bold"
-                    android:layout_weight="0.5"
-                    android:text="@string/lbl_receive_otp_string"
+                    android:text="@string/lbl_workout_programs"
                     android:textColor="@color/white"
-                    android:textSize="14sp" />
+                    android:textSize="16sp" />
 
-                <TextView
-                    android:id="@+id/txt_enterOtp"
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/workoutProgramsRV"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1.5"
-                    android:fontFamily="@font/rubik_regular"
-                    android:gravity="right"
-                    android:text="@string/lbl_enterotp"
+                    android:layout_marginTop="10dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@color/grey" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rubik_bold"
+                    android:text="@string/lbl_next_step"
                     android:textColor="@color/white"
-                    android:textSize="14sp" />
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/id_dot"
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_dot" />
+
+                    <TextView
+                        android:id="@+id/txt_program"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_toRightOf="@id/id_dot"
+                        android:text="@string/lbl_next_step_1"
+                        android:fontFamily="@font/rubik_regular"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ic_step2"
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_dot" />
+
+                    <TextView
+                        android:id="@+id/txt_step2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_toRightOf="@id/ic_step2"
+                        android:fontFamily="@font/rubik_regular"
+                        android:text="@string/lbl_next_step_2"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@color/grey" />
+
 
             </LinearLayout>
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
-
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
