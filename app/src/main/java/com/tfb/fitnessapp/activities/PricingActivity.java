@@ -40,5 +40,12 @@ public class PricingActivity extends AppCompatActivity {
                 startActivity(new Intent(mContext , GroupSessionsActivity.class));
             }
         });
+
+        binding.btnDiscounts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mContext , DiscountsActivity.class));
+            }
+        });
     }
 }

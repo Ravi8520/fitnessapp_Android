@@ -181,6 +181,15 @@
     <string name="lbl_rate">You got rated:</string>
     <string name="hint_select">Select</string>
     <string name="next">Next</string>
+    <string name="lbl_aerobics">AEROBICS</string>
+    <string name="lbl_reschedule">Reschedule</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_readour">Read our</string>
+    <string name="lbl_cancellationPolic"> cancellation policy</string>
+    <string name="lbl_client">Client</string>
+    <string name="lbl_message">Message</string>
+    <string name="lbl_enterotp">Enter Otp</string>
+    <string name="lbl_receive_otp_string">Receive the OTP from the client \nto start your session</string>
 
     // pricing screen
 
@@ -196,6 +205,7 @@
     <string name="lbl_outdoors">Outdoors</string>
     <string name="lbl_gym">Gym</string>
     <string name="lbl_new_client">New Clients</string>
+    <string name="lbl_recurring_clients">Recurring Clients</string>
     <string name="lbl_for_first_session">For the first session</string>
     <string name="lbl_workout_programs">Main Workout Programs</string>
     <string name="lbl_add_new_workout_programs">Add New Workout Program</string>
@@ -212,6 +222,14 @@
     <string name="lbl_note">Note</string>
     <string name="lbl_per_session_price">Per Session Pricing will be $10</string>
     <string name="lbl_main_workout_included">Main Workout Included</string>
+    <string name="lbl_percentage_discounts">Percentage Discounts</string>
+    <string name="lbl_ongoing_discounts">Discounts on Ongoing Sessions</string>
+    <string name="lbl_ongoing_discounts2">If autopay feature is turned on</string>
+    <string name="lbl_add_more"> Add more</string>
+    <string name="lbl_upto_20percent"> (upto 20%)</string>
+    <string name="lbl_upto_10percent"> (upto 10%)</string>
+    <string name="lbl_sessionsper_week">Session(s)\n<font size="10">/per week</font>"</string>
+    <string name="lbl_minimum_session">Minimum Recurring Sessions\n<font size="10">(for discount eligibility)</font></string>
 
 
 </resources>
