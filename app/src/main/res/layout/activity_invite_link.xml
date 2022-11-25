@@ -7,106 +7,109 @@
     android:orientation="vertical"
     tools:context=".activities.InviteLinkActivity">
 
-    <LinearLayout
-        android:id="@+id/ll_main"
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_40sdp"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/rubik_regular"
-            android:gravity="center"
-            android:padding="1dp"
-            android:text="@string/lbl_invite_today"
-            android:textColor="@color/white"
-            android:textSize="22sp" />
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="@dimen/_15sdp"
-            android:fontFamily="@font/rubik_regular"
-            android:gravity="center"
-            android:padding="1dp"
-            android:text="@string/lbl_for_usage"
-            android:textColor="@color/white"
-            android:textSize="12sp" />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:src="@drawable/ic_invitelink" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:orientation="horizontal"
-        android:weightSum="2"
-        android:layout_below="@id/ll_main"
-        android:padding="@dimen/_10sdp">
-
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/custome_cardview"
-            android:fontFamily="@font/rubik_regular"
-            android:gravity="center_vertical"
-            android:layout_weight="0.3"
-            android:padding="@dimen/_10sdp"
-            android:paddingLeft="5dp"
-            android:hint="Link will come here !"
-            android:textColorHint="@color/white"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
-
-
-        <ImageView
-
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="5dp"
-            android:background="?selectableItemBackgroundBorderless"
-            android:clickable="true"
-            android:layout_gravity="center"
-            android:layout_weight="1.7"
-            android:focusable="true"
-            android:src="@drawable/ic_copy" />
+            android:orientation="vertical">
 
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:layout_alignParentBottom="true">
+            <LinearLayout
+                android:id="@+id/ll_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:orientation="vertical">
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_continue"
-            android:layout_width="340dp"
-            android:layout_height="@dimen/_34sdp"
-            android:layout_marginVertical="15dp"
-            android:background="@drawable/coustom_button_border"
-            android:fontFamily="@font/rubik_regular"
-            android:clickable="true"
-            android:focusable="true"
-            android:letterSpacing="0.05"
-            android:text="@string/continu"
-            android:textAllCaps="false"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="@string/lbl_invite_today"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
 
-    </LinearLayout>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_15sdp"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="@string/lbl_for_usage"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_invitelink" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll_main"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:orientation="horizontal"
+                android:padding="@dimen/_10sdp"
+                android:weightSum="2">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:background="@drawable/custome_cardview"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="center_vertical"
+                    android:hint="Link will come here !"
+                    android:padding="@dimen/_10sdp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:padding="@dimen/_3sdp"
+                    android:layout_weight="1.7"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:src="@drawable/ic_copy" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_continue"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginVertical="35dp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:background="@drawable/coustom_button_border"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/rubic_medium"
+                android:text="@string/continu"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
 
 
 </RelativeLayout>

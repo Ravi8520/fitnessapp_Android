@@ -5,29 +5,39 @@
       <map>
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/circle_bg.xml" value="0.139" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/coustom_button_border.xml" value="0.139" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/custome_bg_gradient.xml" value="0.1125" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/custome_btn.xml" value="0.139" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/custome_cardview.xml" value="0.1125" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/custome_edittext.xml" value="0.139" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_add.xml" value="0.1125" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_calendar.xml" value="0.139" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_close.xml" value="0.118" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_copy.xml" value="0.1125" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_dot.xml" value="0.139" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_navbar.xml" value="0.1005" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/spinner_background.xml" value="0.1125" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/spinner_listitem.xml" value="0.1075" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_add_new_workoutprogramms.xml" value="0.2" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_calory_intake.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_choose_date.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_continue_as.xml" value="0.12604263206672844" />
-        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_group_sessions.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_discounts.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_group_sessions.xml" value="0.18" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_groupsession_detail.xml" value="0.1642043056141832" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_gym_access.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_home_screen.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_injuries.xml" value="0.12604263206672844" />
-        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_invite_link.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_invite_link.xml" value="0.16" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_join_as_client.xml" value="0.12604263206672844" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_join_as_trainer.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_login.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_main.xml" value="0.20260416666666667" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_my_schedule.xml" value="0.16631038905515177" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_my_schedule_details.xml" value="0.17" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_onboardingdetail.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_per_pricing.xml" value="0.18" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_per_session.xml" value="0.1642043056141832" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_percentage_discounts_details.xml" value="0.18" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_prefer_workout.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_pricing.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_sessions.xml" value="0.16631038905515177" />
@@ -46,8 +56,11 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/select_city_itemview.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/select_gym_city_dialog.xml" value="0.21" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/sessionhistory_itemview.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/spinner_item.xml" value="0.16631038905515177" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/spinner_listitem.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/timeslots_itemview.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/workoutprograms_itemview.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/menu/actionmenus.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/menu/trainerdetailnavbar.xml" value="0.16631038905515177" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/custome_bg_gradient.xml" value="0.1795" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/ic_calender_bg.xml" value="0.14" />
