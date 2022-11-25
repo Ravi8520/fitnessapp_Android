@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.activities.adapter.WorkoutGoalsAdapter;
+import com.tfb.fitnessapp.adapter.WorkoutGoalsAdapter;
 import com.tfb.fitnessapp.databinding.ActivityWorkoutGoalsBinding;
 
 public class WorkoutGoalsActivity extends AppCompatActivity {

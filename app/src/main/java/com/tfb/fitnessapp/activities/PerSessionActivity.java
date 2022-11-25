@@ -8,10 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.tfb.fitnessapp.activities.adapter.WorkoutProgramsAdapter;
-import com.tfb.fitnessapp.activities.models.MySchedulemodel;
-import com.tfb.fitnessapp.activities.models.WorkoutProgramsmodel;
-import com.tfb.fitnessapp.databinding.ActivityPerSessionBinding;
+import com.tfb.fitnessapp.adapter.WorkoutProgramsAdapter;
+import com.tfb.fitnessapp.models.WorkoutProgramsmodel;
 import com.tfb.fitnessapp.databinding.ActivityPerSessionBinding;
 
 import java.util.ArrayList;

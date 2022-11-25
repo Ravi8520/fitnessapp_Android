@@ -1,4 +1,4 @@
-package com.tfb.fitnessapp.activities.models;
+package com.tfb.fitnessapp.models;
 
 public class SelectCitymodel {
 

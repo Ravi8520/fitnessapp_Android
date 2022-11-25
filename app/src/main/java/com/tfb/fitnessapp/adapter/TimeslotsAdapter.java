@@ -1,4 +1,4 @@
-package com.tfb.fitnessapp.activities.adapter;
+package com.tfb.fitnessapp.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.activities.models.TimeslotsModel;
+import com.tfb.fitnessapp.models.TimeslotsModel;
 
 import java.util.ArrayList;
 

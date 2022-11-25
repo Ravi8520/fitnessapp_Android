@@ -11,8 +11,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
 import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.activities.adapter.WorkoutProgramsAdapter;
-import com.tfb.fitnessapp.activities.models.WorkoutProgramsmodel;
+import com.tfb.fitnessapp.adapter.WorkoutProgramsAdapter;
+import com.tfb.fitnessapp.models.WorkoutProgramsmodel;
 import com.tfb.fitnessapp.databinding.ActivityAddNewWorkoutprogrammsBinding;
 
 import java.util.ArrayList;

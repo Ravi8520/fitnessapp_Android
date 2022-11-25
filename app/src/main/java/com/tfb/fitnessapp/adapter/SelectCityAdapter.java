@@ -1,4 +1,4 @@
-package com.tfb.fitnessapp.activities.adapter;
+package com.tfb.fitnessapp.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,8 +13,7 @@ import androidx.appcompat.widget.AppCompatTextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.activities.models.Injuriesmodel;
-import com.tfb.fitnessapp.activities.models.SelectCitymodel;
+import com.tfb.fitnessapp.models.SelectCitymodel;
 
 import java.util.ArrayList;
 

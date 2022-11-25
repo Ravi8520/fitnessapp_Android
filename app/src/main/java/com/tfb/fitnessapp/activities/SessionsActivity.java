@@ -10,8 +10,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.activities.adapter.sessionhistoryAdapter;
-import com.tfb.fitnessapp.activities.models.Sessionhistorymodel;
+import com.tfb.fitnessapp.adapter.sessionhistoryAdapter;
+import com.tfb.fitnessapp.models.Sessionhistorymodel;
 import com.tfb.fitnessapp.databinding.ActivitySessionsBinding;
 
 import java.util.ArrayList;
