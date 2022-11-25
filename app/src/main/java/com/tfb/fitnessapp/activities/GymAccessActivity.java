@@ -15,17 +15,12 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.activities.adapter.EquipmentsAdapters;
-import com.tfb.fitnessapp.activities.adapter.InjuriesAdapter;
-import com.tfb.fitnessapp.activities.adapter.SelectCityAdapter;
-import com.tfb.fitnessapp.activities.models.Equipmentmodel;
-import com.tfb.fitnessapp.activities.models.Injuriesmodel;
-import com.tfb.fitnessapp.activities.models.SelectCitymodel;
+import com.tfb.fitnessapp.adapter.EquipmentsAdapters;
+import com.tfb.fitnessapp.adapter.SelectCityAdapter;
+import com.tfb.fitnessapp.models.Equipmentmodel;
+import com.tfb.fitnessapp.models.SelectCitymodel;
 import com.tfb.fitnessapp.databinding.ActivityGymAccessBinding;
 
 import java.util.ArrayList;

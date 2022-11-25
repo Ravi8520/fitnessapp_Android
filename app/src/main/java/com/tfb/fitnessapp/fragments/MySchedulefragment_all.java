@@ -1,4 +1,4 @@
-package com.tfb.fitnessapp.activities.fragments;
+package com.tfb.fitnessapp.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,10 +9,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.activities.adapter.AllScheduleAdapter;
-import com.tfb.fitnessapp.activities.adapter.UpcomingScheduleAdapter;
-import com.tfb.fitnessapp.activities.models.MySchedulemodel;
+import com.tfb.fitnessapp.adapter.AllScheduleAdapter;
+import com.tfb.fitnessapp.models.MySchedulemodel;
 import com.tfb.fitnessapp.databinding.FragmentMyScheduleallBinding;
 
 import java.util.ArrayList;

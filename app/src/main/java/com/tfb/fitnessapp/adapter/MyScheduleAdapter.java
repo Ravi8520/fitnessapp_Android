@@ -1,12 +1,12 @@
-package com.tfb.fitnessapp.activities.adapter;
+package com.tfb.fitnessapp.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.tfb.fitnessapp.activities.fragments.MySchedulefragment_all;
-import com.tfb.fitnessapp.activities.fragments.MySchedulefragment_upcoming;
+import com.tfb.fitnessapp.fragments.MySchedulefragment_all;
+import com.tfb.fitnessapp.fragments.MySchedulefragment_upcoming;
 
 public class MyScheduleAdapter extends FragmentPagerAdapter {
     int selected_Tab;

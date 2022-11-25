@@ -1,4 +1,4 @@
-package com.tfb.fitnessapp.activities.adapter;
+package com.tfb.fitnessapp.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

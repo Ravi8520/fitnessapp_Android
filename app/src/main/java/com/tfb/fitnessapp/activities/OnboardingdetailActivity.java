@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.tfb.fitnessapp.activities.adapter.SpecialBenefitsAdapter;
+import com.tfb.fitnessapp.adapter.SpecialBenefitsAdapter;
 import com.tfb.fitnessapp.databinding.ActivityOnboardingdetailBinding;
 
 public class OnboardingdetailActivity extends AppCompatActivity {

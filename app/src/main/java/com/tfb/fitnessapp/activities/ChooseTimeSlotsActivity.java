@@ -4,13 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.activities.adapter.TimeslotsAdapter;
-import com.tfb.fitnessapp.activities.models.TimeslotsModel;
+import com.tfb.fitnessapp.adapter.TimeslotsAdapter;
+import com.tfb.fitnessapp.models.TimeslotsModel;
 import com.tfb.fitnessapp.databinding.ActivityChooseTimeSlotsBinding;
 
 import java.util.ArrayList;

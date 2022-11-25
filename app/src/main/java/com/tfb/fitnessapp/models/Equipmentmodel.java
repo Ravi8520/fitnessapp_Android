@@ -1,11 +1,11 @@
-package com.tfb.fitnessapp.activities.models;
+package com.tfb.fitnessapp.models;
 
-public class Injuriesmodel {
+public class Equipmentmodel {
 
     private String title;
     private int imgid;
 
-    public Injuriesmodel(String title, int imgid) {
+    public Equipmentmodel(String title, int imgid) {
         this.title = title;
         this.imgid = imgid;
     }

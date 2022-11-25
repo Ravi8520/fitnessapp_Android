@@ -3,14 +3,13 @@ package com.tfb.fitnessapp.activities;
 import static com.google.android.material.tabs.TabLayout.GRAVITY_FILL;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 import android.view.View;
 
 import com.google.android.material.tabs.TabLayout;
 import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.activities.adapter.MyScheduleAdapter;
+import com.tfb.fitnessapp.adapter.MyScheduleAdapter;
 import com.tfb.fitnessapp.databinding.ActivityMyScheduleBinding;
 
 public class MyScheduleActivity extends AppCompatActivity {

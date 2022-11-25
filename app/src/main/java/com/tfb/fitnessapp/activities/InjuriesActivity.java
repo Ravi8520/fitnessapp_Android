@@ -2,14 +2,13 @@ package com.tfb.fitnessapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.View;
 
 import com.tfb.fitnessapp.R;
-import com.tfb.fitnessapp.activities.adapter.InjuriesAdapter;
-import com.tfb.fitnessapp.activities.models.Injuriesmodel;
+import com.tfb.fitnessapp.adapter.InjuriesAdapter;
+import com.tfb.fitnessapp.models.Injuriesmodel;
 import com.tfb.fitnessapp.databinding.ActivityInjuriesBinding;
 
 import java.util.ArrayList;

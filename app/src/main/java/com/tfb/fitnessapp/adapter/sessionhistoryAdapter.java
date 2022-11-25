@@ -1,14 +1,13 @@
-package com.tfb.fitnessapp.activities.adapter;
+package com.tfb.fitnessapp.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.tfb.fitnessapp.activities.models.Sessionhistorymodel;
+import com.tfb.fitnessapp.models.Sessionhistorymodel;
 import com.tfb.fitnessapp.databinding.SessionhistoryItemviewBinding;
 
 import java.util.ArrayList;
