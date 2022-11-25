@@ -17,9 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessApp"
         tools:targetApi="31">
-        <activity
-            android:name=".MyScheduleDetailsActivity"
-            android:exported="false" />
+
         <activity
             android:name=".activities.DashBoardActivity"
             android:exported="true"
@@ -131,6 +129,14 @@
         <activity
             android:name=".activities.PercentageDiscountsDetailsActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MyScheduleDetailsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.MealMarketActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
