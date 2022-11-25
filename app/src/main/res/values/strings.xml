@@ -87,6 +87,7 @@
     <string name="lbl_current_location">Use my current location</string>
     <string name="lbl_describe_you">What describes you best?</string>
     <string name="lbl_searchbar_location_hint">Search for area, street, landmark...</string>
+    <string name="lbl_search_meal">Search for dishes, meals, etc...</string>
 
     //workout goal
     <string name="workout_goals">Define your workout goals</string>
