@@ -9,7 +9,7 @@
         android:layout_margin="@dimen/_5sdp"
         android:background="@drawable/custome_cardview"
         android:orientation="horizontal"
-        android:padding="@dimen/_7sdp"
+        android:padding="@dimen/_3sdp"
         android:weightSum="4">
 
         <de.hdodenhof.circleimageview.CircleImageView

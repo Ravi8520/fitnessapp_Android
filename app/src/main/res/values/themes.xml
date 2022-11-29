@@ -17,11 +17,12 @@
 
     // Search View theme
 
-    <style name="SearchViewTheme" parent="">
+    <style name="SearchViewTheme" parent="Widget.AppCompat.SearchView">
         <!--Widget.AppCompat.SearchView-->
         <item name="android:textColorHint">@android:color/white</item>
         <item name="searchHintIcon">@android:color/white</item>
-
+        <item name="android:editTextColor">@color/white</item>
+        <item name="closeIconTint">@color/white</item>
     </style>
 
     // Dialogue theme
@@ -78,6 +79,7 @@
     </style>
 
     // spinner theme
+
     <style name="SpinnerTheme" parent="android:Widget.DeviceDefault.Spinner">
         <item name="android:background">@drawable/spinner_background</item>
         <item name="android:paddingTop">5dp</item>
@@ -86,6 +88,12 @@
         <item name="titleTextColor">@color/white</item>
         <item name="android:paddingBottom">5dp</item>
 
+    </style>
+
+    //pinview
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="pinViewStyle">@style/PinWidget.PinView</item>
     </style>
 
 

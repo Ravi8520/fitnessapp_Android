@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_dark_blue"
+    tools:context=".activities.ChatActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color_dark_blue"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <ImageView
+                android:id="@+id/backarrow"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:layout_weight="1.1"
+                android:focusable="true"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/ic_back_arrow_foreground"
+                app:tint="@color/white" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/user_profilepic"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <RelativeLayout
+                android:id="@+id/layout_userdetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.9"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_notification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_2sdp"
+                    android:fontFamily="@font/rubic_medium"
+                    android:text="john deo"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt_notificationTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_notification"
+                    android:padding="@dimen/_3sdp"
+                    android:fontFamily="@font/rubik_regular"
+                    android:text="34 minutes ago"
+                    android:textColor="@color/grey"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/reportFlag"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/ic_reportflag"
+                app:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/btn_info"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/ic_info_24"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

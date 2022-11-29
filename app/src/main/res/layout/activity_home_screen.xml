@@ -67,10 +67,12 @@
                     </LinearLayout>
 
                     <TextView
+                        android:id="@+id/txt_viewAll"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="1.1"
+                        android:padding="@dimen/_5sdp"
                         android:fontFamily="@font/rubic_medium"
                         android:gravity="center"
                         android:text="@string/lbl_view_all"
@@ -82,6 +84,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="1.1"
+                        android:padding="@dimen/_5sdp"
                         android:fontFamily="@font/rubic_medium"
                         android:gravity="center"
                         android:text="@string/dismiss"
@@ -237,7 +240,6 @@
                     android:textColor="@color/white"
                     android:textSize="18sp" />
 
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -259,7 +261,9 @@
                             android:dateTextAppearance="@style/CalenderViewDateCustomText"
                             android:theme="@style/CalenderViewCustom"
                             android:weekDayTextAppearance="@style/CalenderViewWeekCustomText" />
+
                     </RelativeLayout>
+
                 </androidx.cardview.widget.CardView>
 
                 <TextView
@@ -279,9 +283,10 @@
                     android:layout_margin="@dimen/_5sdp" />
 
             </LinearLayout>
-        </androidx.core.widget.NestedScrollView>
-    </LinearLayout>
 
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navbar"
@@ -290,7 +295,6 @@
         android:layout_gravity="start"
         app:headerLayout="@layout/profileheader"
         app:menu="@menu/trainerdetailnavbar">
-
 
         <RelativeLayout
             android:id="@+id/layout_logout"

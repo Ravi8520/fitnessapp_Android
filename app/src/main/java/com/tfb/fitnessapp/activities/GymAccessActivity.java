@@ -53,6 +53,7 @@ public class GymAccessActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 AddGymCity();
+
             }
         });
 
