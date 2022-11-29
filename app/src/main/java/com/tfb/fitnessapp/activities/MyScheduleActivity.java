@@ -4,6 +4,7 @@ import static com.google.android.material.tabs.TabLayout.GRAVITY_FILL;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -24,6 +25,14 @@ public class MyScheduleActivity extends AppCompatActivity {
         binding = ActivityMyScheduleBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         mContext = this;
+
+
+        binding.imgCalendar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mContext,MySchedulelistActivity.class));
+            }
+        });
 
         binding.tablayout.addTab(binding.tablayout.newTab().setText(getResources().getText(R.string.tab_upcoming)));
         binding.tablayout.addTab(binding.tablayout.newTab().setText(getResources().getText(R.string.tab_all)));

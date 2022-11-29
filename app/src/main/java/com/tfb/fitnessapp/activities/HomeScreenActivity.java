@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -29,6 +30,14 @@ public class HomeScreenActivity extends AppCompatActivity {
         binding = ActivityHomeScreenBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         mContext = this;
+
+
+        binding.txtViewAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mContext,NewBookingsAlertsActivity.class));
+            }
+        });
 
         setSupportActionBar(binding.toolbar);
         toggle = new ActionBarDrawerToggle(this, binding.drawer, binding.toolbar, R.string.open, R.string.close);
@@ -97,9 +106,11 @@ public class HomeScreenActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.id_message:
                 Toast.makeText(mContext, "Message", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(mContext,MessagesActivity.class));
                 return true;
             case R.id.id_notify:
                 Toast.makeText(mContext, "Notification", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(mContext,NotificationActivity.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

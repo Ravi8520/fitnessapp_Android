@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/_5sdp"
+    android:layout_margin="@dimen/_20sdp"
+    android:background="@color/bg_color_dark_blue">
+
+    <LinearLayout
+        android:id="@+id/layout_pintoTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:padding="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_pintoTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/lbl_pintoTop"
+            android:layout_weight="0.1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/btn_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_pin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_mute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_mute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rubik_regular"
+            android:layout_gravity="center"
+            android:text="@string/lbl_mute"
+            android:layout_weight="0.1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/btn_mute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.9"
+            android:src="@drawable/ic_mute" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_turnoff_notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_turnOffnotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rubik_regular"
+            android:layout_gravity="center"
+            android:text="@string/lbl_turnoff_notification"
+            android:layout_weight="0.1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/btn_turnOffnotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.9"
+            android:src="@drawable/ic_turnoff_notification" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_markas_Unread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_markAsunread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rubik_regular"
+            android:layout_gravity="center"
+            android:text="@string/lbl_markas_unread"
+            android:layout_weight="0.1"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/btn_markAsunread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.9"
+            android:src="@drawable/ic_unread" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_deleteChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_deleteChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rubik_regular"
+            android:layout_gravity="center"
+            android:text="@string/lbl_delete_chat"
+            android:layout_weight="0.1"
+            android:textColor="@color/red"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/btn_deleteChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.9"
+            android:src="@drawable/ic_delete"
+            app:tint="@color/red" />
+
+    </LinearLayout>
+
+</LinearLayout>

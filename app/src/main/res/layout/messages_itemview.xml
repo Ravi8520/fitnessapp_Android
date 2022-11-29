@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_7sdp"
+        android:weightSum="3">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.2"
+            android:src="@drawable/user_profilepic"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <RelativeLayout
+            android:id="@+id/layout_userdetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/txt_userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubic_medium"
+                android:text="Jane Doe"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_messageAlert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_userName"
+                android:fontFamily="@font/rubik_regular"
+                android:text="beginner"
+                android:textColor="@color/light_sky"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/btn_more"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.4"
+            android:src="@drawable/ic_more_24" />
+
+    </LinearLayout>
+
+</RelativeLayout>

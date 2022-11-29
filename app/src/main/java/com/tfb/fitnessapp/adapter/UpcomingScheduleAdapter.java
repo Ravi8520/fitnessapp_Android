@@ -1,12 +1,15 @@
 package com.tfb.fitnessapp.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.tfb.fitnessapp.activities.MyScheduleDetailsActivity;
 import com.tfb.fitnessapp.models.MySchedulemodel;
 import com.tfb.fitnessapp.databinding.MyscheduleItemviewBinding;
 
@@ -39,6 +42,14 @@ public class UpcomingScheduleAdapter extends RecyclerView.Adapter<UpcomingSchedu
         holder.binding.txtExerciseType.setText(mySchedulemodel.getExerciseType());
         holder.binding.txtSlotTime.setText(mySchedulemodel.getSlotTime());
         holder.binding.txtName.setText(mySchedulemodel.getUsername());
+
+        holder.binding.btnGoTo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(mContext, MyScheduleDetailsActivity.class);
+                mContext.startActivity(intent);
+            }
+        });
     }
 
     @Override

@@ -160,6 +160,7 @@
     <string name="lbl_logout">Logout</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="lbl_notifications">Notifications</string>
     <string name="lbl_you_have">You have</string>
     <string name="lbl_bookings">6 new bookings!</string>
     <string name="lbl_view_all">View all</string>
@@ -184,13 +185,15 @@
     <string name="hint_select">Select</string>
     <string name="next">Next</string>
     <string name="lbl_aerobics">AEROBICS</string>
+    <string name="lbl_session">session</string>
     <string name="lbl_reschedule">Reschedule</string>
     <string name="lbl_cancel">Cancel</string>
     <string name="lbl_readour">Read our</string>
-    <string name="lbl_cancellationPolic"> cancellation policy</string>
+    <string name="lbl_cancellationPolic">cancellation policy</string>
     <string name="lbl_client">Client</string>
     <string name="lbl_message">Message</string>
     <string name="lbl_enterotp">Enter Otp</string>
+    <string name="lbl_enter">Enter</string>
     <string name="lbl_next_step">Next Steps</string>
     <string name="lbl_next_step_1">Reach 20 minutes early and carry your \nequipments, phone, mask and water.</string>
     <string name="lbl_next_step_2">You will receive an OTP from the client, which will allow you to start your session.</string>
@@ -236,5 +239,12 @@
     <string name="lbl_sessionsper_week">Session(s)\n<font size="10">/per week</font>"</string>
     <string name="lbl_minimum_session">Minimum Recurring Sessions\n<font size="10">(for discount eligibility)</font></string>
 
+    // messages screen
+    <string name="lbl_messages">Messages</string>
+    <string name="lbl_pintoTop">Pin to top</string>
+    <string name="lbl_mute">Mute</string>
+    <string name="lbl_turnoff_notification">Turn off notification</string>
+    <string name="lbl_markas_unread">Mark as unread</string>
+    <string name="lbl_delete_chat">Delete Chat</string>
 
 </resources>
