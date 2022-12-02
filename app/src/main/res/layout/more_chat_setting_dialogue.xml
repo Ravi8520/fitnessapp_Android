@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_10sdp"
+    android:layout_margin="@dimen/_10sdp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="@dimen/_5sdp"
-    android:layout_margin="@dimen/_20sdp"
+    android:padding="@dimen/_10sdp"
     android:background="@color/bg_color_dark_blue">
 
     <LinearLayout
@@ -14,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="1"
-        android:padding="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp"
         android:orientation="horizontal">
 
         <TextView
@@ -42,7 +46,7 @@
         android:id="@+id/layout_mute"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp"
         android:orientation="horizontal">
 
         <TextView
@@ -70,7 +74,7 @@
         android:id="@+id/layout_turnoff_notify"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp"
         android:orientation="horizontal">
 
         <TextView
@@ -98,7 +102,7 @@
         android:id="@+id/layout_markas_Unread"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp"
         android:orientation="horizontal">
 
         <TextView
@@ -127,7 +131,7 @@
         android:id="@+id/layout_deleteChat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp"
         android:orientation="horizontal">
 
         <TextView
@@ -153,3 +157,4 @@
     </LinearLayout>
 
 </LinearLayout>
+</androidx.cardview.widget.CardView>

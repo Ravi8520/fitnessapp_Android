@@ -112,7 +112,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/_5sdp"
+                    android:paddingVertical="@dimen/_5sdp"
                     android:fontFamily="@font/rubic_medium"
                     android:layout_gravity="center"
                     android:gravity="center_vertical"
@@ -123,7 +123,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/_5sdp">
+                    android:paddingVertical="@dimen/_5sdp">
 
                     <ImageView
                         android:id="@+id/img_calendar"
@@ -157,7 +157,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/_5sdp">
+                    android:paddingVertical="@dimen/_5sdp">
 
                     <ImageView
                         android:id="@+id/img_watch"
@@ -201,7 +201,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/_5sdp">
+                    android:paddingVertical="@dimen/_5sdp">
 
                     <ImageView
                         android:id="@+id/img_block"
@@ -245,7 +245,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/_5sdp">
+                    android:paddingVertical="@dimen/_5sdp">
 
                     <TextView
                         android:id="@+id/lbl_readour"
@@ -276,7 +276,7 @@
                     android:id="@+id/lbl_client"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/_5sdp"
+                    android:paddingVertical="@dimen/_5sdp"
                     android:layout_centerVertical="true"
                     android:layout_toRightOf="@id/lbl_readour"
                     android:fontFamily="@font/rubik_bold"
@@ -288,7 +288,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:padding="@dimen/_5sdp"
+                    android:paddingVertical="@dimen/_5sdp"
                     android:weightSum="3">
 
                     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -308,7 +308,7 @@
                         android:layout_gravity="center"
                         android:layout_weight="0.6"
                         android:gravity="center"
-                        android:padding="@dimen/_5sdp">
+                        android:paddingVertical="@dimen/_5sdp">
 
                         <TextView
                             android:id="@+id/txt_name"
@@ -349,7 +349,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:padding="@dimen/_5sdp"
+                    android:paddingVertical="@dimen/_5sdp"
                     android:weightSum="2">
 
                     <TextView
@@ -395,7 +395,7 @@
                     android:fontFamily="@font/rubik_bold"
                     android:text="@string/lbl_workout_programs"
                     android:textColor="@color/white"
-                    android:padding="@dimen/_5sdp"
+                    android:paddingVertical="@dimen/_5sdp"
                     android:textSize="16sp" />
 
                 <androidx.recyclerview.widget.RecyclerView
@@ -418,13 +418,13 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     android:layout_gravity="center"
                     android:gravity="center_vertical"
-                    android:padding="@dimen/_5sdp"
+                    android:paddingVertical="@dimen/_5sdp"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:padding="@dimen/_5sdp"
+                    android:paddingVertical="@dimen/_5sdp"
                     android:layout_height="match_parent">
 
                     <ImageView
@@ -451,7 +451,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:padding="@dimen/_5sdp">
+                    android:paddingVertical="@dimen/_5sdp">
 
                     <ImageView
                         android:id="@+id/ic_step2"

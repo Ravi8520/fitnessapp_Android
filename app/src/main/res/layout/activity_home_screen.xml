@@ -72,7 +72,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="1.1"
-                        android:padding="@dimen/_5sdp"
+                        android:paddingVertical="@dimen/_5sdp"
                         android:fontFamily="@font/rubic_medium"
                         android:gravity="center"
                         android:text="@string/lbl_view_all"
@@ -84,7 +84,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="1.1"
-                        android:padding="@dimen/_5sdp"
+                        android:paddingVertical="@dimen/_5sdp"
                         android:fontFamily="@font/rubic_medium"
                         android:gravity="center"
                         android:text="@string/dismiss"
@@ -107,9 +107,10 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="@dimen/_5sdp"
                         android:layout_weight="1"
+                        android:padding="@dimen/_5sdp"
                         android:background="@drawable/custome_cardview"
                         android:orientation="vertical"
-                        android:padding="@dimen/_5sdp">
+                        android:paddingVertical="@dimen/_5sdp">
 
                         <TextView
                             android:id="@+id/txt_schedule_event"
@@ -161,7 +162,7 @@
                             android:layout_marginRight="@dimen/_5sdp"
                             android:layout_toLeftOf="@id/switch_1"
                             android:fontFamily="@font/rubik_bold"
-                            android:text="@string/lbl_schedule_event"
+                            android:text="@string/lbl_live_avilability"
                             android:textColor="@color/white"
                             android:textSize="16sp" />
 
@@ -303,7 +304,7 @@
             android:layout_alignParentBottom="true"
             android:layout_gravity="bottom"
             android:background="@color/white"
-            android:padding="@dimen/_5sdp">
+            android:paddingVertical="@dimen/_5sdp">
 
             <TextView
                 android:id="@+id/txt_logout"

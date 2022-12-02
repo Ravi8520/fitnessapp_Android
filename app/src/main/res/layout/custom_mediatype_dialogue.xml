@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_40sdp"
+    android:layout_marginRight="@dimen/_30sdp"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:backgroundTint="@color/grey"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey"
+            android:padding="@dimen/_15sdp">
+
+            <LinearLayout
+                android:id="@+id/layout_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="@dimen/_5sdp"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/custom_fillcircle_bg"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_contact" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_contact"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/rubik_regular"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/custom_fillcircle_bg"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_document" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_document"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/rubik_regular"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/custom_fillcircle_bg"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_audio" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_audio"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/rubik_regular"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_main2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_main"
+                android:orientation="horizontal"
+                android:paddingVertical="@dimen/_5sdp"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/layout_gallery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/custom_fillcircle_bg"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_galary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_gallary"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/rubik_regular"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+              <!--  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/custom_fillcircle_bg"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_sendmessage" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="document"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/rubik_regular"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/custom_fillcircle_bg"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_sendmessage" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="document"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/rubik_regular"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>-->
+
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

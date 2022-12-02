@@ -2,6 +2,7 @@ package com.tfb.fitnessapp.adapter;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -14,6 +15,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.tfb.fitnessapp.R;
+import com.tfb.fitnessapp.activities.ChatActivity;
+import com.tfb.fitnessapp.activities.MyScheduleDetailsActivity;
 import com.tfb.fitnessapp.databinding.MessagesItemviewBinding;
 import com.tfb.fitnessapp.models.MessagesModel;
 
@@ -45,6 +48,14 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.Messag
         holder.binding.txtUserName.setText(messagesModel.getUserName());
         holder.binding.txtMessageAlert.setText(messagesModel.getMessageAlert());
         holder.binding.profileImage.setImageResource(messagesModel.getImgid());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(mContext, ChatActivity.class);
+                mContext.startActivity(intent);
+            }
+        });
 
 
         holder.binding.btnMore.setOnClickListener(new View.OnClickListener() {
