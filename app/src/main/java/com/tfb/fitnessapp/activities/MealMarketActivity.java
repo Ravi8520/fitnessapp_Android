@@ -23,6 +23,7 @@ public class MealMarketActivity extends AppCompatActivity {
 
         mealMarketAdapter = new MealMarketAdapter(context);
         binding.recyclerFood.setLayoutManager(new GridLayoutManager(context, 3));
+        binding.recyclerFood.setNestedScrollingEnabled(false);
         binding.recyclerFood.setAdapter(mealMarketAdapter);
     }
 }

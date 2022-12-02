@@ -89,6 +89,7 @@
     <string name="lbl_searchbar_location_hint">Search for area, street, landmark...</string>
     <string name="lbl_search_meal">Search for dishes, meals, etc...</string>
     <string name="lbl_eat_what">Eat what makes you happy</string>
+    <string name="lbl_browse_healthy_diets">Browse Healthy Diets</string>
 
     //workout goal
     <string name="workout_goals">Define your workout goals</string>
