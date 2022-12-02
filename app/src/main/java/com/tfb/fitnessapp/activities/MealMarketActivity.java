@@ -1,6 +1,7 @@
 package com.tfb.fitnessapp.activities;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -21,6 +22,12 @@ public class MealMarketActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         context = this;
 
+        binding.backarrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
         mealMarketAdapter = new MealMarketAdapter(context);
         binding.recyclerFood.setLayoutManager(new GridLayoutManager(context, 3));
         binding.recyclerFood.setNestedScrollingEnabled(false);
