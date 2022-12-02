@@ -90,7 +90,7 @@
                     android:background="?selectableItemBackgroundBorderless"
                     android:clickable="true"
                     android:focusable="true"
-                    android:padding="@dimen/_5sdp"
+                    android:paddingVertical="@dimen/_5sdp"
                     android:src="@drawable/ic_filter"
                     app:tint="@color/white" />
 

@@ -19,7 +19,7 @@
         android:layout_marginBottom="@dimen/_3sdp"
         android:fontFamily="@font/rubic_medium"
         android:gravity="center"
-        android:padding="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp"
         android:text="@string/monday"
         android:textColor="@color/white"
         android:textSize="14sp" />
