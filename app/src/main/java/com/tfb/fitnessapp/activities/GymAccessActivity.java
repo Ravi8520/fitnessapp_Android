@@ -77,8 +77,8 @@ public class GymAccessActivity extends AppCompatActivity {
         equipmetsdata.add(new Equipmentmodel("Free Weight",R.drawable.barsbenches));
 
 
-        EquipmentsAdapters adapter = new EquipmentsAdapters(equipmetsdata,this);
-        GridLayoutManager layoutManager=new GridLayoutManager(this,3);
+        EquipmentsAdapters adapter = new EquipmentsAdapters(equipmetsdata,mContext);
+        GridLayoutManager layoutManager=new GridLayoutManager(mContext,3);
         binding.equipmentsRV.setLayoutManager(layoutManager);
         binding.equipmentsRV.setAdapter(adapter);
 
@@ -100,7 +100,6 @@ public class GymAccessActivity extends AppCompatActivity {
 
         SearchView searchCity = dialog.findViewById(R.id.searchCity);
 
-
         selectcitylist = new ArrayList<>();
         selectcitylist.add(new SelectCitymodel("Tokyo,New York"));
         selectcitylist.add(new SelectCitymodel("germany"));
@@ -109,10 +108,10 @@ public class GymAccessActivity extends AppCompatActivity {
         selectcitylist.add(new SelectCitymodel("berlin"));
         selectcitylist.add(new SelectCitymodel("UAE"));
         selectcitylist.add(new SelectCitymodel("UAE"));
-        selectcitylist.add(new SelectCitymodel("fillipins"));
+        selectcitylist.add(new SelectCitymodel("philippines"));
         selectcitylist.add(new SelectCitymodel("Tokyo,New York"));
-        selectcitylist.add(new SelectCitymodel("ohayo"));
-        selectcitylist.add(new SelectCitymodel("perris"));
+        selectcitylist.add(new SelectCitymodel("ohio"));
+        selectcitylist.add(new SelectCitymodel("Paris"));
         selectcitylist.add(new SelectCitymodel("russia"));
 
         SelectCityAdapter adapter = new SelectCityAdapter(selectcitylist,mContext);

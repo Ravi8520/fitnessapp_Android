@@ -176,6 +176,10 @@
     <string name="tab_all">All</string>
     <string name="tab_upcoming">Upcoming</string>
     <string name="tab_sessions">Sessions</string>
+    <string name="lbl_per_sessions">PER SESSION</string>
+    <string name="lbl_group_session">GROUP SESSION</string>
+    <string name="lbl_view_participants">View Participants</string>
+    <string name="lbl_find_on_map">Find on map</string>
     <string name="summary">Summary</string>
     <string name="lbl_completed">Completed</string>
     <string name="lbl_cancelled">Cancelled</string>
@@ -203,7 +207,7 @@
     // pricing screen
 
     <string name="lbl_per_session">Per Session</string>
-    <string name="lbl_group_session">Group Sessions</string>
+    <string name="lbl_group_sessions">Group Sessions</string>
     <string name="lbl_discount">Discounts</string>
     <string name="discription_for_pricing">Set a price for your Sessions or \nSubscription Plans.</string>
     <string name="lbl_30min_session">30 minute Session</string>
