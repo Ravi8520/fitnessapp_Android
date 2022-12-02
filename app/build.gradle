@@ -54,8 +54,7 @@ dependencies {
     //pinview
     implementation 'io.github.chaosleung:pinview:1.4.4'
 
-    //calender view
-    implementation 'devs.mulham.horizontalcalendar:horizontalcalendar:1.3.4'
+
 
 
 }

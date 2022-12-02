@@ -88,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/layout_sessionTime"
         android:layout_margin="@dimen/_5sdp"
-        android:paddingVertical="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
         android:background="@drawable/custome_cardview"
         android:orientation="vertical">
 
@@ -98,7 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/rubik_regular"
-            android:paddingVertical="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
             android:text="@string/summary"
             android:textColor="@color/white"
             android:textSize="18sp" />
@@ -109,7 +109,7 @@
             android:layout_height="1dp"
             android:layout_below="@id/lbl_summary"
             android:background="@color/white"
-            android:paddingVertical="@dimen/_5sdp" />
+            android:padding="@dimen/_5sdp" />
 
         <TextView
             android:id="@+id/txt_completed"
@@ -118,7 +118,7 @@
             android:layout_below="@id/view"
             android:layout_gravity="center"
             android:fontFamily="@font/rubik_regular"
-            android:paddingVertical="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
             android:text="@string/lbl_completed"
             android:textColor="@color/white"
             android:textSize="18sp" />
@@ -131,7 +131,7 @@
             android:layout_alignParentRight="true"
             android:layout_gravity="center"
             android:fontFamily="@font/rubik_regular"
-            android:paddingVertical="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
             android:text="0"
             android:textColor="@color/white"
             android:textSize="18sp" />
@@ -144,7 +144,7 @@
             android:layout_below="@id/txt_completed"
             android:layout_gravity="center"
             android:fontFamily="@font/rubik_regular"
-            android:paddingVertical="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
             android:text="@string/lbl_cancelled"
             android:textColor="@color/white"
             android:textSize="18sp" />
@@ -157,7 +157,7 @@
             android:layout_alignParentRight="true"
             android:layout_gravity="center"
             android:fontFamily="@font/rubik_regular"
-            android:paddingVertical="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
             android:text="0"
             android:textColor="@color/white"
             android:textSize="18sp" />
@@ -170,7 +170,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/layout_summary"
         android:layout_gravity="center"
-        android:paddingVertical="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
         android:layout_marginLeft="@dimen/_5sdp"
         android:fontFamily="@font/rubik_bold"
         android:text="@string/lbl_history"

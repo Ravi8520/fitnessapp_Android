@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="1"
-        android:paddingVertical="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
         android:orientation="horizontal">
 
         <TextView
@@ -46,7 +46,7 @@
         android:id="@+id/layout_mute"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingVertical="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
         android:orientation="horizontal">
 
         <TextView
@@ -74,7 +74,7 @@
         android:id="@+id/layout_turnoff_notify"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingVertical="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
         android:orientation="horizontal">
 
         <TextView
@@ -102,7 +102,7 @@
         android:id="@+id/layout_markas_Unread"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingVertical="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
         android:orientation="horizontal">
 
         <TextView
@@ -131,7 +131,7 @@
         android:id="@+id/layout_deleteChat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingVertical="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
         android:orientation="horizontal">
 
         <TextView

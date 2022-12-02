@@ -72,7 +72,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="1.1"
-                        android:paddingVertical="@dimen/_5sdp"
+                        android:padding="@dimen/_5sdp"
                         android:fontFamily="@font/rubic_medium"
                         android:gravity="center"
                         android:text="@string/lbl_view_all"
@@ -84,7 +84,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="1.1"
-                        android:paddingVertical="@dimen/_5sdp"
+                        android:padding="@dimen/_5sdp"
                         android:fontFamily="@font/rubic_medium"
                         android:gravity="center"
                         android:text="@string/dismiss"
@@ -109,8 +109,7 @@
                         android:layout_weight="1"
                         android:padding="@dimen/_5sdp"
                         android:background="@drawable/custome_cardview"
-                        android:orientation="vertical"
-                        android:paddingVertical="@dimen/_5sdp">
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/txt_schedule_event"
@@ -304,7 +303,7 @@
             android:layout_alignParentBottom="true"
             android:layout_gravity="bottom"
             android:background="@color/white"
-            android:paddingVertical="@dimen/_5sdp">
+            android:padding="@dimen/_5sdp">
 
             <TextView
                 android:id="@+id/txt_logout"
