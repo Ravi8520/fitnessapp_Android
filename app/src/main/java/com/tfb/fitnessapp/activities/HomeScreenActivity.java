@@ -57,27 +57,27 @@ public class HomeScreenActivity extends AppCompatActivity {
                 binding.drawer.closeDrawer(GravityCompat.START);
                 switch (id) {
                     case R.id.id_myschedule:
-                        startActivity(new Intent(mContext,MyScheduleActivity.class));
+                        startActivity(new Intent(mContext, MyScheduleActivity.class));
                         break;
                     case R.id.id_sessions:
-                        startActivity(new Intent(mContext,SessionsActivity.class));
+                        startActivity(new Intent(mContext, SessionsActivity.class));
                         break;
                     case R.id.id_clients:
                         Toast.makeText(mContext, R.string.lbl_clients, Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.id_mealmarcket:
-                        Toast.makeText(mContext, R.string.lbl_myschedule, Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(mContext, MealMarketActivity.class));
                         break;
                     case R.id.id_myprograms:
                         Toast.makeText(mContext, R.string.lbl_sessions, Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.id_pricing:
                         Toast.makeText(mContext, R.string.lbl_clients, Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(mContext,PricingActivity.class));
+                        startActivity(new Intent(mContext, PricingActivity.class));
                         break;
                     case R.id.id_referrals:
                         Toast.makeText(mContext, R.string.lbl_clients, Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(mContext,InviteLinkActivity.class));
+                        startActivity(new Intent(mContext, InviteLinkActivity.class));
                         break;
                     case R.id.id_booktrainer:
                         Toast.makeText(mContext, R.string.lbl_clients, Toast.LENGTH_SHORT).show();

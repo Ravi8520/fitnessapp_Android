@@ -36,6 +36,15 @@
             android:textColor="@color/white"
             android:textSize="18sp" />
 
+       <!-- <devs.mulham.horizontalcalendar.HorizontalCalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:selectorColor="@android:color/holo_red_dark"
+            app:textColorNormal="@color/purple_200"
+            app:textColorSelected="@color/purple_200" />-->
+
+
     </RelativeLayout>
 
 
