@@ -21,4 +21,5 @@
     <color name="lightblue">#16D2FF</color>
     <color name="gradient_end">@color/bg_color_dark_blue</color>
 
+
 </resources>
