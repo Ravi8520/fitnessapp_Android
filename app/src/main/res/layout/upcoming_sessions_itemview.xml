@@ -164,7 +164,6 @@
                     android:id="@+id/layout_pinview"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
                     android:orientation="vertical">
 
                     <com.chaos.view.PinView
@@ -215,7 +214,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-
                     android:fontFamily="@font/rubik_bold"
                     android:gravity="center"
                     android:padding="@dimen/_5sdp"

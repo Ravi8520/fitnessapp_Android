@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.navigation.NavigationView;
 import com.tfb.fitnessapp.R;
+import com.tfb.fitnessapp.adapter.ClientslistAdapter;
 import com.tfb.fitnessapp.adapter.UpcomingSessionAdapter;
 import com.tfb.fitnessapp.adapter.WorkoutProgramsAdapter;
 import com.tfb.fitnessapp.databinding.ActivityHomeScreenBinding;
@@ -76,6 +77,7 @@ public class HomeScreenActivity extends AppCompatActivity {
                         break;
                     case R.id.id_clients:
                         Toast.makeText(mContext, R.string.lbl_clients, Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(mContext, ClientsActivity.class));
                         break;
                     case R.id.id_mealmarcket:
                         startActivity(new Intent(mContext, MealMarketActivity.class));
