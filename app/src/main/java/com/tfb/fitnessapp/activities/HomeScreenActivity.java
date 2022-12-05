@@ -12,10 +12,18 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.navigation.NavigationView;
 import com.tfb.fitnessapp.R;
+import com.tfb.fitnessapp.adapter.UpcomingSessionAdapter;
+import com.tfb.fitnessapp.adapter.WorkoutProgramsAdapter;
 import com.tfb.fitnessapp.databinding.ActivityHomeScreenBinding;
+import com.tfb.fitnessapp.models.UpcomingSessionmodel;
+import com.tfb.fitnessapp.models.WorkoutProgramsmodel;
+
+import java.util.ArrayList;
 
 public class HomeScreenActivity extends AppCompatActivity {
 
@@ -23,6 +31,7 @@ public class HomeScreenActivity extends AppCompatActivity {
     private ActionBarDrawerToggle toggle;
     ActivityHomeScreenBinding binding;
     private HomeScreenActivity mContext;
+    ArrayList<UpcomingSessionmodel> sessionmodelUpcoming = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +39,9 @@ public class HomeScreenActivity extends AppCompatActivity {
         binding = ActivityHomeScreenBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         mContext = this;
+
+        setUpcomingsessioninfo();
+        setUpcomingsessionAdapter();
 
 
         binding.txtViewAll.setOnClickListener(new View.OnClickListener() {
@@ -92,6 +104,32 @@ public class HomeScreenActivity extends AppCompatActivity {
             }
         });
     }
+
+    private void setUpcomingsessioninfo() {
+
+        sessionmodelUpcoming.add(new UpcomingSessionmodel("Jame doe","group session","11:30 - 12:30",
+                "827 W 41st St, Miami Beach, FL 33140, United States","jan-1-23",R.drawable.user_profilepic));
+
+        sessionmodelUpcoming.add(new UpcomingSessionmodel("Jame doe","group session","11:30 - 12:30",
+                "827 W 41st St, Miami Beach, FL 33140, United States","jan-1-23",R.drawable.user_profilepic));
+
+        sessionmodelUpcoming.add(new UpcomingSessionmodel("Jame doe","group session","11:30 - 12:30",
+                "827 W 41st St, Miami Beach, FL 33140, United States","jan-1-23",R.drawable.user_profilepic));
+
+        sessionmodelUpcoming.add(new UpcomingSessionmodel("Jame doe","group session","11:30 - 12:30",
+                "827 W 41st St, Miami Beach, FL 33140, United States","jan-1-23",R.drawable.user_profilepic));
+
+    }
+    private void setUpcomingsessionAdapter() {
+
+        UpcomingSessionAdapter adapter = new UpcomingSessionAdapter(mContext,sessionmodelUpcoming);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
+        binding.upcomingsessionRV.setLayoutManager(layoutManager);
+        binding.upcomingsessionRV.setAdapter(adapter);
+
+    }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
