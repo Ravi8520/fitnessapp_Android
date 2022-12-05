@@ -263,4 +263,9 @@
     <string name="lbl_audio">Audio</string>
     <string name="lbl_gallary">Gallery</string>
 
+    // Clients strings
+
+    <string name="lbl_fitness_type">Fitness type :</string>
+    <string name="lbl_plan">Plan :</string>
+
 </resources>
