@@ -49,6 +49,7 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/timeslots_itemview.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/workoutprograms_itemview.xml" value="0.22" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/menu/trainerdetailnavbar.xml" value="0.16631038905515177" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/debug/res/drawable/ic_back_arrow_foreground.xml" value="0.1375" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/custome_bg_gradient.xml" value="0.1795" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/dotted_line.xml" value="0.15" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/food_items.xml" value="0.1255" />
@@ -62,9 +63,9 @@
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_forget_password.xml" value="0.19907407407407407" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_gym_access.xml" value="0.2" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_home_screen.xml" value="0.22" />
-        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_meal_market.xml" value="0.22" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_meal_market.xml" value="0.18" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_messages.xml" value="0.17058572039333048" />
-        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_messages_details.xml" value="0.17058572039333048" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_messages_details.xml" value="0.22" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_my_schedule.xml" value="0.18" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_my_schedulelist.xml" value="0.17058572039333048" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_onboardingdetail.xml" value="0.1685185185185185" />
