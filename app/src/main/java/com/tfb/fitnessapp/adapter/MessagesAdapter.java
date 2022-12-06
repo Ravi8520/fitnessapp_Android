@@ -1,22 +1,22 @@
 package com.tfb.fitnessapp.adapter;
 
-import android.app.Dialog;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
+import android.view.ContextThemeWrapper;
 import android.view.Gravity;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
-import android.view.WindowManager;
+import android.widget.PopupMenu;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.tfb.fitnessapp.R;
 import com.tfb.fitnessapp.activities.ChatActivity;
-import com.tfb.fitnessapp.activities.MyScheduleDetailsActivity;
 import com.tfb.fitnessapp.databinding.MessagesItemviewBinding;
 import com.tfb.fitnessapp.models.MessagesModel;
 
@@ -37,7 +37,7 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.Messag
     public MessagesViewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
-        MessagesItemviewBinding itemviewbinding = MessagesItemviewBinding.inflate(layoutInflater,parent,false);
+        MessagesItemviewBinding itemviewbinding = MessagesItemviewBinding.inflate(layoutInflater, parent, false);
         return new MessagesViewholder(itemviewbinding);
     }
 
@@ -59,20 +59,23 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.Messag
 
 
         holder.binding.btnMore.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("NewApi")
             @Override
             public void onClick(View view) {
-                final Dialog dialog = new Dialog(mContext);
-                dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-                dialog.setCancelable(true);
-                dialog.setCanceledOnTouchOutside(true);
-                dialog.setContentView(R.layout.more_chat_setting_dialogue);
-                dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
-                dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
-                dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
-                dialog.getWindow().setGravity(Gravity.CENTER);
+                Context myContext = new ContextThemeWrapper(mContext,R.style.menuitem);
+                PopupMenu popupMenu = new PopupMenu(myContext, holder.binding.btnMore);
+                popupMenu.getMenuInflater().inflate(R.menu.messages_more_setting, popupMenu.getMenu());
+                popupMenu.setForceShowIcon(true);
 
 
-                dialog.show();
+                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                    @Override
+                    public boolean onMenuItemClick(MenuItem menuItem) {
+                        Toast.makeText(mContext, menuItem.getTitle(), Toast.LENGTH_SHORT).show();
+                        return true;
+                    }
+                });
+                popupMenu.show();
             }
         });
 
@@ -87,6 +90,7 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.Messag
 
 
         public MessagesItemviewBinding binding;
+
         public MessagesViewholder(MessagesItemviewBinding itemView) {
             super(itemView.getRoot());
             this.binding = itemView;

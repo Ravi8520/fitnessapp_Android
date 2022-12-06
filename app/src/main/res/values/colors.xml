@@ -20,6 +20,7 @@
     <color name="red">#F44336</color>
     <color name="lightblue">#16D2FF</color>
     <color name="gradient_end">@color/bg_color_dark_blue</color>
+    <color name="month_date_card_color">#41635B</color>
 
 
 </resources>

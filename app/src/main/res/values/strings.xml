@@ -267,5 +267,10 @@
 
     <string name="lbl_fitness_type">Fitness type :</string>
     <string name="lbl_plan">Plan :</string>
+    <string name="lbl_view_profile">View Profile</string>
+    <string name="lbl_view_booking">View Booking</string>
+    <string name="lbl_activity_records">Activity &amp; Records</string>
+    <string name="lbl_this_month">This Month</string>
+    <string name="lbl_recent">Recent</string>
 
 </resources>

@@ -159,6 +159,9 @@
         <activity
             android:name=".activities.ClientsActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ClientsActivityandRecordsActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
