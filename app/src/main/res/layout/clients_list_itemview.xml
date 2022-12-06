@@ -6,14 +6,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
         android:background="@drawable/custome_cardview"
         android:orientation="horizontal"
-        android:layout_margin="@dimen/_5sdp"
         android:padding="@dimen/_7sdp"
         android:weightSum="3">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/profile_image"
             android:layout_width="match_parent"
             android:layout_height="70dp"
