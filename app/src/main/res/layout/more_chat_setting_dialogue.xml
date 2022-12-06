@@ -42,7 +42,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
+  <!--  <LinearLayout
         android:id="@+id/layout_mute"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -154,7 +154,7 @@
             android:src="@drawable/ic_delete"
             app:tint="@color/red" />
 
-    </LinearLayout>
+    </LinearLayout>-->
 
 </LinearLayout>
 </androidx.cardview.widget.CardView>

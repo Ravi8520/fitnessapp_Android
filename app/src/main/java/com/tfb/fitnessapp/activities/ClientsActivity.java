@@ -42,6 +42,7 @@ public class ClientsActivity extends AppCompatActivity {
     }
 
     private void setClientsInfo() {
+
         clientslistdata.add(new Clientsmodel(R.drawable.user_profilepic,"John Doe","901 S Miami Ave, Miami",
                 "Crossfit","Starter Pack $50"));
         clientslistdata.add(new Clientsmodel(R.drawable.user_profilepic,"John Doe","901 S Miami Ave, Miami",

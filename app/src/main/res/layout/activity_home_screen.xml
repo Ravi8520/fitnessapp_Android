@@ -182,7 +182,7 @@
                             android:layout_below="@id/txt_availability"
                             android:fontFamily="@font/rubik_regular"
                             android:gravity="start"
-                            android:text="@string/lbl_schedule_event_disc"
+                            android:text="@string/lbl_live_avilability_disc"
                             android:textColor="@color/white"
                             android:textSize="12sp" />
 

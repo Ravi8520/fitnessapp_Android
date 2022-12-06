@@ -96,5 +96,11 @@
         <item name="pinViewStyle">@style/PinWidget.PinView</item>
     </style>
 
+    <style name="menuitem" parent="">
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginRight">@dimen/_10sdp</item>
+    </style>
+
 
 </resources>

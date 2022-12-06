@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="end"
+    android:gravity="end"
+    android:layoutDirection="rtl">
+
+            <item
+                android:id="@+id/pin_toTap"
+                android:gravity="end"
+                android:icon="@drawable/ic_pin"
+                android:iconTint="@color/black"
+                android:title="@string/lbl_pintoTop"
+
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/mute"
+                android:icon="@drawable/ic_mute"
+                android:iconTint="@color/black"
+                android:title="@string/lbl_mute"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/turnOfNotification"
+                android:icon="@drawable/ic_turnoff_notification"
+                android:iconTint="@color/black"
+                android:title="@string/lbl_turnoff_notification"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/markAsunread"
+                android:icon="@drawable/ic_unread"
+                android:iconTint="@color/black"
+                android:title="@string/lbl_markas_unread"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/deleteChat"
+                android:icon="@drawable/ic_delete"
+                android:iconTint="@color/black"
+                android:title="@string/lbl_delete_chat"
+                app:showAsAction="never" />
+
+
+
+</menu>

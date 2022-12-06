@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/custome_cardview"
+        android:orientation="horizontal"
+        android:padding="@dimen/_3sdp"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:id="@+id/profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1.1"
+            android:background="@drawable/month_date_card_item"
+            android:layout_margin="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/txt_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/rubik_bold"
+                android:text="Nov"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/txt_month"
+                android:fontFamily="@font/rubik_bold"
+                android:text="20"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_userdetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik_bold"
+                android:text="Jane Doe"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_name"
+                android:fontFamily="@font/rubik_regular"
+                android:text="beginner"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/btn_goTo"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.3"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/ic_grey_bg"
+            android:src="@drawable/ic_arrow_right_24" />
+
+    </LinearLayout>
+
+</RelativeLayout>
