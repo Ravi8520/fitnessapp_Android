@@ -3,6 +3,7 @@ package com.tfb.fitnessapp.adapter;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -18,6 +19,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.tfb.fitnessapp.R;
+import com.tfb.fitnessapp.activities.ClientsDetailsActivity;
 import com.tfb.fitnessapp.databinding.ClientsListItemviewBinding;
 import com.tfb.fitnessapp.models.Clientsmodel;
 
@@ -50,6 +52,15 @@ public class ClientslistAdapter extends RecyclerView.Adapter<ClientslistAdapter.
         holder.binding.txtMapAddress.setText(clientsmodel.getUser_address());
         holder.binding.txtFitnessType.setText(clientsmodel.getFitness_type());
         holder.binding.txtPlan.setText(clientsmodel.getSelected_plan());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(context, ClientsDetailsActivity.class);
+                context.startActivity(intent);
+            }
+        });
 
         holder.binding.btnMore.setOnClickListener(new View.OnClickListener() {
             @Override
