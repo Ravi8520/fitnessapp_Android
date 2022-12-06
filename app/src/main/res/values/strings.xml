@@ -272,5 +272,8 @@
     <string name="lbl_activity_records">Activity &amp; Records</string>
     <string name="lbl_this_month">This Month</string>
     <string name="lbl_recent">Recent</string>
+    <string name="lbl_save_favorite">Save to favorite</string>
+    <string name="lbl_recommend_meal">Recommend Meal to a client</string>
+    <string name="lbl_recommend">Recommend</string>
 
 </resources>

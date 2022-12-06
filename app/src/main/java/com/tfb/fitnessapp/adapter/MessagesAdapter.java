@@ -1,18 +1,16 @@
 package com.tfb.fitnessapp.adapter;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.view.ContextThemeWrapper;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.PopupMenu;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.widget.PopupMenu;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.tfb.fitnessapp.R;
@@ -59,23 +57,27 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.Messag
 
 
         holder.binding.btnMore.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("NewApi")
             @Override
             public void onClick(View view) {
-                Context myContext = new ContextThemeWrapper(mContext,R.style.menuitem);
-                PopupMenu popupMenu = new PopupMenu(myContext, holder.binding.btnMore);
-                popupMenu.getMenuInflater().inflate(R.menu.messages_more_setting, popupMenu.getMenu());
-                popupMenu.setForceShowIcon(true);
+                try {
 
+                    Context myContext = new ContextThemeWrapper(mContext, R.style.menuitem);
+                    PopupMenu popupMenu = new PopupMenu(myContext, holder.binding.btnMore);
+                    popupMenu.getMenuInflater().inflate(R.menu.messages_more_setting, popupMenu.getMenu());
 
-                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-                    @Override
-                    public boolean onMenuItemClick(MenuItem menuItem) {
-                        Toast.makeText(mContext, menuItem.getTitle(), Toast.LENGTH_SHORT).show();
-                        return true;
-                    }
-                });
-                popupMenu.show();
+                    popupMenu.setForceShowIcon(true);
+
+                    popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                        @Override
+                        public boolean onMenuItemClick(MenuItem menuItem) {
+                            Toast.makeText(mContext, menuItem.getTitle(), Toast.LENGTH_SHORT).show();
+                            return true;
+                        }
+                    });
+                    popupMenu.show();
+                } catch (Exception e) {
+
+                }
             }
         });
 

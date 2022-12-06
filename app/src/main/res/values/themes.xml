@@ -13,6 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
 
+
     </style>
 
     // Search View theme
@@ -99,7 +100,21 @@
     <style name="menuitem" parent="">
         <item name="android:layoutDirection">rtl</item>
         <item name="android:layout_alignParentEnd">true</item>
-        <item name="android:layout_marginRight">@dimen/_10sdp</item>
+        <item name="android:layout_marginRight">@dimen/_15sdp</item>
+    </style>
+
+
+    <style name="popupMenuStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:itemBackground">@color/bg_color_dark_blue_op</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:listPreferredItemPaddingLeft">5dp</item>
+        <item name="android:listPreferredItemPaddingRight">5dp</item>
+        <!--<item name="android:itemPadding">-10dp</item>
+
+        <item name="android:listPreferredItemHeightSmall">10dp</item>-->
+        <!--<item name="android:dropDownHorizontalOffset">-4dp</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>-->
     </style>
 
 

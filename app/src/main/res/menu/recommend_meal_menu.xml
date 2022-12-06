@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_to_favorite"
+        android:title="@string/lbl_save_favorite"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/recommend_meal"
+        android:title="@string/lbl_recommend_meal"
+        app:showAsAction="never" />
+
+
+</menu>
