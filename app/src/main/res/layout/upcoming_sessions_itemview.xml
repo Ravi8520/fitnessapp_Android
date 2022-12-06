@@ -164,7 +164,8 @@
                     android:id="@+id/layout_pinview"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <com.chaos.view.PinView
                         android:id="@+id/Pinview"
@@ -176,10 +177,10 @@
                         android:focusable="true"
                         android:gravity="center"
                         android:hint="******"
-                        android:inputType="numberPassword"
+                        android:inputType="number"
                         android:padding="@dimen/_10sdp"
-                        android:textColor="@color/black"
-                        android:textColorHint="@color/black"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
                         android:textSize="18sp"
                         app:cursorWidth="2dp"
                         app:hideLineWhenFilled="false"
@@ -187,9 +188,7 @@
                         app:itemSpacing="@dimen/_5sdp"
                         app:viewType="line" />
 
-
                     <androidx.appcompat.widget.AppCompatButton
-
                         android:id="@+id/btn_enter"
                         android:layout_width="128dp"
                         android:layout_height="45dp"
@@ -201,29 +200,33 @@
                         android:background="@drawable/otp_dialogue_btn"
                         android:clickable="true"
                         android:focusable="true"
-                        android:fontFamily="@font/rubik_bold"
+                        android:fontFamily="@font/rubic_medium"
                         android:gravity="center"
                         android:text="@string/lbl_enter"
                         android:textAllCaps="false"
                         android:textColor="@color/white"
                         android:textSize="16sp" />
+
                 </LinearLayout>
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/btn_enterOtp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout_pinview"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/rubik_bold"
+                    android:fontFamily="@font/rubic_medium"
                     android:gravity="center"
-                    android:padding="@dimen/_5sdp"
+                    android:letterSpacing="0.02"
+                    android:padding="@dimen/_7sdp"
                     android:text="@string/lbl_enterotp"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="14sp" />
 
             </RelativeLayout>
 
         </RelativeLayout>
+
     </androidx.cardview.widget.CardView>
 
 </RelativeLayout>

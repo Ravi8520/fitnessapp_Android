@@ -103,6 +103,7 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/menu/actionmenus.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/menu/chatscreenmenu.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/menu/trainerdetailnavbar.xml" value="0.16631038905515177" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/btn_enterotp_item.xml" value="0.1275" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/custome_bg_gradient.xml" value="0.1795" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/ic_calender_bg.xml" value="0.14" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/drawable/ic_main_bg.xml" value="0.1375" />
@@ -116,10 +117,11 @@
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/fragment_my_scheduleall.xml" value="0.2078125" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/fragment_my_scheduleupcoming.xml" value="0.17058572039333048" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/myschedule_itemview.xml" value="0.16" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/upcoming_sessions_itemview.xml" value="0.25" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
