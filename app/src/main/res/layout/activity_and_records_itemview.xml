@@ -31,7 +31,7 @@
                 android:gravity="center"
                 android:text="Nov"
                 android:textColor="@color/white"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/txt_date"
@@ -42,7 +42,7 @@
                 android:gravity="center"
                 android:text="20"
                 android:textColor="@color/white"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
         </RelativeLayout>
 
@@ -62,7 +62,7 @@
                 android:fontFamily="@font/rubik_bold"
                 android:text="@string/lbl_recent"
                 android:textColor="@color/white"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/txt_recent_Exercices"
@@ -72,17 +72,17 @@
                 android:fontFamily="@font/rubik_regular"
                 android:text="Mindfulness"
                 android:textColor="@color/white"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/txt_experience"
+                android:id="@+id/txt_totalExercises"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/txt_recent_Exercices"
                 android:fontFamily="@font/rubik_regular"
                 android:text="8 Exercises"
                 android:textColor="@color/white"
-                android:textSize="10sp" />
+                android:textSize="12sp" />
 
         </RelativeLayout>
 

@@ -60,7 +60,6 @@ public class MealMarketActivity extends AppCompatActivity {
             public void onItemClick(View view, int position) {
                 if (view.getId() == R.id.img_more_option) {
                     try {
-
                         Context myContext = new ContextThemeWrapper(context, R.style.popupMenuStyle);
                         PopupMenu popupMenu = new PopupMenu(myContext, view);
 
@@ -70,6 +69,7 @@ public class MealMarketActivity extends AppCompatActivity {
                             public boolean onMenuItemClick(MenuItem menuItem) {
 
                                 Log.e("menuItem", "menuItem==" + menuItem.getItemId());
+
                                 if (menuItem.getItemId() == R.id.recommend_meal) {
                                     //Toast.makeText(context, menuItem.getTitle(), Toast.LENGTH_SHORT).show();
                                     final Dialog dialog = new Dialog(context);
@@ -88,11 +88,12 @@ public class MealMarketActivity extends AppCompatActivity {
                                     recyclerView.setLayoutManager(new LinearLayoutManager(context));
                                     recyclerView.setAdapter(recommendMealAdapter);
 
+
+
                                     dialog.show();
                                 } else if (menuItem.getItemId() == R.id.add_to_favorite) {
                                     Toast.makeText(context, menuItem.getTitle(), Toast.LENGTH_SHORT).show();
                                 }
-
                                 return true;
                             }
                         });
