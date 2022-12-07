@@ -271,11 +271,10 @@
     <string name="lbl_view_booking">View Booking</string>
     <string name="lbl_activity_records">Activity &amp; Records</string>
     <string name="lbl_this_month">This Month</string>
-    <string name="lbl_recent">Recent</string>
+    <string name="lbl_recent">Recent :</string>
     <string name="lbl_save_favorite">Save to favorite</string>
     <string name="lbl_recommend_meal">Recommend Meal to a client</string>
     <string name="lbl_recommend">Recommend</string>
-
     <string name="lbl_workout_experience">Workout Experience</string>
     <string name="experiencenote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor in posuere rutrum vulputate platea sed mauris arcu. Nisl potenti non massa eu, sed.</string>
     <string name="lbl_overview">Overview</string>
@@ -284,7 +283,11 @@
     <string name="lbl_this_week">This Week</string>
     <string name="lbl_total_session">Total Sessions</string>
     <string name="lbl_meal_recommended">Meals recommended</string>
-    <string name="lbl_weight">Weight <font size="10" > (Kgs)</font></string>
+    <string name="lbl_weight">Weight <font size="10"> (Kgs)</font></string>
     <string name="lbl_calories">Calories <font size="10"> (Kcal)</font></string>
+    <string name="lbl_mealName">Salad da’Macarena <font size="10"> Best seller</font></string>
+    <string name="lbl_meal_discription">Mixture of raw usually green leafy vegetables (as lettuce) combined with other vegetables....</string>
+    <string name="lbl_goals">Goals</string>
+    <string name="lbl_recent_workouts">Recent Workouts</string>
 
 </resources>
