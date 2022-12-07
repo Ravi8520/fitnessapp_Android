@@ -92,6 +92,71 @@
                 android:textSize="12sp" />
 
 
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/layout_image"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/ic_white_square"
+                android:elevation="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/tvAdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/rubic_medium"
+                    android:gravity="center"
+                    android:text="Add"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/lytCount"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:id="@+id/btnMinus"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:padding="4dp"
+                        android:src="@drawable/ic_remove"
+                        app:tint="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tvCount"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/rubic_medium"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/btnPlus"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:padding="4dp"
+                        android:src="@drawable/ic_add"
+                        app:tint="@color/black" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
         </RelativeLayout>
+
     </androidx.cardview.widget.CardView>
+
 </RelativeLayout>
