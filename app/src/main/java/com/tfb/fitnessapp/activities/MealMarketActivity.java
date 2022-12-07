@@ -99,7 +99,7 @@ public class MealMarketActivity extends AppCompatActivity {
                         });
                         popupMenu.show();
                     } catch (Exception e) {
-
+                        e.getMessage();
                     }
                 }
             }
