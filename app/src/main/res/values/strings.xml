@@ -289,5 +289,7 @@
     <string name="lbl_meal_discription">Mixture of raw usually green leafy vegetables (as lettuce) combined with other vegetables....</string>
     <string name="lbl_goals">Goals</string>
     <string name="lbl_recent_workouts">Recent Workouts</string>
+    <string name="lbl_recent_search">Recent Search</string>
+    <string name="lbl_popular_category">Popular Category</string>
 
 </resources>

@@ -2,6 +2,7 @@ package com.tfb.fitnessapp.activities;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
@@ -45,6 +46,14 @@ public class MealMarketActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
+
+        binding.imgFilter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(context, MealMarketFilterActivity.class));
+            }
+        });
+
         mealMarketAdapter = new MealMarketAdapter(context);
         binding.recyclerFood.setLayoutManager(new GridLayoutManager(context, 3));
         binding.recyclerFood.setNestedScrollingEnabled(false);
@@ -88,9 +97,8 @@ public class MealMarketActivity extends AppCompatActivity {
                                     recyclerView.setLayoutManager(new LinearLayoutManager(context));
                                     recyclerView.setAdapter(recommendMealAdapter);
 
-
-
                                     dialog.show();
+
                                 } else if (menuItem.getItemId() == R.id.add_to_favorite) {
                                     Toast.makeText(context, menuItem.getTitle(), Toast.LENGTH_SHORT).show();
                                 }
