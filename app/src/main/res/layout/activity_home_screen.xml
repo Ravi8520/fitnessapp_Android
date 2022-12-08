@@ -128,7 +128,7 @@
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
                             android:padding="3dp"
-                            android:src="@drawable/ic_add" />
+                            android:src="@drawable/ic_addevent" />
 
                         <TextView
                             android:id="@+id/txt_schedule_discription"

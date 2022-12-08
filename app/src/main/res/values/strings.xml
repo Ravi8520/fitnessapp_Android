@@ -269,6 +269,7 @@
     <string name="lbl_plan">Plan :</string>
     <string name="lbl_view_profile">View Profile</string>
     <string name="lbl_view_booking">View Booking</string>
+    <string name="lbl_view_more">View more</string>
     <string name="lbl_activity_records">Activity &amp; Records</string>
     <string name="lbl_this_month">This Month</string>
     <string name="lbl_recent">Recent :</string>
@@ -289,7 +290,9 @@
     <string name="lbl_meal_discription">Mixture of raw usually green leafy vegetables (as lettuce) combined with other vegetables....</string>
     <string name="lbl_goals">Goals</string>
     <string name="lbl_recent_workouts">Recent Workouts</string>
-    <string name="lbl_recent_search">Recent Search</string>
-    <string name="lbl_popular_category">Popular Category</string>
-
+    <string name="lbl_about">About</string>
+    <string name="lbl_about_disc">A training methodology that creates stimulus for improved strength &amp; endurance while helping participants build a great physique, improved range of motion and all around functional fitness</string>
+    <string name="lbl_main_workout">Main Workouts</string>
+    <string name="lbl_address">Address:</string>
+    <string name="lbl_session_ended">Your Session has ended</string>
 </resources>
