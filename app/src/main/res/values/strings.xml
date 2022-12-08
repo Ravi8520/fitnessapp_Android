@@ -295,4 +295,7 @@
     <string name="lbl_main_workout">Main Workouts</string>
     <string name="lbl_address">Address:</string>
     <string name="lbl_session_ended">Your Session has ended</string>
+
+    <string name="lbl_recent_search">Recent Search</string>
+    <string name="lbl_popular_category">Popular Category</string>
 </resources>
