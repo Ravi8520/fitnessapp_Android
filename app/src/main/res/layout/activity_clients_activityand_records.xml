@@ -52,7 +52,8 @@
             android:fontFamily="@font/rubik_bold"
             android:text="@string/lbl_this_month"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:padding="@dimen/_10sdp"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/activitiesAndrecordsRV"
