@@ -168,9 +168,11 @@
         <activity
             android:name=".activities.BookingActivity"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".activities.MealMarketFilterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TrainerviewProfileActivity"
             android:screenOrientation="portrait" />
     </application>
 
