@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -41,8 +42,20 @@ public class HomeScreenActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         mContext = this;
 
+        NavigationView navigationView = (NavigationView) findViewById(R.id.navbar);
+        View headerview = navigationView.getHeaderView(0);
+        TextView profilename = (TextView) headerview.findViewById(R.id.txt_viewProfile);
+        profilename.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                binding.drawer.closeDrawer(GravityCompat.START);
+                startActivity(new Intent(mContext,TrainerviewProfileActivity.class));
+            }
+        });
+
         setUpcomingsessioninfo();
         setUpcomingsessionAdapter();
+
 
 
         binding.txtViewAll.setOnClickListener(new View.OnClickListener() {
@@ -51,6 +64,7 @@ public class HomeScreenActivity extends AppCompatActivity {
                 startActivity(new Intent(mContext,NewBookingsAlertsActivity.class));
             }
         });
+
 
         setSupportActionBar(binding.toolbar);
         toggle = new ActionBarDrawerToggle(this, binding.drawer, binding.toolbar, R.string.open, R.string.close);

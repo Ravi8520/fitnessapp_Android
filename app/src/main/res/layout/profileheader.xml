@@ -36,12 +36,13 @@
             android:id="@+id/txt_viewProfile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/lbl_viewprofile"
-            android:gravity="center"
-            android:textColor="@color/black"
             android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/rubik_bold"
-            android:textSize="14sp"/>
+            android:padding="@dimen/_5sdp"
+            android:gravity="center"
+            android:text="@string/lbl_viewprofile"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
     </LinearLayout>
 
