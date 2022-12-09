@@ -8,17 +8,17 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.tfb.fitnessapp.databinding.MealmarketItmeBinding;
-import com.tfb.fitnessapp.databinding.SessionhistoryItemviewBinding;
+import com.tfb.fitnessapp.databinding.SearchMealItemsBinding;
 import com.tfb.fitnessapp.models.Sessionhistorymodel;
 
 import java.util.ArrayList;
 
-public class MealMarketAdapter extends RecyclerView.Adapter<MealMarketAdapter.SearchMealViewholder> {
+public class SearchMealAdapter extends RecyclerView.Adapter<SearchMealAdapter.SearchMealViewholder> {
 
     Context mContext;
     ArrayList<Sessionhistorymodel> sessiondataList;
 
-    public MealMarketAdapter(Context mContext) {
+    public SearchMealAdapter(Context mContext) {
         this.mContext = mContext;
     }
 
@@ -27,13 +27,12 @@ public class MealMarketAdapter extends RecyclerView.Adapter<MealMarketAdapter.Se
     public SearchMealViewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
-        MealmarketItmeBinding itemviewBinding = MealmarketItmeBinding.inflate(layoutInflater,parent,false);
+        SearchMealItemsBinding itemviewBinding = SearchMealItemsBinding.inflate(layoutInflater, parent, false);
         return new SearchMealViewholder(itemviewBinding);
     }
 
     @Override
     public void onBindViewHolder(@NonNull SearchMealViewholder holder, int position) {
-
 
     }
 
@@ -44,9 +43,9 @@ public class MealMarketAdapter extends RecyclerView.Adapter<MealMarketAdapter.Se
 
     public class SearchMealViewholder extends RecyclerView.ViewHolder {
 
-        public MealmarketItmeBinding binding;
+        public SearchMealItemsBinding binding;
 
-        public SearchMealViewholder(@NonNull MealmarketItmeBinding itemView) {
+        public SearchMealViewholder(@NonNull SearchMealItemsBinding itemView) {
             super(itemView.getRoot());
             this.binding = itemView;
         }

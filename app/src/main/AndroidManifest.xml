@@ -168,10 +168,14 @@
         <activity
             android:name=".activities.BookingActivity"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".activities.MealMarketFilterActivity"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SearchMealsActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

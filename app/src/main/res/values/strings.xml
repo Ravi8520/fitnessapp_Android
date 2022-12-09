@@ -298,4 +298,7 @@
 
     <string name="lbl_recent_search">Recent Search</string>
     <string name="lbl_popular_category">Popular Category</string>
+    <string name="lbl_filter">Filter</string>
+    <string name="lbl_food_name">Farmhouse Pizza</string>
+    <string name="lbl_food_description">Mixture of raw usually green leafy vegetables (as lettuce) combined with other vegetables....</string>
 </resources>

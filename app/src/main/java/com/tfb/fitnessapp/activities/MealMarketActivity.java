@@ -54,6 +54,13 @@ public class MealMarketActivity extends AppCompatActivity {
             }
         });
 
+        binding.searchview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(context, SearchMealsActivity.class));
+            }
+        });
+
         mealMarketAdapter = new MealMarketAdapter(context);
         binding.recyclerFood.setLayoutManager(new GridLayoutManager(context, 3));
         binding.recyclerFood.setNestedScrollingEnabled(false);
