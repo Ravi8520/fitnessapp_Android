@@ -24,6 +24,7 @@
     <color name="bg_color_dark_blue_op">#CC152123</color>
     <color name="bg_viewprofile">#707070</color>
     <color name="trainerprofile_blue">#172225</color>
+    <color name="rating_color">#DFDFDF</color>
 
 
 </resources>
