@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.tfb.fitnessapp.databinding.SearchMealItemsBinding;
+import com.tfb.fitnessapp.databinding.GotoCatrItemBinding;
 import com.tfb.fitnessapp.models.Sessionhistorymodel;
 
 import java.util.ArrayList;
@@ -26,7 +26,7 @@ public class GoToCartAdapter extends RecyclerView.Adapter<GoToCartAdapter.GoToCa
     public GoToCartViewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
-        SearchMealItemsBinding itemviewBinding = SearchMealItemsBinding.inflate(layoutInflater, parent, false);
+        GotoCatrItemBinding itemviewBinding = GotoCatrItemBinding.inflate(layoutInflater, parent, false);
         return new GoToCartViewholder(itemviewBinding);
     }
 
@@ -40,9 +40,9 @@ public class GoToCartAdapter extends RecyclerView.Adapter<GoToCartAdapter.GoToCa
     }
     public class GoToCartViewholder extends RecyclerView.ViewHolder {
 
-        public SearchMealItemsBinding binding;
+        public GotoCatrItemBinding binding;
 
-        public GoToCartViewholder(@NonNull SearchMealItemsBinding itemView) {
+        public GoToCartViewholder(@NonNull GotoCatrItemBinding itemView) {
             super(itemView.getRoot());
             this.binding = itemView;
         }

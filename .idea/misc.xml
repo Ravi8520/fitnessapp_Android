@@ -171,18 +171,20 @@
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_trainer_details.xml" value="0.16842549598986914" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_trainerview_profile.xml" value="0.16842549598986914" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_welcome_profile_trainer.xml" value="0.25" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/browse_healthy_diets_items.xml" value="0.25" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/foodcategory_filter_dailog.xml" value="0.2" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/foodfilter_category_item.xml" value="0.33" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/fragment_my_scheduleall.xml" value="0.2078125" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/fragment_my_scheduleupcoming.xml" value="0.17058572039333048" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/fragment_workouts.xml" value="0.17058572039333048" />
-        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/goto_cart_items.xml" value="0.16973065412569474" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/goto_cart_items.xml" value="0.33" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/goto_catr_item.xml" value="0.22" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/mealmarket_itme.xml" value="0.16973065412569474" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/more_chat_setting_dialogue.xml" value="0.16842549598986914" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/myschedule_itemview.xml" value="0.16" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/recent_search_meal_item.xml" value="0.16973065412569474" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/recommend_meal_dialog.xml" value="0.16842549598986914" />
-        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/search_meal_items.xml" value="0.22" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/search_meal_items.xml" value="0.33" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/select_gym_city_dialog.xml" value="0.16842549598986914" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/sessionhistory_itemview.xml" value="0.17058572039333048" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/upcoming_sessions_itemview.xml" value="0.22" />
