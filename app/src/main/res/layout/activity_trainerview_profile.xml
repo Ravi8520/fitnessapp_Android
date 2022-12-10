@@ -27,7 +27,7 @@
 
     </RelativeLayout>
 
-    <androidx.core.widget.NestedScrollView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/layout_toolbar"
@@ -620,13 +620,41 @@
 
                 </LinearLayout>
 
+
+
+
             </LinearLayout>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tablayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:background="@android:color/transparent"
+                android:elevation="0dp"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/white"
+                app:tabIndicatorHeight="1.5dp"
+                app:tabSelectedTextColor="@color/white"
+                app:tabTextAppearance="@style/MineCustomTabText"
+                app:tabTextColor="@color/white">
+
+            </com.google.android.material.tabs.TabLayout>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/tab_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 />
+
+
+
 
 
         </LinearLayout>
 
 
-    </androidx.core.widget.NestedScrollView>
+    </ScrollView>
 
 
 </RelativeLayout>

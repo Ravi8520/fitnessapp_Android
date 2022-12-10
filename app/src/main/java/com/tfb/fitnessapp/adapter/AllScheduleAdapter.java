@@ -1,6 +1,7 @@
 package com.tfb.fitnessapp.adapter;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -17,18 +18,18 @@ public class AllScheduleAdapter extends RecyclerView.Adapter<AllScheduleAdapter.
     Context mContext;
     ArrayList<MySchedulemodel> scheduleList;
 
-    public AllScheduleAdapter(Context mContext, ArrayList<MySchedulemodel> scheduleList) {
-        this.mContext = mContext;
+    public AllScheduleAdapter(Context context, ArrayList<MySchedulemodel> scheduleList) {
+        this.mContext = context;
         this.scheduleList = scheduleList;
     }
 
     @NonNull
     @Override
-    public AllScheduleAdapter.AllScheduleViewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public AllScheduleViewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         MyscheduleItemviewBinding itemCardBinding = MyscheduleItemviewBinding.inflate(layoutInflater, parent, false);
-        return new AllScheduleAdapter.AllScheduleViewholder(itemCardBinding);
+        return new AllScheduleViewholder(itemCardBinding);
     }
 
     @Override
@@ -46,6 +47,7 @@ public class AllScheduleAdapter extends RecyclerView.Adapter<AllScheduleAdapter.
 
     @Override
     public int getItemCount() {
+        Log.e("scheduleList","scheduleList=="+scheduleList.size());
         return scheduleList.size();
     }
 

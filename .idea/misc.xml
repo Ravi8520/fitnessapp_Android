@@ -105,7 +105,7 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_splash.xml" value="0.20260416666666667" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_trainer_continuewith.xml" value="0.12604263206672844" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_trainer_details.xml" value="0.16631038905515177" />
-        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_trainerview_profile.xml" value="0.29402872260015117" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_trainerview_profile.xml" value="0.18" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_welcome_profile.xml" value="0.16" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_welcome_profile_trainer.xml" value="0.18" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_workout_goals.xml" value="0.16631038905515177" />
@@ -116,8 +116,10 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/custom_workoutgoals_list.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/custome_details_list.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/custome_injuries_itemview.xml" value="0.12604263206672844" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/fragment_demos.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/fragment_my_scheduleall.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/fragment_my_scheduleupcoming.xml" value="0.16631038905515177" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/fragment_workouts.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/mealmarket_itme.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/messages_itemview.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/more_chat_setting_dialogue.xml" value="0.16631038905515177" />
