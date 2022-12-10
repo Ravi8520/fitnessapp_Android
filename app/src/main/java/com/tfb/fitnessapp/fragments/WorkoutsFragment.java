@@ -24,7 +24,6 @@ public class WorkoutsFragment extends Fragment {
     private FragmentWorkoutsBinding binding;
     private Context mContext;
     ArrayList<MySchedulemodel> scheduleData = new ArrayList<>();
-    RecyclerView recyclerView;
 
     @Override
     public void onAttach(@NonNull Context context) {
@@ -35,16 +34,13 @@ public class WorkoutsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View view = LayoutInflater.from(getActivity()).inflate(R.layout.fragment_workouts, container, false);
+        binding = FragmentWorkoutsBinding.inflate(inflater,container,false);
 
-        recyclerView=view.findViewById(R.id.allSchedule_RV);
         setScheduleInfo();
-        //setScheduleAdapter();
-        AllScheduleAdapter adapter = new AllScheduleAdapter(mContext, scheduleData);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        recyclerView.setAdapter(adapter);
+        setScheduleAdapter();
 
-        return view;
+
+        return binding.getRoot();
     }
 
     private void setScheduleInfo() {
@@ -63,6 +59,8 @@ public class WorkoutsFragment extends Fragment {
 
     private void setScheduleAdapter() {
 
-
+        AllScheduleAdapter adapter = new AllScheduleAdapter(mContext, scheduleData);
+        binding.workoutsRV.setLayoutManager(new LinearLayoutManager(getActivity()));
+        binding.workoutsRV.setAdapter(adapter);
     }
 }
