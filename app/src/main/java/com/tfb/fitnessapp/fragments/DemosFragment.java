@@ -19,7 +19,7 @@ public class DemosFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         binding = FragmentDemosBinding.inflate(inflater,container,false);
         mContext = this;
 

@@ -105,7 +105,7 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_splash.xml" value="0.20260416666666667" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_trainer_continuewith.xml" value="0.12604263206672844" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_trainer_details.xml" value="0.16631038905515177" />
-        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_trainerview_profile.xml" value="0.29402872260015117" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_trainerview_profile.xml" value="0.18" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_welcome_profile.xml" value="0.16" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_welcome_profile_trainer.xml" value="0.18" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_workout_goals.xml" value="0.16631038905515177" />
@@ -116,8 +116,10 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/custom_workoutgoals_list.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/custome_details_list.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/custome_injuries_itemview.xml" value="0.12604263206672844" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/fragment_demos.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/fragment_my_scheduleall.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/fragment_my_scheduleupcoming.xml" value="0.16631038905515177" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/fragment_workouts.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/mealmarket_itme.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/messages_itemview.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/more_chat_setting_dialogue.xml" value="0.16631038905515177" />
@@ -129,6 +131,7 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/select_gym_city_dialog.xml" value="0.21" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/sessionhistory_itemview.xml" value="0.22" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/timeslots_itemview.xml" value="0.16631038905515177" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/trainerworkouts_itemview.xml" value="0.33" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/workoutprograms_itemview.xml" value="0.22" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/menu/actionmenus.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/menu/chatscreenmenu.xml" value="0.16631038905515177" />
@@ -155,7 +158,6 @@
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_continue_as.xml" value="0.17058572039333048" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_dashboard.xml" value="0.17058572039333048" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_forget_password.xml" value="0.19907407407407407" />
-        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_go_to_cart.xml" value="0.25" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_gym_access.xml" value="0.2" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_home_screen.xml" value="0.22" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_meal_market.xml" value="0.18" />
@@ -169,22 +171,17 @@
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_search_meals.xml" value="0.25" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_sessions.xml" value="0.17058572039333048" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_trainer_details.xml" value="0.16842549598986914" />
-        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_trainerview_profile.xml" value="0.16842549598986914" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/activity_welcome_profile_trainer.xml" value="0.25" />
-        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/browse_healthy_diets_items.xml" value="0.25" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/foodcategory_filter_dailog.xml" value="0.2" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/foodfilter_category_item.xml" value="0.33" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/fragment_my_scheduleall.xml" value="0.2078125" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/fragment_my_scheduleupcoming.xml" value="0.17058572039333048" />
-        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/fragment_workouts.xml" value="0.17058572039333048" />
-        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/goto_cart_items.xml" value="0.33" />
-        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/goto_catr_item.xml" value="0.22" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/mealmarket_itme.xml" value="0.16973065412569474" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/more_chat_setting_dialogue.xml" value="0.16842549598986914" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/myschedule_itemview.xml" value="0.16" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/recent_search_meal_item.xml" value="0.16973065412569474" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/recommend_meal_dialog.xml" value="0.16842549598986914" />
-        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/search_meal_items.xml" value="0.33" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/search_meal_items.xml" value="0.22" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/select_gym_city_dialog.xml" value="0.16842549598986914" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/sessionhistory_itemview.xml" value="0.17058572039333048" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/upcoming_sessions_itemview.xml" value="0.22" />
@@ -192,7 +189,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
