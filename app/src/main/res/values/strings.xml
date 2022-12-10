@@ -315,5 +315,9 @@
     <string name="lbl_read_more">Read More</string>
     <string name="lbl_available_equipment">Available Equipments</string>
     <string name="lbl_venues">Venues</string>
+    <string name="lbl_demos">Demos</string>
+    <string name="lbl_workouts">Workouts</string>
     <string name="lbl_bio_dic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet a placerat condimentum in id volutpat, molestie nullam. Dui nullam...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

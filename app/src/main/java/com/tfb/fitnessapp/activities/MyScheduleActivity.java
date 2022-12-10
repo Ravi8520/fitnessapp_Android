@@ -74,6 +74,7 @@ public class MyScheduleActivity extends AppCompatActivity {
 
            }
        });*/
+
         binding.tabViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(binding.tablayout));
 
         binding.backarrow.setOnClickListener(new View.OnClickListener() {

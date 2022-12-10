@@ -1,10 +1,12 @@
 package com.tfb.fitnessapp.fragments;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -19,14 +21,21 @@ import java.util.ArrayList;
 public class MySchedulefragment_all extends Fragment {
 
     private FragmentMyScheduleallBinding binding;
-    private MySchedulefragment_all mContext;
+    private Context mContext;
     ArrayList<MySchedulemodel> scheduleData = new ArrayList<>();
+
+    @Override
+    public void onAttach(@NonNull Context context) {
+        super.onAttach(context);
+        this.mContext = context;
+
+    }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
         binding =  FragmentMyScheduleallBinding.inflate(inflater, container, false);
-        mContext = this;
+
 
         setScheduleInfo();
         setScheduleAdapter();
@@ -49,7 +58,7 @@ public class MySchedulefragment_all extends Fragment {
     }
     private void setScheduleAdapter() {
 
-        AllScheduleAdapter adapter = new AllScheduleAdapter(getActivity(),scheduleData);
+        AllScheduleAdapter adapter = new AllScheduleAdapter(mContext,scheduleData);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
         binding.allScheduleRV.setLayoutManager(layoutManager);
         binding.allScheduleRV.setAdapter(adapter);
