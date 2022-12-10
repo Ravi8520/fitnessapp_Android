@@ -18,9 +18,9 @@ public class AllScheduleAdapter extends RecyclerView.Adapter<AllScheduleAdapter.
     Context mContext;
     ArrayList<MySchedulemodel> scheduleList;
 
-    public AllScheduleAdapter(Context context, ArrayList<MySchedulemodel> scheduleList) {
+    public AllScheduleAdapter(Context context, ArrayList<MySchedulemodel> scheduleList11) {
         this.mContext = context;
-        this.scheduleList = scheduleList;
+        this.scheduleList = scheduleList11;
     }
 
     @NonNull

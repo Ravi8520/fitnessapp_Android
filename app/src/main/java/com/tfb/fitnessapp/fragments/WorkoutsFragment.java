@@ -2,7 +2,6 @@ package com.tfb.fitnessapp.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,7 +9,9 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.tfb.fitnessapp.R;
 import com.tfb.fitnessapp.adapter.AllScheduleAdapter;
 import com.tfb.fitnessapp.databinding.FragmentWorkoutsBinding;
 import com.tfb.fitnessapp.models.MySchedulemodel;
@@ -23,29 +24,27 @@ public class WorkoutsFragment extends Fragment {
     private FragmentWorkoutsBinding binding;
     private Context mContext;
     ArrayList<MySchedulemodel> scheduleData = new ArrayList<>();
+    RecyclerView recyclerView;
 
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
         this.mContext = context;
-
     }
-
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        binding = FragmentWorkoutsBinding.inflate(getLayoutInflater());
 
+        View view = LayoutInflater.from(getActivity()).inflate(R.layout.fragment_workouts, container, false);
 
+        recyclerView=view.findViewById(R.id.allSchedule_RV);
         setScheduleInfo();
-        setScheduleAdapter();
+        //setScheduleAdapter();
+        AllScheduleAdapter adapter = new AllScheduleAdapter(mContext, scheduleData);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        recyclerView.setAdapter(adapter);
 
-
-
-        Log.e("abc", "abc==");
-        return binding.getRoot();
+        return view;
     }
 
     private void setScheduleInfo() {
@@ -64,8 +63,6 @@ public class WorkoutsFragment extends Fragment {
 
     private void setScheduleAdapter() {
 
-        AllScheduleAdapter adapter = new AllScheduleAdapter(mContext, scheduleData);
-        binding.allScheduleRV.setLayoutManager(new LinearLayoutManager(getActivity()));
-        binding.allScheduleRV.setAdapter(adapter);
+
     }
 }

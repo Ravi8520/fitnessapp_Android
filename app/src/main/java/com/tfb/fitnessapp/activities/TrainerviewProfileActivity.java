@@ -1,17 +1,15 @@
 package com.tfb.fitnessapp.activities;
 
 
-
 import static com.google.android.material.tabs.TabLayout.GRAVITY_FILL;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.material.tabs.TabLayout;
 import com.tfb.fitnessapp.R;
-
 import com.tfb.fitnessapp.adapter.TrainerViewProfilepageAdapter;
 import com.tfb.fitnessapp.databinding.ActivityTrainerviewProfileBinding;
 
@@ -60,8 +58,6 @@ public class TrainerviewProfileActivity extends AppCompatActivity {
 
             }
         });
-
-
 
     }
 }
