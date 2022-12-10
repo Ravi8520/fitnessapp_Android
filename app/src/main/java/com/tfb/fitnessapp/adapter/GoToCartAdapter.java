@@ -7,44 +7,42 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.tfb.fitnessapp.databinding.MealmarketItmeBinding;
 import com.tfb.fitnessapp.databinding.SearchMealItemsBinding;
 import com.tfb.fitnessapp.models.Sessionhistorymodel;
 
 import java.util.ArrayList;
 
-public class SearchMealAdapter extends RecyclerView.Adapter<SearchMealAdapter.SearchMealViewholder> {
+public class GoToCartAdapter extends RecyclerView.Adapter<GoToCartAdapter.GoToCartViewholder> {
 
     Context mContext;
     ArrayList<Sessionhistorymodel> sessiondataList;
 
-    public SearchMealAdapter(Context mContext) {
+    public GoToCartAdapter(Context mContext) {
         this.mContext = mContext;
     }
 
     @NonNull
     @Override
-    public SearchMealViewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public GoToCartViewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         SearchMealItemsBinding itemviewBinding = SearchMealItemsBinding.inflate(layoutInflater, parent, false);
-        return new SearchMealViewholder(itemviewBinding);
+        return new GoToCartViewholder(itemviewBinding);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull SearchMealViewholder holder, int position) {
+    public void onBindViewHolder(@NonNull GoToCartViewholder holder, int position) {
 
     }
     @Override
     public int getItemCount() {
         return 6;
     }
-
-    public class SearchMealViewholder extends RecyclerView.ViewHolder {
+    public class GoToCartViewholder extends RecyclerView.ViewHolder {
 
         public SearchMealItemsBinding binding;
 
-        public SearchMealViewholder(@NonNull SearchMealItemsBinding itemView) {
+        public GoToCartViewholder(@NonNull SearchMealItemsBinding itemView) {
             super(itemView.getRoot());
             this.binding = itemView;
         }

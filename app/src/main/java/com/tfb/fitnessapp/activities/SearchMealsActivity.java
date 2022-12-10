@@ -21,7 +21,7 @@ public class SearchMealsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivitySearchMealsBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        context = this;
         binding.backarrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,6 +32,5 @@ public class SearchMealsActivity extends AppCompatActivity {
         searchMealAdapter = new SearchMealAdapter(context);
         binding.recyclerFood.setLayoutManager(new LinearLayoutManager(context));
         binding.recyclerFood.setAdapter(searchMealAdapter);
-
     }
 }
