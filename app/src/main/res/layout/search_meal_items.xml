@@ -157,6 +157,7 @@
                         </RelativeLayout>
 
                         <RelativeLayout
+                            android:id="@+id/layout_add"
                             android:layout_width="@dimen/_45sdp"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/layout_food"
