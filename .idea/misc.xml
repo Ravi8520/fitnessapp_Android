@@ -176,6 +176,7 @@
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/foodfilter_category_item.xml" value="0.33" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/fragment_my_scheduleall.xml" value="0.2078125" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/fragment_my_scheduleupcoming.xml" value="0.17058572039333048" />
+        <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/goto_catr_item.xml" value="0.17058572039333048" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/mealmarket_itme.xml" value="0.16973065412569474" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/more_chat_setting_dialogue.xml" value="0.16842549598986914" />
         <entry key="..\:/Jayesh/Curent Project/FitnessApp/app/src/main/res/layout/myschedule_itemview.xml" value="0.16" />
@@ -189,7 +190,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
