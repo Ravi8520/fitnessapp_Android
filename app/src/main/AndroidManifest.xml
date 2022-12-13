@@ -183,6 +183,15 @@
         <activity
             android:name=".activities.EditTrainerProfileActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PaymentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MyEarningsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WithdrawActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

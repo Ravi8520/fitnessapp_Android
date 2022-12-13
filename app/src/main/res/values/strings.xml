@@ -328,4 +328,20 @@
     <string name="lbl_location">Location</string>
     <string name="lbl_WorkExperience">Work Experience</string>
     <string name="lbl_addGym_company">ADD A GYM/COMPANY</string>
+    <string name="lbl_payments">Payments</string>
+    <string name="lbl_wallet">Wallet</string>
+    <string name="lbl_use_ur_wallet">Use Your  Wallet To</string>
+    <string name="lbl_booksession">Book a Session</string>
+    <string name="lbl_giftsession">Gift a Session</string>
+    <string name="lbl_bookmeal">Book a Meal</string>
+    <string name="lbl_myearning">My Earnings</string>
+    <string name="lbl_total_earning">Total Earnings</string>
+    <string name="lbl_withdraw">Withdraw</string>
+    <string name="lbl_earnings">Earnings</string>
+    <string name="lbl_trip_earnings">Trip Earnings</string>
+    <string name="lbl_taxes">Taxes</string>
+    <string name="lbl_instant_withdrawal">Instant withdrawal ( Recommended )</string>
+    <string name="lbl_available">Available</string>
+    <string name="lbl_withdrawal_note">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu varius non gravida aliquam sapien. Phasellus velit at mauris lectus </string>
+
 </resources>
