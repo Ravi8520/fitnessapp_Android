@@ -78,8 +78,8 @@ public class MealMarketActivity extends AppCompatActivity {
                     try {
                         Context myContext = new ContextThemeWrapper(context, R.style.popupMenuStyle);
                         PopupMenu popupMenu = new PopupMenu(myContext, view);
-
                         popupMenu.getMenuInflater().inflate(R.menu.recommend_meal_menu, popupMenu.getMenu());
+
                         popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                             @Override
                             public boolean onMenuItemClick(MenuItem menuItem) {
