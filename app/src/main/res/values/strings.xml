@@ -232,7 +232,7 @@
     <string name="lbl_no_of_session">Number of Sessions</string>
     <string name="lbl_over_all_price">Overall Price</string>
     <string name="lbl_session_type">Session Type</string>
-    <string name="lbl_note">Note</string>
+    <string name="lbl_note">Note :</string>
     <string name="lbl_per_session_price">Per Session Pricing will be $10</string>
     <string name="lbl_main_workout_included">Main Workout Included</string>
     <string name="lbl_percentage_discounts">Percentage Discounts</string>
@@ -328,4 +328,17 @@
     <string name="lbl_location">Location</string>
     <string name="lbl_WorkExperience">Work Experience</string>
     <string name="lbl_addGym_company">ADD A GYM/COMPANY</string>
+
+    <string name="lbl_cart">Cart</string>
+    <string name="lbl_write_instruction">Write Instruction for the restaurant</string>
+    <string name="lbl_apply_coupon">Apply Coupon</string>
+    <string name="lbl_order_details">Order Details</string>
+    <string name="lbl_item_total">Item Total</string>
+    <string name="lbl_text_charges">Text and charges</string>
+    <string name="lbl_packaging_cost">Packaging Cost</string>
+    <string name="lbl_to_pay">To Pay</string>
+    <string name="lbl_review_order">Review your order and address details to \navoid cancellations</string>
+    <string name="lbl_note_details">If you choose to cancel, you can do it within 60 seconds after the order is placed. Post which you will be charged a 100% cancellation fee.</string>
+    <string name="lbl_read_policy">Read Policy</string>
+
 </resources>

@@ -1,6 +1,7 @@
 package com.tfb.fitnessapp.activities;
 
 import android.content.Intent;
+import android.media.metrics.Event;
 import android.os.Bundle;
 import android.view.View;
 
@@ -34,6 +35,7 @@ public class SearchMealsActivity extends AppCompatActivity {
         searchMealAdapter = new SearchMealAdapter(context);
         binding.recyclerFood.setLayoutManager(new LinearLayoutManager(context));
         binding.recyclerFood.setAdapter(searchMealAdapter);
+
 
         searchMealAdapter.setOnItemClickListener(new SearchMealAdapter.OnItemClickListener() {
             @Override

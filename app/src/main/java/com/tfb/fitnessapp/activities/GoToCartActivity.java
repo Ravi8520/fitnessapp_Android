@@ -1,5 +1,6 @@
 package com.tfb.fitnessapp.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -32,6 +33,13 @@ public class GoToCartActivity extends AppCompatActivity {
         goToCartAdapter = new GoToCartAdapter(context);
         binding.recyclerSelectedFood.setLayoutManager(new LinearLayoutManager(context));
         binding.recyclerSelectedFood.setAdapter(goToCartAdapter);
+
+        binding.layoutItemDetails.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(context, CartActivity.class));
+            }
+        });
 
     }
 }
