@@ -358,16 +358,6 @@
     <string name="lbl_available">Available</string>
     <string name="lbl_withdrawal_note">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu varius non gravida aliquam sapien. Phasellus velit at mauris lectus </string>
 
-    <string name="lbl_cart">Cart</string>
-    <string name="lbl_write_instruction">Write Instruction for the restaurant</string>
-    <string name="lbl_apply_coupon">Apply Coupon</string>
-    <string name="lbl_order_details">Order Details</string>
-    <string name="lbl_item_total">Item Total</string>
-    <string name="lbl_text_charges">Text and charges</string>
-    <string name="lbl_packaging_cost">Packaging Cost</string>
-    <string name="lbl_to_pay">To Pay</string>
-    <string name="lbl_review_order">Review your order and address details to \navoid cancellations</string>
-    <string name="lbl_note_details">If you choose to cancel, you can do it within 60 seconds after the order is placed. Post which you will be charged a 100% cancellation fee.</string>
-    <string name="lbl_read_policy">Read Policy</string>
+
 
 </resources>
