@@ -3,10 +3,17 @@ package com.tfb.fitnessapp.activities;
 
 import static com.google.android.material.tabs.TabLayout.GRAVITY_FILL;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.ContextThemeWrapper;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.PopupMenu;
 
 import com.google.android.material.tabs.TabLayout;
 import com.tfb.fitnessapp.R;
@@ -30,6 +37,36 @@ public class TrainerviewProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 onBackPressed();
+            }
+        });
+
+        binding.btnEditProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+
+                    Context myContext = new ContextThemeWrapper(mContext,R.style.AppTheme);
+                    PopupMenu popupMenu = new PopupMenu(myContext, binding.btnEditProfile);
+                    popupMenu.getMenuInflater().inflate(R.menu.edit_profile, popupMenu.getMenu());
+
+                    popupMenu.setForceShowIcon(true);
+
+                    popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                        @Override
+                        public boolean onMenuItemClick(MenuItem menuItem) {
+                            Log.e("menuItem", "menuItem==" + menuItem.getItemId());
+                            Toast.makeText(mContext, menuItem.getTitle(), Toast.LENGTH_SHORT).show();
+                            if(menuItem.getItemId()==R.id.edit_profile){
+                                startActivity(new Intent(mContext,EditTrainerProfileActivity.class));
+                            }
+
+                            return true;
+                        }
+                    });
+                    popupMenu.show();
+                } catch (Exception e) {
+
+                }
             }
         });
 

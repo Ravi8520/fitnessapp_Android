@@ -318,6 +318,14 @@
     <string name="lbl_demos">Demos</string>
     <string name="lbl_workouts">Workouts</string>
     <string name="lbl_bio_dic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet a placerat condimentum in id volutpat, molestie nullam. Dui nullam...</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_edit_profile">Edit Profile</string>
+    <string name="lbl_edit_pricing">Edit Pricing</string>
+    <string name="lbl_edit_gymEquipment">Edit Gym Equipment</string>
+    <string name="lbl_edit">Edit</string>
+    <string name="lbl_gender">GENDER</string>
+    <string name="lbl_DOB">DATE OF BIRTH</string>
+    <string name="lbl_primary_email">PRIMARY EMAIL</string>
+    <string name="lbl_location">Location</string>
+    <string name="lbl_WorkExperience">Work Experience</string>
+    <string name="lbl_addGym_company">ADD A GYM/COMPANY</string>
 </resources>

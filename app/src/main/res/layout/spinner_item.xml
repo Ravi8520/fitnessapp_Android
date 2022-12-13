@@ -22,5 +22,4 @@
         android:src="@drawable/ic_arrow_down_24"
         android:layout_alignParentRight="true"/>
 
-
 </RelativeLayout>

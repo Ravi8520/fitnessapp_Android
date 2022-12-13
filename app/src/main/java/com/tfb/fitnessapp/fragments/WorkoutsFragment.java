@@ -8,13 +8,16 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.tfb.fitnessapp.R;
 import com.tfb.fitnessapp.adapter.AllScheduleAdapter;
+import com.tfb.fitnessapp.adapter.TrainerWorkoutsAdapter;
 import com.tfb.fitnessapp.databinding.FragmentWorkoutsBinding;
 import com.tfb.fitnessapp.models.MySchedulemodel;
+import com.tfb.fitnessapp.models.WorkoutProgramsmodel;
 
 import java.util.ArrayList;
 
@@ -23,7 +26,7 @@ public class WorkoutsFragment extends Fragment {
 
     private FragmentWorkoutsBinding binding;
     private Context mContext;
-    ArrayList<MySchedulemodel> scheduleData = new ArrayList<>();
+    ArrayList<WorkoutProgramsmodel> workoutsData = new ArrayList<>();
 
     @Override
     public void onAttach(@NonNull Context context) {
@@ -36,31 +39,35 @@ public class WorkoutsFragment extends Fragment {
 
         binding = FragmentWorkoutsBinding.inflate(inflater,container,false);
 
-        setScheduleInfo();
-        setScheduleAdapter();
+        setWorkoutsInfo();
+        setWorkoutsAdapter();
 
 
         return binding.getRoot();
     }
 
-    private void setScheduleInfo() {
+    private void setWorkoutsInfo() {
 
-        scheduleData.add(new MySchedulemodel("abc", "beginner", "rajkot", "alpha",
-                "12:34", "december 22,2022", 2));
-        scheduleData.add(new MySchedulemodel("abc", "beginner", "rajkot", "alpha",
-                "12:34", "december 22,2022", 2));
-        scheduleData.add(new MySchedulemodel("abc", "beginner", "rajkot", "alpha",
-                "12:34", "december 22,2022", 2));
-        scheduleData.add(new MySchedulemodel("abc", "beginner", "rajkot", "alpha",
-                "12:34", "december 22,2022", 2));
-        scheduleData.add(new MySchedulemodel("abc", "beginner", "rajkot", "alpha",
-                "12:34", "december 22,2022", 2));
+        workoutsData.add(new WorkoutProgramsmodel("Merengue", "300-600Kcal"));
+        workoutsData.add(new WorkoutProgramsmodel("Merengue", "300-600Kcal"));
+        workoutsData.add(new WorkoutProgramsmodel("Merengue", "300-600Kcal"));
+        workoutsData.add(new WorkoutProgramsmodel("Merengue", "300-600Kcal"));
+        workoutsData.add(new WorkoutProgramsmodel("Merengue", "300-600Kcal"));
+        workoutsData.add(new WorkoutProgramsmodel("Merengue", "300-600Kcal"));
+        workoutsData.add(new WorkoutProgramsmodel("Merengue", "300-600Kcal"));
+        workoutsData.add(new WorkoutProgramsmodel("Merengue", "300-600Kcal"));
+        workoutsData.add(new WorkoutProgramsmodel("abc", "beginner"));
+        workoutsData.add(new WorkoutProgramsmodel("abc", "beginner"));
+        workoutsData.add(new WorkoutProgramsmodel("abc", "beginner"));
+        workoutsData.add(new WorkoutProgramsmodel("abc", "beginner"));
+        workoutsData.add(new WorkoutProgramsmodel("abc", "beginner"));
+
     }
 
-    private void setScheduleAdapter() {
+    private void setWorkoutsAdapter() {
 
-        AllScheduleAdapter adapter = new AllScheduleAdapter(mContext, scheduleData);
-        binding.workoutsRV.setLayoutManager(new LinearLayoutManager(getActivity()));
+        TrainerWorkoutsAdapter adapter = new TrainerWorkoutsAdapter(mContext,workoutsData);
+        binding.workoutsRV.setLayoutManager(new GridLayoutManager(mContext,3));
         binding.workoutsRV.setAdapter(adapter);
     }
 }
