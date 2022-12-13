@@ -40,6 +40,12 @@ public class TrainerviewProfileActivity extends AppCompatActivity {
             }
         });
 
+        binding.layoutNoErrorCash.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mContext,PaymentsActivity.class));
+            }
+        });
         binding.btnEditProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

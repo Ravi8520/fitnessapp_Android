@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_dark_blue"
+    tools:context=".activities.PaymentsActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/backarrow"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_back_arrow_foreground"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="@string/lbl_payments"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_toolbar"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/_5sdp"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:id="@+id/layout_noErrorCash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/payments_layout_color"
+                android:gravity="center"
+                android:padding="@dimen/_3sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/rubik_bold"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/lbl_no_error_cash"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/payments_btns_bg"
+                    android:padding="@dimen/_4sdp">
+
+                    <ImageView
+                        android:id="@+id/coin"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+
+                        android:layout_marginLeft="3dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/ic_noerrorcoin" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@id/coin"
+                        android:fontFamily="@font/rubic_medium"
+                        android:paddingLeft="4dp"
+                        android:text="763"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/_5sdp"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:id="@+id/layout_wallet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/payments_layout_color"
+                android:gravity="center"
+                android:padding="@dimen/_3sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/rubik_bold"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/lbl_wallet"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/payments_btns_bg"
+                    android:padding="@dimen/_4sdp">
+
+                    <ImageView
+                        android:id="@+id/currency"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="3dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/ic_currencynote" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@id/currency"
+                        android:fontFamily="@font/rubic_medium"
+                        android:paddingLeft="4dp"
+                        android:text="763"
+                        android:layout_marginLeft="3dp"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:fontFamily="@font/rubik_bold"
+            android:text="@string/lbl_use_ur_wallet"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:drawableLeft="@drawable/ic_booksession"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="@font/rubik_regular"
+            android:gravity="center_vertical"
+            android:text="@string/lbl_booksession"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginVertical="@dimen/_20sdp"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_giftsession"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="@font/rubik_regular"
+            android:gravity="center_vertical"
+            android:text="@string/lbl_giftsession"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginVertical="@dimen/_20sdp"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_bookmeal"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="@font/rubik_regular"
+            android:gravity="center_vertical"
+            android:text="@string/lbl_bookmeal"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</RelativeLayout>
