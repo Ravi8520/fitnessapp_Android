@@ -1,5 +1,6 @@
 package com.tfb.fitnessapp.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -35,11 +36,17 @@ public class CartActivity extends AppCompatActivity {
                 new DividerItemDecoration(context, DividerItemDecoration.VERTICAL);
         divider.setDrawable(getResources().getDrawable(R.drawable.line_divider));
 
-
         cartSelectedFoodAdapter = new CartSelectedFoodAdapter(context);
         binding.recyclerSelectedItem.addItemDecoration(divider);
         binding.recyclerSelectedItem.addItemDecoration(new DividerItemDecoration(context, DividerItemDecoration.VERTICAL));
         binding.recyclerSelectedItem.setLayoutManager(new LinearLayoutManager(context));
         binding.recyclerSelectedItem.setAdapter(cartSelectedFoodAdapter);
+
+        binding.btnMakePayment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(context, PaymentActivity.class));
+            }
+        });
     }
 }
