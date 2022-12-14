@@ -69,6 +69,7 @@
                     android:padding="1dp"
                     android:src="@drawable/ic_add"
                     app:tint="@color/white" />
+
             </LinearLayout>
 
 
