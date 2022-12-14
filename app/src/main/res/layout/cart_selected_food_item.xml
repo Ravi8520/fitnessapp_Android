@@ -10,7 +10,6 @@
         android:layout_margin="@dimen/_5sdp"
         android:padding="@dimen/_5sdp">
 
-
         <TextView
             android:id="@+id/txt_food_name"
             android:layout_width="match_parent"
@@ -23,7 +22,6 @@
             android:textColor="@color/white"
             android:textSize="14sp" />
 
-
         <RelativeLayout
             android:id="@+id/layout_add"
             android:layout_width="@dimen/_80sdp"
@@ -32,7 +30,7 @@
             android:layout_toLeftOf="@id/txt_price"
             android:background="@drawable/custome_btn"
             android:gravity="center"
-            android:padding="2dp">
+            android:padding="5dp">
 
 
             <LinearLayout
@@ -47,7 +45,7 @@
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_gravity="center"
-                    android:padding="2dp"
+                    android:padding="1dp"
                     android:src="@drawable/ic_remove"
                     app:tint="@color/white" />
 
@@ -68,7 +66,7 @@
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_gravity="center"
-                    android:padding="2dp"
+                    android:padding="1dp"
                     android:src="@drawable/ic_add"
                     app:tint="@color/white" />
             </LinearLayout>
