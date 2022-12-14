@@ -40,6 +40,7 @@
     </RelativeLayout>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/instantWithdrawCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/layout_toolbar"
@@ -65,6 +66,7 @@
                 android:layout_marginEnd="@dimen/_5sdp"
                 android:fontFamily="@font/rubik_bold"
                 android:gravity="center"
+                android:padding="@dimen/_5sdp"
                 android:text="@string/lbl_instant_withdrawal"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
@@ -101,7 +103,8 @@
                 android:fontFamily="@font/rubic_medium"
                 android:text="@string/lbl_withdrawal_note"
                 android:textColor="@color/white"
-                android:textSize="10sp" />
+                android:textSize="10sp"
+                android:padding="@dimen/_5sdp"/>
 
         </RelativeLayout>
 

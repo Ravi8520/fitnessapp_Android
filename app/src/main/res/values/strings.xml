@@ -351,14 +351,32 @@
     <string name="lbl_myearning">My Earnings</string>
     <string name="lbl_total_earning">Total Earnings</string>
     <string name="lbl_withdraw">Withdraw</string>
+    <string name="lbl_withdraw_all">WITHDRAW ALL</string>
+    <string name="lbl_registered_bank_account">Registered bank accounts</string>
     <string name="lbl_earnings">Earnings</string>
     <string name="lbl_trip_earnings">Trip Earnings</string>
     <string name="lbl_taxes">Taxes</string>
     <string name="lbl_instant_withdrawal">Instant withdrawal ( Recommended )</string>
+    <string name="lbl_instantwithdrawal">Instant withdrawal</string>
+    <string name="lbl_recommended">(Recommended)</string>
     <string name="lbl_available">Available</string>
     <string name="lbl_withdrawal_note">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu varius non gravida aliquam sapien. Phasellus velit at mauris lectus </string>
     <string name="lbl_change">Change</string>
     <string name="lbl_customer_name"> <font size="10">Deliver to</font> CLEARVIEW WATERS </string>
     <string name="lbl_customer_address">2829 Indian Creek Dr, Miami FL 33140, United States </string>
+    <string name="lbl_account_verified">Bank account verified</string>
+    <string name="lbl_account_number">Account number</string>
+    <string name="lbl_account_type">Account Type</string>
+    <string name="lbl_ifsc">IFSC</string>
+    <string name="lbl_withdraw_amount">WITHDRAW AMOUNT</string>
+    <string name="lbl_withdrawal_tothis_account">Withdraw to this bank account</string>
+    <string name="lbl_bankName">Bank Name</string>
+    <string name="lbl_ifscCode">IFSC Code</string>
+
+    <string name="lbl_preferred_payment">Preferred Payment</string>
+    <string name="lbl_add_debit_or_credit">Add Debit/Credit Card</string>
+    <string name="lbl_net_banking">Net Banking</string>
+    <string name="lbl_pay_on_delivery">Pay On Delivery</string>
+    <string name="lbl_apply_promo_code">Apply Promo Code</string>
 
 </resources>
