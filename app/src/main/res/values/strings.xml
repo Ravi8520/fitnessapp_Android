@@ -17,6 +17,7 @@
     <string name="Google">Google</string>
     <string name="Facebook"> Facebook</string>
     <string name="trainer">Trainer</string>
+    <string name="lbl_trainer">Trainer :</string>
     <string name="client">Client</string>
     <string name="termsof_services_policy">By continuing I acknowledge that I have \n read the<b>Terms of Services </b>and <b>Privacy Policy</b></string>
 
@@ -152,6 +153,7 @@
     <string name="lbl_viewprofile">View profile</string>
     <string name="lbl_myschedule">My Schedule</string>
     <string name="lbl_sessions">Sessions</string>
+    <string name="lbl_select_sessions">Select session</string>
     <string name="lbl_clients">Clients</string>
     <string name="lbl_booktrainer">Book Trainer</string>
     <string name="lbl_pricing">Pricing</string>
@@ -329,6 +331,7 @@
     <string name="lbl_WorkExperience">Work Experience</string>
     <string name="lbl_addGym_company">ADD A GYM/COMPANY</string>
 
+    // meal marcket strings
 
     <string name="lbl_cart">Cart</string>
     <string name="lbl_write_instruction">Write Instruction for the restaurant</string>
@@ -360,6 +363,10 @@
     <string name="lbl_instantwithdrawal">Instant withdrawal</string>
     <string name="lbl_recommended">(Recommended)</string>
     <string name="lbl_available">Available</string>
+    <string name="lbl_available_balance">Available Balance</string>
+    <string name="lbl_add_to_wallet">Add to wallet</string>
+    <string name="lbl_bank_account_detail">Bank account details</string>
+    <string name="lbl_account_holdername">Account holder name:</string>
     <string name="lbl_withdrawal_note">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu varius non gravida aliquam sapien. Phasellus velit at mauris lectus </string>
     <string name="lbl_change">Change</string>
     <string name="lbl_customer_name"> <font size="10">Deliver to</font> CLEARVIEW WATERS </string>
@@ -372,11 +379,15 @@
     <string name="lbl_withdrawal_tothis_account">Withdraw to this bank account</string>
     <string name="lbl_bankName">Bank Name</string>
     <string name="lbl_ifscCode">IFSC Code</string>
+    <string name="lbl_transaction_history">Transaction history</string>
 
     <string name="lbl_preferred_payment">Preferred Payment</string>
     <string name="lbl_add_debit_or_credit">Add Debit/Credit Card</string>
     <string name="lbl_net_banking">Net Banking</string>
     <string name="lbl_pay_on_delivery">Pay On Delivery</string>
     <string name="lbl_apply_promo_code">Apply Promo Code</string>
+    <string name="lbl_yoga1">YOGA :</string>
+
+
 
 </resources>

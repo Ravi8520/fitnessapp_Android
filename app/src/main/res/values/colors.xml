@@ -29,6 +29,7 @@
     <color name="earnings_grey">#99A1A4</color>
     <color name="light_green">#69FF8A</color>
     <color name="withdrawal_btntext">#354443</color>
+    <color name="add_to_wallet_btn">#6DCFE7</color>
     <color name="withdrawal_btnbg">#99FFF9</color>
     <color name="register_account_dialogue_gstart">#2D3C3F</color>
     <color name="register_account_dialogue_gend">#152123</color>

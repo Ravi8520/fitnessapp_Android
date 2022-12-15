@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_color_dark_blue"
-    tools:context=".activities.PaymentsActivity">
+    tools:context=".activities.PaymentDetailsActivity">
 
     <RelativeLayout
         android:id="@+id/layout_toolbar"
@@ -185,6 +185,7 @@
 
 
         <TextView
+            android:id="@+id/lbl_bookASession"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

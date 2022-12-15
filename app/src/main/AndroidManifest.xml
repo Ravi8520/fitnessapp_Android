@@ -20,6 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessApp"
         tools:targetApi="31">
+
         <activity
             android:name=".activities.DashBoardActivity"
             android:exported="true"
@@ -190,7 +191,7 @@
             android:name=".activities.MyEarningsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.PaymentsActivity"
+            android:name=".activities.PaymentDetailsActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.CartActivity"
@@ -198,9 +199,15 @@
         <activity
             android:name=".activities.PaymentActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".activities.InstantWithdrawal"
-            android:screenOrientation="portrait"/>
-
+        <activity
+            android:name=".activities.InstantWithdrawal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.BankDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SelectSessionActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
