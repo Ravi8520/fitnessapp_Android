@@ -39,6 +39,7 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_circle_blue.xml" value="0.139" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_close.xml" value="0.118" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_dot.xml" value="0.139" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_grey_bg.xml" value="0.1925" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_pin.xml" value="0.159" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_sendmessage.xml" value="0.139" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/drawable/ic_sessions.xml" value="0.139" />
@@ -76,6 +77,7 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_add_new_workoutprogramms.xml" value="0.2" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_and_records_itemview.xml" value="0.2" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_bank_detail.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_book_session.xml" value="0.22" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_booking.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_calory_intake.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_choose_date.xml" value="0.16631038905515177" />
@@ -84,6 +86,7 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_clients_details.xml" value="0.18" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_confirm_password.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_continue_as.xml" value="0.12604263206672844" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_edit_trainer_profile.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_group_sessions.xml" value="0.25" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_groupsession_detail.xml" value="0.1642043056141832" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_gym_access.xml" value="0.16631038905515177" />
@@ -111,7 +114,7 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_splash.xml" value="0.20260416666666667" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_trainer_continuewith.xml" value="0.12604263206672844" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_trainer_details.xml" value="0.16631038905515177" />
-        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_trainerview_profile.xml" value="0.18" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_trainerview_profile.xml" value="0.2" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_welcome_profile.xml" value="0.16" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_welcome_profile_trainer.xml" value="0.18" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/activity_withdraw.xml" value="0.1642043056141832" />
@@ -132,6 +135,7 @@
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/more_chat_setting_dialogue.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/myschedule_itemview.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/profileheader.xml" value="0.16631038905515177" />
+        <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/recent_search_meal_item.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/recommend_meal_dialog.xml" value="0.16631038905515177" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/recommend_meal_item.xml" value="0.25" />
         <entry key="..\:/AndroidProjects/fitnessapp_Android/app/src/main/res/layout/registered_bank_account_dialogue.xml" value="0.1642043056141832" />

@@ -316,6 +316,7 @@
     <string name="lbl_bio">Bio</string>
     <string name="lbl_read_more">Read More</string>
     <string name="lbl_available_equipment">Available Equipments</string>
+    <string name="lbl_required_equipment">Required  Equipments</string>
     <string name="lbl_venues">Venues</string>
     <string name="lbl_demos">Demos</string>
     <string name="lbl_workouts">Workouts</string>
@@ -348,7 +349,8 @@
     <string name="lbl_payments">Payments</string>
     <string name="lbl_wallet">Wallet</string>
     <string name="lbl_use_ur_wallet">Use Your  Wallet To</string>
-    <string name="lbl_booksession">Book a Session</string>
+    <string name="lbl_bookAsession">Book a Session</string>
+    <string name="lbl_booksession">Book Session</string>
     <string name="lbl_giftsession">Gift a Session</string>
     <string name="lbl_bookmeal">Book a Meal</string>
     <string name="lbl_myearning">My Earnings</string>
@@ -387,7 +389,10 @@
     <string name="lbl_pay_on_delivery">Pay On Delivery</string>
     <string name="lbl_apply_promo_code">Apply Promo Code</string>
     <string name="lbl_yoga1">YOGA :</string>
-
+    <string name="lbl_schedule_workout">Schedule Workout</string>
+    <string name="lbl_per_session_small">Per \nSession</string>
+    <string name="lbl_group_session_small">Group \nSession</string>
+    <string name="virtual_session_small">Virtual \nSession</string>
 
 
 </resources>

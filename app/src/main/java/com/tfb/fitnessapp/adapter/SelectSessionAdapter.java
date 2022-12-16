@@ -1,6 +1,7 @@
 package com.tfb.fitnessapp.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +9,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.tfb.fitnessapp.activities.BookSessionActivity;
 import com.tfb.fitnessapp.databinding.SelectSessionItemviewBinding;
 import com.tfb.fitnessapp.models.SelectSessionmodel;
 
@@ -41,6 +43,14 @@ public class SelectSessionAdapter extends RecyclerView.Adapter<SelectSessionAdap
         holder.binding.txtSessionTime.setText(sessionmodel.getSessionTime());
         holder.binding.txtYogaName.setText(sessionmodel.getYogaName());
         holder.binding.txtTrainerName.setText(sessionmodel.getTrainerName());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(mcontext, BookSessionActivity.class);
+                mcontext.startActivity(intent);
+            }
+        });
 
     }
 
