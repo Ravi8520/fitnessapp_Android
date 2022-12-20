@@ -259,6 +259,7 @@
     <string name="lbl_chatSettings">Chat Settings</string>
     <string name="lbl_mutemessages">Mute Messages</string>
     <string name="lbl_hidechats">Hide Chat</string>
+    <string name="lbl_block_user">Block User</string>
     <string name="lbl_archiveChat">Archive Chat</string>
     <string name="lbl_contact">Contact</string>
     <string name="lbl_document">Document</string>
@@ -349,8 +350,23 @@
     <string name="lbl_payments">Payments</string>
     <string name="lbl_wallet">Wallet</string>
     <string name="lbl_use_ur_wallet">Use Your  Wallet To</string>
+
+
+   // book session labels
+
     <string name="lbl_bookAsession">Book a Session</string>
     <string name="lbl_booksession">Book Session</string>
+    <string name="lbl_select_adate_for_bookSession">Select a date you want to book for</string>
+    <string name="lbl_select_atime_for_bookSession">Select a time you want to book for</string>
+    <string name="lbl_morning">Morning</string>
+    <string name="lbl_noon">Noon</string>
+    <string name="lbl_evening">Evening</string>
+    <string name="lbl_selected_trainer">Selected trainer</string>
+    <string name="lbl_selected_date_time">Selected date and time</string>
+    <string name="lbl_selected_plan">Selected plan</string>
+    <string name="lbl_price">Price</string>
+    <string name="lbl_selected_location">Selected Location</string>
+    <string name="lbl_cancellation_policy">Cancellation Policy</string>
     <string name="lbl_giftsession">Gift a Session</string>
     <string name="lbl_bookmeal">Book a Meal</string>
     <string name="lbl_myearning">My Earnings</string>

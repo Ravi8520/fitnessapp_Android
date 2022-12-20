@@ -74,61 +74,48 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ll_main"
-                android:layout_margin="@dimen/_10sdp"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:weightSum="2">
+                android:layout_margin="@dimen/_10sdp">
 
-                <RelativeLayout
+                <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/_5sdp"
-                    android:layout_weight="1">
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_10sdp"
+                    android:weightSum="3">
 
-                    <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/btn_male"
-                        android:layout_width="fill_parent"
-                        android:layout_height="50dp"
-                        android:background="@drawable/custome_btn"
-                        android:clickable="true"
-                        android:drawableLeft="@drawable/male"
-                        android:drawableTint="@color/white"
-                        android:focusable="true"
-                        android:gravity="center_horizontal|center_vertical|center"
-                        android:letterSpacing="0.05"
-                        android:paddingLeft="@dimen/_30sdp"
-                        android:paddingRight="@dimen/_30sdp"
+                    <RadioButton
+                        android:id="@+id/male_rdb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
+                        android:checked="true"
                         android:text="@string/male"
-                        android:textAllCaps="false"
                         android:textColor="@color/white"
-                        android:textSize="14sp" />
+                        android:textSize="16sp" />
 
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/_5sdp"
-                    android:layout_weight="1">
-
-                    <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/btn_female"
-                        android:layout_width="fill_parent"
-                        android:layout_height="50dp"
-                        android:background="@drawable/custome_btn"
-                        android:clickable="true"
-                        android:drawableLeft="@drawable/female"
-                        android:drawableTint="@color/white"
-                        android:focusable="true"
-                        android:gravity="center_horizontal|center_vertical|center"
-                        android:letterSpacing="0.05"
-                        android:paddingLeft="@dimen/_30sdp"
-                        android:paddingRight="@dimen/_30sdp"
+                    <RadioButton
+                        android:id="@+id/female_rdb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
                         android:text="@string/female"
-                        android:textAllCaps="false"
                         android:textColor="@color/white"
-                        android:textSize="14sp" />
-                </RelativeLayout>
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/others_rdb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
+                        android:text="@string/others"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </RadioGroup>
 
             </LinearLayout>
 
@@ -177,7 +164,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/rubik_regular"
-                        android:text="@string/fullname"
+                        android:text="@string/name"
                         android:textColor="@color/white"
                         android:textSize="16sp" />
 
@@ -191,15 +178,6 @@
                         android:textSize="16sp"
                         android:inputType="textPersonName"
                         android:textColor="@color/white" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:fontFamily="@font/rubik_regular"
-                        android:text="@string/lbl_help_experience"
-                        android:textColor="@color/white"
-                        android:textSize="14sp" />
 
 
                 </LinearLayout>

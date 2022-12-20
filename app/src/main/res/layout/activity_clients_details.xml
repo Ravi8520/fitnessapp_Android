@@ -174,7 +174,7 @@
 
                         <TextView
                             android:id="@+id/txt_weekDuration"
-                            android:layout_width="match_parent"
+                            android:layout_width="160dp"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/rubic_medium"
                             android:text="2000"
@@ -378,6 +378,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.8"
+                        android:layout_gravity="center"
                         android:orientation="vertical">
 
                         <TextView
@@ -438,6 +439,13 @@
                     android:text="@string/lbl_goals"
                     android:textColor="@color/white"
                     android:textSize="18sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/goalsRV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    android:layout_marginTop="@dimen/_5sdp"/>
 
                 <TextView
                     android:layout_width="match_parent"

@@ -178,34 +178,61 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txt_loginwith"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="@dimen/_20sdp"
-                    android:weightSum="2">
+                   android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:weightSum="3">
 
-                    <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/btn_google"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="@dimen/_10sdp"
                         android:layout_weight="1"
-                        android:background="@drawable/custome_btn"
-                        android:drawableLeft="@drawable/google"
-                        android:paddingLeft="@dimen/_15sdp"
-                        android:text="@string/Google"
-                        android:textColor="@color/white" />
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/btn_googleLogin"
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:background="@drawable/custome_btn"
+                            android:padding="@dimen/_10sdp"
+                            android:src="@drawable/ic_google1"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
 
 
-                    <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/btn_facebook"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="@dimen/_10sdp"
                         android:layout_weight="1"
-                        android:background="@drawable/custome_btn"
-                        android:drawableLeft="@drawable/facebook"
-                        android:paddingLeft="@dimen/_15sdp"
-                        android:text="@string/Facebook"
-                        android:textColor="@color/white" />
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/btn_fbLogin"
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:background="@drawable/custome_btn"
+                            android:padding="@dimen/_10sdp"
+                            android:src="@drawable/ic_facebook"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/btn_iphoneLogin"
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:background="@drawable/custome_btn"
+                            android:padding="@dimen/_10sdp"
+                            android:src="@drawable/ic_apple"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
 

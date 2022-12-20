@@ -6,7 +6,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
         android:background="@drawable/custome_cardview"
         android:backgroundTint="@color/black"
         android:orientation="horizontal"
@@ -93,8 +96,8 @@
             android:layout_gravity="center"
             android:layout_marginRight="@dimen/_10sdp"
             android:layout_weight="1.3"
-            android:focusable="true"
             android:background="@drawable/ic_grey_bg"
+            android:focusable="true"
             android:src="@drawable/ic_arrow_right_24" />
 
     </LinearLayout>

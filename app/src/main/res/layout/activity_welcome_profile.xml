@@ -76,7 +76,6 @@
                         android:textSize="18sp" />
 
                     <TextView
-
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -183,7 +182,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/rubik_regular"
-                            android:text="@string/fullname"
+                            android:text="@string/name"
                             android:textColor="@color/white"
                             android:textSize="18sp" />
 
@@ -196,14 +195,6 @@
                             android:inputType="textPersonName"
                             android:textColor="@color/white"
                             android:textSize="14sp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/lbl_help_experience"
-                            android:textColor="@color/white"
-                            android:textSize="14sp" />
-
 
                     </LinearLayout>
 
@@ -321,7 +312,6 @@
                                 android:text="DBMS"
                                 android:textColor="@color/white"
                                 android:textSize="16sp" />
-
 
                         </RadioGroup>
 

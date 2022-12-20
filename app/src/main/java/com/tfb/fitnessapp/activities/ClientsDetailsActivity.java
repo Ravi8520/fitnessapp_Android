@@ -10,8 +10,10 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.tfb.fitnessapp.adapter.ActivitiesAndReportsAdapter;
+import com.tfb.fitnessapp.adapter.GoalsAdapter;
 import com.tfb.fitnessapp.databinding.ActivityClientsDetailsBinding;
 import com.tfb.fitnessapp.models.ActivitiesandRecordsmodel;
+import com.tfb.fitnessapp.models.Goalsmodel;
 
 import java.util.ArrayList;
 
@@ -20,6 +22,7 @@ public class ClientsDetailsActivity extends AppCompatActivity {
     ActivityClientsDetailsBinding binding;
     private Context mContext;
     ArrayList<ActivitiesandRecordsmodel> recordsdata = new ArrayList<>();
+    ArrayList<Goalsmodel> goalsdata = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +45,30 @@ public class ClientsDetailsActivity extends AppCompatActivity {
             }
         });
 
+        setGoals();
+        setGoalsadapter();
+
         setRecords();
         setRecordsadapter();
+    }
+
+    private void setGoals() {
+
+        goalsdata.add(new Goalsmodel("Weight Loss"));
+        goalsdata.add(new Goalsmodel("Muscle Gain"));
+        goalsdata.add(new Goalsmodel("Weight Loss"));
+        goalsdata.add(new Goalsmodel("Muscle Gain"));
+        goalsdata.add(new Goalsmodel("Weight Loss"));
+
+    }
+
+    private void setGoalsadapter() {
+
+        GoalsAdapter adapter = new GoalsAdapter(mContext,goalsdata);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext(),RecyclerView.HORIZONTAL,false);
+        binding.goalsRV.setLayoutManager(layoutManager);
+        binding.goalsRV.setAdapter(adapter);
+
     }
 
     private void setRecords() {

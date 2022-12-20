@@ -4,6 +4,7 @@ import static com.google.android.material.tabs.TabLayout.GRAVITY_FILL;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -29,6 +30,14 @@ public class BookSessionActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 onBackPressed();
+            }
+        });
+
+
+        binding.btnBookSession.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mContext,BookSessionbyDateActivity.class));
             }
         });
 

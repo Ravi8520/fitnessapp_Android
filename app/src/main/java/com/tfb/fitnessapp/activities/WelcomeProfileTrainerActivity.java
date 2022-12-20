@@ -21,7 +21,9 @@ public class WelcomeProfileTrainerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(binding.getRoot());
         mContext = this;
-        binding.btnMale.setBackground(ContextCompat.getDrawable(mContext,R.drawable.item_male_btn));
+
+
+       /* binding.btnMale.setBackground(ContextCompat.getDrawable(mContext,R.drawable.item_male_btn));
 
         binding.btnMale.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +40,7 @@ public class WelcomeProfileTrainerActivity extends AppCompatActivity {
                 binding.btnFemale.setBackground(ContextCompat.getDrawable(mContext,R.drawable.item_female_btn));
                 binding.btnMale.setBackground(ContextCompat.getDrawable(mContext,R.drawable.custome_btn));
             }
-        });
+        });*/
 
 
         binding.btnContinue.setOnClickListener(new View.OnClickListener() {
