@@ -33,6 +33,7 @@
     <color name="withdrawal_btnbg">#99FFF9</color>
     <color name="register_account_dialogue_gstart">#2D3C3F</color>
     <color name="register_account_dialogue_gend">#152123</color>
+    <color name="terms_nd_condition">#4391DA</color>
 
 
 </resources>

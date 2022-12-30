@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/ic_account"
+            android:title="@string/lbl_account" />
+
+        <item
+            android:id="@+id/orderHistory"
+            android:icon="@drawable/ic_orderhistory"
+            android:title="@string/lbl_order_history" />
+
+        <item
+            android:id="@+id/bookings"
+            android:icon="@drawable/ic_bookings"
+            android:title="@string/lbl_booking" />
+
+        <item
+            android:id="@+id/save"
+            android:icon="@drawable/ic_savebtn"
+            android:title="@string/lbl_saved"
+            android:iconTint="#263336"/>
+
+        <item
+            android:id="@+id/wallet"
+            android:icon="@drawable/ic_wallet"
+            android:title="@string/lbl_wallet" />
+
+        <item
+            android:id="@+id/notification_Reminders"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/lbl_notification_reminder" />
+
+        <item
+            android:id="@+id/referralsAndVouchers"
+            android:icon="@drawable/ic_vouchers"
+            android:title="@string/lbl_referals_vouchers" />
+
+        <item
+            android:id="@+id/activityAndRecords"
+            android:icon="@drawable/ic_activity_records"
+            android:title="@string/lbl_activity_records" />
+
+        <item
+            android:id="@+id/become_aTrainer"
+            android:icon="@drawable/ic_becometrainer"
+            android:title="@string/lbl_become_trainer" />
+
+    </group>
+</menu>

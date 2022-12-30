@@ -30,7 +30,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/layout_bottom"
         android:layout_below="@id/relative_back"
         android:gravity="center"
         android:orientation="vertical">
@@ -91,70 +90,35 @@
             android:textColor="@color/black"
             android:textSize="16sp" />
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_continuewithPhoneno"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/coustom_button_border"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_phone"
+            android:focusable="true"
+            android:fontFamily="@font/rubic_medium"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_13sdp"
+            android:text="@string/continue_as_number"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
 
-        <LinearLayout
-            android:id="@+id/layout_bottom"
+
+        <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_50sdp"
-            android:orientation="vertical">
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/rubik_regular"
-                android:gravity="center"
-                android:text="@string/terms_privacypolicy"
-                android:textColor="@color/white"
-                android:textSize="14sp" />
-
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_20sdp"
-                android:orientation="horizontal">
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/rubik_regular"
-                    android:gravity="center"
-                    android:padding="1dp"
-                    android:text="@string/Dont_have_an_account"
-                    android:textColor="@color/white"
-                    android:textSize="14sp" />
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@+id/txt_signin"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/rubik_bold"
-                    android:gravity="center"
-                    android:padding="1dp"
-                    android:text="@string/signup"
-                    android:textColor="@color/white"
-                    android:textSize="16sp" />
-
-            </LinearLayout>
-
-
-            <androidx.appcompat.widget.AppCompatTextView
-
-                android:id="@+id/txt_signup_as_trainer"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_40sdp"
-                android:layout_marginBottom="@dimen/_10sdp"
-                android:fontFamily="@font/rubik_bold"
-                android:gravity="center"
-                android:padding="2dp"
-                android:text="@string/signup_as_a_Trainer"
-                android:textColor="@color/white"
-                android:textSize="16sp" />
-
-        </LinearLayout>
+            android:fontFamily="@font/rubik_regular"
+            android:gravity="center"
+            android:text="@string/terms_privacypolicy"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
 
 
     </LinearLayout>

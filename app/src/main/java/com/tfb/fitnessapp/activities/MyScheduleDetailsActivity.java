@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
@@ -50,14 +51,19 @@ public class MyScheduleDetailsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 showEnterOtpDialogue();
             }
+        });
 
+        binding.txtCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mContext,CancelBookingActivity.class));
+            }
         });
 
 
         binding.workoutProgramsRV.setNestedScrollingEnabled(false);
         setworkoutProgramsInfo();
         setworkoutProgramsAdapter();
-
     }
 
     private void showEnterOtpDialogue() {
@@ -88,7 +94,6 @@ public class MyScheduleDetailsActivity extends AppCompatActivity {
                 }
             }
         });
-
         dialog.show();
     }
 

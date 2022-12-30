@@ -109,6 +109,7 @@ public class HomeScreenActivity extends AppCompatActivity {
                         break;
                     case R.id.id_booktrainer:
                         Toast.makeText(mContext, R.string.lbl_clients, Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(mContext, BookaTrainerActivity.class));
                         break;
                     /*case R.id.id_logout:
                         Toast.makeText(mContext, R.string.lbl_logout, Toast.LENGTH_SHORT).show();

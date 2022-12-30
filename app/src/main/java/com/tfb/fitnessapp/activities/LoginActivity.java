@@ -51,6 +51,13 @@ public class LoginActivity extends AppCompatActivity {
                 ShowHidePass(view);
             }
         });
+
+        binding.btnGoogleLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mContext, ClientHomeScreenActivity.class));
+            }
+        });
     }
 
     public void ShowHidePass(View view) {

@@ -210,6 +210,94 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/rubik_regular"
+                            android:text="@string/lbl_dob"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:backgroundTint="@color/white"
+                            android:imeOptions="actionNext"
+                            android:inputType="date"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/custome_cardview"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_10sdp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lbl_your_location"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <androidx.appcompat.widget.SearchView
+                                android:id="@+id/searchview"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/custom_searchbar_bg"
+                                android:theme="@style/SearchViewTheme"
+                                app:iconifiedByDefault="false"
+                                app:queryHint="@string/lbl_searchbar_location_hint"
+                                app:searchIcon="@drawable/searchicon" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:id="@+id/ll_usecurrentLocation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/location" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/rubik_regular"
+                                android:paddingLeft="5dp"
+                                android:text="@string/lbl_current_location"
+                                android:textColor="@color/white"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/custome_cardview"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_10sdp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/rubik_regular"
                             android:text="@string/Height"
                             android:textColor="@color/white"
                             android:textSize="18sp" />
@@ -217,29 +305,75 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/_5sdp"
                             android:orientation="horizontal"
                             android:weightSum="2">
 
-                            <EditText
+                            <RelativeLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:backgroundTint="@color/white"
-                                android:imeOptions="actionNext"
-                                android:inputType="number"
-                                android:textColor="@color/white"
-                                android:textSize="14sp" />
+                                android:orientation="horizontal"
+                                android:padding="@dimen/_5sdp">
 
-                            <EditText
+                                <EditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:backgroundTint="@color/white"
+                                    android:imeOptions="actionNext"
+                                    android:inputType="numberDecimal"
+                                    android:paddingRight="@dimen/_10sdp"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginRight="@dimen/_5sdp"
+                                    android:layout_weight="1"
+                                    android:backgroundTint="@color/white"
+                                    android:fontFamily="@font/rubic_medium"
+                                    android:imeOptions="actionNext"
+                                    android:text="ft"
+                                    android:textColor="@color/white"
+                                    android:textSize="18sp" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:backgroundTint="@color/white"
-                                android:imeOptions="actionNext"
-                                android:inputType="number"
-                                android:textColor="@color/white"
-                                android:textSize="14sp" />
+                                android:orientation="horizontal"
+                                android:padding="@dimen/_5sdp">
+
+                                <EditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:backgroundTint="@color/white"
+                                    android:imeOptions="actionNext"
+                                    android:inputType="numberDecimal"
+                                    android:paddingRight="@dimen/_10sdp"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginRight="@dimen/_5sdp"
+                                    android:layout_weight="1"
+                                    android:backgroundTint="@color/white"
+                                    android:fontFamily="@font/rubic_medium"
+
+                                    android:imeOptions="actionNext"
+                                    android:text="in"
+                                    android:textColor="@color/white"
+                                    android:textSize="18sp" />
+
+                            </RelativeLayout>
 
                         </LinearLayout>
 
@@ -281,39 +415,45 @@
 
                         </LinearLayout>
 
-                        <RadioGroup
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_weight="1.2"
-                            android:gravity="center"
-                            android:orientation="vertical">
+                            android:layout_weight="1.2">
 
-                            <RadioButton
-                                android:id="@+id/radio_pound"
-                                android:layout_width="wrap_content"
+                            <RadioGroup
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:buttonTint="@color/white"
-                                android:fontFamily="@font/rubik_regular"
-                                android:layoutDirection="rtl"
-                                android:paddingRight="@dimen/_3sdp"
-                                android:text="@string/pound"
-                                android:textColor="@color/white"
-                                android:textSize="16sp" />
+                                android:orientation="vertical">
 
-                            <RadioButton
-                                android:id="@+id/radio_kg"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:buttonTint="@color/white"
-                                android:fontFamily="@font/rubik_regular"
-                                android:layoutDirection="rtl"
-                                android:paddingRight="@dimen/_3sdp"
-                                android:text="DBMS"
-                                android:textColor="@color/white"
-                                android:textSize="16sp" />
+                                <RadioButton
+                                    android:id="@+id/radio_pound"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:buttonTint="@color/white"
+                                    android:fontFamily="@font/rubik_regular"
+                                    android:gravity="end|center_vertical"
+                                    android:layoutDirection="rtl"
+                                    android:paddingRight="@dimen/_3sdp"
+                                    android:text="@string/pound"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
 
-                        </RadioGroup>
+                                <RadioButton
+                                    android:id="@+id/radio_kg"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:buttonTint="@color/white"
+                                    android:fontFamily="@font/rubik_regular"
+                                    android:gravity="end|center_vertical"
+                                    android:layoutDirection="rtl"
+                                    android:paddingRight="@dimen/_3sdp"
+                                    android:text="@string/kilograms"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+                            </RadioGroup>
+
+                        </LinearLayout>
 
                     </LinearLayout>
 

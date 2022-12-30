@@ -12,7 +12,7 @@ import com.tfb.fitnessapp.databinding.ActivityOtpverificationNumberBinding;
 public class OTPVerificationNumberActivity extends AppCompatActivity {
 
     ActivityOtpverificationNumberBinding binding;
-    private Context mContext;
+    private OTPVerificationNumberActivity mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

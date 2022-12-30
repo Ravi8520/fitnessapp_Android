@@ -10,7 +10,7 @@
 
     <item
         android:id="@+id/id_notify"
-        android:icon="@drawable/ic_notification"
+        android:icon="@drawable/ic_notification1"
         android:title=""
         app:showAsAction="ifRoom"/>
 

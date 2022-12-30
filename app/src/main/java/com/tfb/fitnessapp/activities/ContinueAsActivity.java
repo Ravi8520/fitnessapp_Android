@@ -23,14 +23,9 @@ public class ContinueAsActivity extends AppCompatActivity {
 
 
 
-        binding.txtSignupAsTrainer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(mContext,JoinAsTrainerActivity.class));
-            }
-        });
 
-        binding.txtSignin.setOnClickListener(new View.OnClickListener() {
+
+        binding.btnContinuewithPhoneno.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(mContext , OTPVerificationNumberActivity.class));

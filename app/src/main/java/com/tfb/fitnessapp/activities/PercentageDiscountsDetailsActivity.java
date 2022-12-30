@@ -44,6 +44,8 @@ public class PercentageDiscountsDetailsActivity extends AppCompatActivity {
             }
         });
 
+
+
     }
 
     private void shownewClientDiscount() {

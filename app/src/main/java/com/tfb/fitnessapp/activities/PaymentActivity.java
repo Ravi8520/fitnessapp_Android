@@ -1,5 +1,6 @@
 package com.tfb.fitnessapp.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -25,5 +26,13 @@ public class PaymentActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
+
+        binding.btnMakePayment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(context,MealOrderSummaryActivity.class));
+            }
+        });
+
     }
 }

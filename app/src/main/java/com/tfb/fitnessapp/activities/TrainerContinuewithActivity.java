@@ -21,7 +21,7 @@ public class TrainerContinuewithActivity extends AppCompatActivity {
         mContext = this;
 
 
-        binding.txtSignup.setOnClickListener(new View.OnClickListener() {
+        binding.btnContinueiphone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(mContext, TrainerDetailsActivity.class));

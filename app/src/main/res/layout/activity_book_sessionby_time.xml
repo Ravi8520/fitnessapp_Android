@@ -12,18 +12,18 @@
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize">
 
-
         <ImageView
             android:id="@+id/backarrow"
-            android:layout_width="@dimen/_35sdp"
-            android:layout_height="@dimen/_35sdp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_3sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:background="?selectableItemBackgroundBorderless"
             android:clickable="true"
             android:focusable="true"
-            android:padding="@dimen/_2sdp"
-            android:src="@drawable/ic_back_arrow_foreground"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/ic_backarrow2"
             app:tint="@color/white" />
 
         <TextView
@@ -84,7 +84,6 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp" />
 
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -96,7 +95,7 @@
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
-        R    <androidx.recyclerview.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/noon_Time_SchedulesRV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -119,7 +118,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp" />
-
 
             <RelativeLayout
                 android:layout_width="match_parent"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_color_dark_blue"
-    tools:context=".activities.PercentageDiscountsDetailsActivity">
+    tools:context=".activities.MyScheduleDetailsActivity">
 
     <RelativeLayout
         android:id="@+id/layout_toolbar"
@@ -191,6 +191,7 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
                         android:layout_centerVertical="true"
+                        android:padding="@dimen/_5sdp"
                         android:fontFamily="@font/rubic_medium"
                         android:text="@string/lbl_reschedule"
                         android:textColor="@color/white"
@@ -236,6 +237,7 @@
                         android:layout_alignParentRight="true"
                         android:layout_centerVertical="true"
                         android:fontFamily="@font/rubic_medium"
+                        android:padding="@dimen/_5sdp"
                         android:text="@string/lbl_cancel"
                         android:textColor="@color/white"
                         android:textSize="16sp" />

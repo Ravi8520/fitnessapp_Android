@@ -12,18 +12,18 @@
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize">
 
-
         <ImageView
             android:id="@+id/backarrow"
-            android:layout_width="@dimen/_35sdp"
-            android:layout_height="@dimen/_35sdp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_centerVertical="true"
             android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_3sdp"
             android:background="?selectableItemBackgroundBorderless"
             android:clickable="true"
             android:focusable="true"
-            android:padding="@dimen/_2sdp"
-            android:src="@drawable/ic_back_arrow_foreground"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/ic_backarrow2"
             app:tint="@color/white" />
 
         <TextView
@@ -45,10 +45,16 @@
         android:layout_below="@id/layout_toolbar"
         android:background="@color/white" />
 
-    <LinearLayout
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/layout_toolbar"
+        android:layout_margin="@dimen/_5sdp"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
 
@@ -56,6 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/rubik_regular"
             android:text="@string/lbl_selected_trainer"
             android:textColor="@color/white"
@@ -64,14 +71,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
             android:background="@drawable/coustom_button_border"
             android:orientation="horizontal"
             android:padding="@dimen/_7sdp"
             android:weightSum="2">
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/profile_image"
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/trainer_profile_img"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -86,6 +93,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="0.3"
+                android:padding="@dimen/_3sdp"
                 android:fontFamily="@font/rubic_medium"
                 android:text="Margaret Thatcher"
                 android:textColor="@color/black"
@@ -98,6 +106,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/rubik_regular"
             android:text="@string/lbl_selected_date_time"
             android:textColor="@color/white"
@@ -106,7 +115,9 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/coustom_button_border">
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/coustom_button_border"
+            android:padding="@dimen/_5sdp">
 
             <TextView
                 android:id="@+id/txt_selectedDate"
@@ -114,6 +125,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/rubic_medium"
+                android:padding="@dimen/_3sdp"
                 android:text="Tuesday 07, Dec"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
@@ -123,9 +135,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:fontFamily="@font/rubik_regular"
-                android:text="10:30 - 11:30 AM"
                 android:layout_toRightOf="@id/txt_selectedDate"
+                android:fontFamily="@font/rubik_regular"
+                android:padding="@dimen/_3sdp"
+                android:text="10:30 - 11:30 AM"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -133,10 +146,11 @@
                 android:id="@+id/lbl_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/txt_selectedDate"
                 android:layout_gravity="center"
                 android:fontFamily="@font/rubik_regular"
+                android:padding="@dimen/_3sdp"
                 android:text="Duration:"
-                android:layout_below="@id/txt_selectedDate"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -144,22 +158,25 @@
                 android:id="@+id/txt_durationTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="@font/rubik_regular"
-                android:text="1 hour"
                 android:layout_below="@id/txt_selectedDate"
+                android:layout_gravity="center"
                 android:layout_toRightOf="@id/lbl_duration"
+                android:fontFamily="@font/rubik_regular"
+                android:padding="@dimen/_3sdp"
+                android:text="1 hour"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/btn_edit_dateTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/txt_selectedDate"
+                android:layout_alignParentRight="true"
                 android:layout_gravity="center"
                 android:fontFamily="@font/rubik_bold"
+                android:padding="@dimen/_5sdp"
                 android:text="@string/lbl_edit"
-                android:layout_alignParentRight="true"
-                android:layout_below="@id/txt_selectedDate"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -169,6 +186,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/rubik_regular"
             android:text="@string/lbl_price"
             android:textColor="@color/white"
@@ -177,7 +195,9 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/coustom_button_border">
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/coustom_button_border"
+            android:padding="@dimen/_5sdp">
 
             <TextView
                 android:id="@+id/lbl_pricing"
@@ -185,6 +205,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/rubik_bold"
+                android:padding="@dimen/_3sdp"
                 android:text="@string/lbl_per_session"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
@@ -196,18 +217,21 @@
                 android:layout_alignParentRight="true"
                 android:layout_gravity="center"
                 android:fontFamily="@font/rubik_bold"
+                android:padding="@dimen/_3sdp"
                 android:text="$32"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/btn_edit_price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/txt_sessionPrice"
+                android:layout_alignParentRight="true"
                 android:layout_gravity="center"
                 android:fontFamily="@font/rubik_bold"
+                android:padding="@dimen/_5sdp"
                 android:text="@string/lbl_edit"
-                android:layout_alignParentRight="true"
-                android:layout_below="@id/txt_sessionPrice"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -217,12 +241,113 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/rubik_regular"
             android:text="@string/lbl_selected_location"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/coustom_button_border"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txt_selectedLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:fontFamily="@font/rubik_regular"
+                android:padding="@dimen/_3sdp"
+                android:text="Clearview Towers,2829 Indian Creek Dr, Miami FL 33140, United States"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/btn_editSelectedLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:fontFamily="@font/rubik_bold"
+                android:gravity="end"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/lbl_edit"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lbl_cancellationPolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/rubik_bold"
+            android:paddingVertical="@dimen/_10sdp"
+            android:text="@string/lbl_cancellation_policy"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
 
     </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_toLeftOf="@id/txt_totalPrice"
+            android:fontFamily="@font/rubik_regular"
+            android:padding="@dimen/_3sdp"
+            android:text="@string/lbl_total"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_totalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:fontFamily="@font/rubik_bold"
+            android:padding="@dimen/_3sdp"
+            android:text="$32"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_bookTrainer"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/txt_totalPrice"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/coustom_button_border"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/lbl_booktrainer"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
 
 </RelativeLayout>

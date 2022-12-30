@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public class ClientsDetailsActivity extends AppCompatActivity {
 
     ActivityClientsDetailsBinding binding;
-    private Context mContext;
+    private ClientsDetailsActivity mContext;
     ArrayList<ActivitiesandRecordsmodel> recordsdata = new ArrayList<>();
     ArrayList<Goalsmodel> goalsdata = new ArrayList<>();
 

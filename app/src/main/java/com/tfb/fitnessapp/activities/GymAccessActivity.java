@@ -91,12 +91,11 @@ public class GymAccessActivity extends AppCompatActivity {
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setCancelable(true);
         dialog.setCanceledOnTouchOutside(true);
-        dialog.setContentView(R.layout.select_gym_city_dialog);
+        dialog.setContentView(R.layout.select_select_city_dialog);
         dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
         dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
         dialog.getWindow().setGravity(Gravity.BOTTOM);
-
 
         SearchView searchCity = dialog.findViewById(R.id.searchCity);
 
@@ -119,7 +118,6 @@ public class GymAccessActivity extends AppCompatActivity {
         RecyclerView cityname = dialog.findViewById(R.id.select_cityRV);
         cityname.setAdapter(adapter);
         cityname.setLayoutManager(layoutManager);
-
 
        ImageView img_close= dialog.findViewById(R.id.img_close);
 
@@ -144,8 +142,6 @@ public class GymAccessActivity extends AppCompatActivity {
                 return false;
             }
         });
-
-
 
         dialog.show();
 

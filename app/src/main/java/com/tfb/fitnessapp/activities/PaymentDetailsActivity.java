@@ -13,7 +13,7 @@ import com.tfb.fitnessapp.databinding.ActivityPaymentsDetailsBinding;
 public class PaymentDetailsActivity extends AppCompatActivity {
 
     ActivityPaymentsDetailsBinding binding;
-    private Context mContext;
+    private PaymentDetailsActivity mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
